@@ -1,0 +1,7 @@
+include:
+  - project: 'e/os/releases'
+    ref: master
+    file: '/templates/.gitlab-ci.yml'
+
+update-manifest-nougat:
+  extends: .update-manifest
