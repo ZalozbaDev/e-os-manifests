@@ -78,7 +78,6 @@
   <project groups="pdk" name="LineageOS/android_frameworks_native" path="frameworks/native"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_frameworks_opt_datetimepicker" path="frameworks/opt/datetimepicker"/>
   <project groups="pdk" name="LineageOS/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi"/>
-  <project groups="pdk" name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_frameworks_support" path="frameworks/support"/>
   <project groups="pdk" name="LineageOS/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt"/>
   <project groups="pdk,broadcom_wlan" name="LineageOS/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan"/>
@@ -256,6 +255,7 @@
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e"/>
   <project groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e"/>
+  <project groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e"/>
