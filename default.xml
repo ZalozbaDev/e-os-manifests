@@ -109,7 +109,6 @@
   <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="LineageOS/android_frameworks_opt_net_ims" path="frameworks/opt/net/ims"/>
   <project groups="pdk" name="LineageOS/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_frameworks_opt_setupwizard" path="frameworks/opt/setupwizard"/>
-  <project groups="pdk" name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_frameworks_opt_vcard" path="frameworks/opt/vcard"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_frameworks_support" path="frameworks/support"/>
   <project groups="pdk" name="LineageOS/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt"/>
@@ -174,7 +173,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller"/>
-  <project groups="pdk-fs" name="LineageOS/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon"/>
   <project groups="pdk-fs" name="LineageOS/android_packages_apps_Email" path="packages/apps/Email"/>
   <project groups="pdk-fs" name="LineageOS/android_packages_apps_EmergencyInfo" path="packages/apps/EmergencyInfo"/>
   <project name="LineageOS/android_packages_apps_Exchange" path="packages/apps/Exchange"/>
@@ -270,8 +268,10 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e"/>
+  <project groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e"/>
   <project name="e/os/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="e"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e"/>
+  <project groups="pdk-fs" name="e/os/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="e"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e"/>
   <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e"/>
