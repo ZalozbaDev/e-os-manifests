@@ -61,6 +61,7 @@
   <project name="LineageOS/android_external_p7zip" path="external/p7zip"/>
   <project groups="pdk" name="LineageOS/android_external_perfetto" path="external/perfetto"/>
   <project name="LineageOS/android_external_pigz" path="external/pigz"/>
+  <project groups="pdk" name="LineageOS/android_external_ppp" path="external/ppp"/>
   <project groups="pdk" name="LineageOS/android_external_proguard" path="external/proguard"/>
   <project groups="pdk" name="LineageOS/android_external_puffin" path="external/puffin"/>
   <project name="LineageOS/android_external_rsync" path="external/rsync"/>
@@ -78,7 +79,6 @@
   <project groups="pdk" name="LineageOS/android_frameworks_native" path="frameworks/native"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_frameworks_opt_datetimepicker" path="frameworks/opt/datetimepicker"/>
   <project groups="pdk" name="LineageOS/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi"/>
-  <project groups="pdk" name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
   <project groups="pdk" name="LineageOS/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt"/>
   <project name="LineageOS/android_hardware_broadcom_nfc" path="hardware/broadcom/nfc"/>
   <project groups="pdk,broadcom_wlan" name="LineageOS/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan"/>
@@ -270,6 +270,7 @@
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e"/>
   <project groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e"/>
+  <project groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e"/>
@@ -484,7 +485,6 @@
   <project groups="pdk" name="platform/external/perf_data_converter" path="external/perf_data_converter" remote="aosp"/>
   <project groups="pdk" name="platform/external/piex" path="external/piex" remote="aosp"/>
   <project groups="pdk" name="platform/external/ply" path="external/ply" remote="aosp"/>
-  <project groups="pdk" name="platform/external/ppp" path="external/ppp" remote="aosp"/>
   <project groups="pdk" name="platform/external/protobuf" path="external/protobuf" remote="aosp"/>
   <project groups="pdk" name="platform/external/python/cpython2" path="external/python/cpython2" remote="aosp"/>
   <project groups="pdk" name="platform/external/python/cpython3" path="external/python/cpython3" remote="aosp"/>
