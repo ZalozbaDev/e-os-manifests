@@ -60,6 +60,7 @@
   <project name="LineageOS/android_external_p7zip" path="external/p7zip"/>
   <project name="LineageOS/android_external_pigz" path="external/pigz"/>
   <project name="LineageOS/android_external_powertop" path="external/powertop"/>
+  <project groups="pdk" name="LineageOS/android_external_ppp" path="external/ppp"/>
   <project name="LineageOS/android_external_rsync" path="external/rsync"/>
   <project groups="pdk" name="LineageOS/android_external_selinux" path="external/selinux"/>
   <project groups="pdk,qcom_msm8x26" name="LineageOS/android_external_sfntly" path="external/sfntly"/>
@@ -459,7 +460,6 @@
   <project groups="pdk" name="platform/external/pdfium" path="external/pdfium" remote="aosp"/>
   <project groups="pdk" name="platform/external/piex" path="external/piex" remote="aosp"/>
   <project groups="pdk" name="platform/external/ply" path="external/ply" remote="aosp"/>
-  <project groups="pdk" name="platform/external/ppp" path="external/ppp" remote="aosp"/>
   <project groups="pdk" name="platform/external/proguard" path="external/proguard" remote="aosp"/>
   <project groups="pdk" name="platform/external/protobuf" path="external/protobuf" remote="aosp"/>
   <project groups="pdk" name="platform/external/python/cpython2" path="external/python/cpython2" remote="aosp"/>
