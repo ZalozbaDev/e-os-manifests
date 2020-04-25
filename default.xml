@@ -627,6 +627,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="aosp"/>
   <project groups="pdk" name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" remote="aosp"/>
   <project name="platform/packages/experimental" path="packages/experimental" remote="aosp"/>
+  <project groups="pdk-fs" name="platform/packages/inputmethods/LeanbackIME" path="packages/inputmethods/LeanbackIME" remote="aosp" revision="c15e8e709714310c8a31d83522b66493b10e22c9"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Car" path="packages/services/Car" remote="aosp"/>
   <project groups="pdk-fs" name="platform/packages/services/NetworkRecommendation" path="packages/services/NetworkRecommendation" remote="aosp"/>
   <project groups="pdk" name="platform/pdk" path="pdk" remote="aosp"/>
