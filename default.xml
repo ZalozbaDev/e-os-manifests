@@ -90,16 +90,6 @@
   </project>
   <project name="LineageOS/android_hardware_lineage_lineagehw" path="hardware/lineage/lineagehw"/>
   <project name="LineageOS/android_hardware_lineage_telephony" path="hardware/lineage/telephony"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/default"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" revision="lineage-15.1-caf-8084"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" revision="lineage-15.1-caf-8916"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" revision="lineage-15.1-caf-8952"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="lineage-15.1-caf-8960"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" revision="lineage-15.1-caf-8974"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" revision="lineage-15.1-caf-8994"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" revision="lineage-15.1-caf-8996"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" revision="lineage-15.1-caf-8998"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sdm845" revision="lineage-15.1-caf-845"/>
   <project groups="pdk" name="LineageOS/android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl"/>
   <project groups="qcom,pdk" name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom/bt"/>
   <project groups="qcom,pdk" name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="lineage-15.1-caf"/>
@@ -257,6 +247,16 @@
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e"/>
   <project groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e"/>
   <project groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="lineage-15.1-caf-8084"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="e" revision="lineage-15.1-caf-8916"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" remote="e" revision="lineage-15.1-caf-8952"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" remote="e" revision="lineage-15.1-caf-8960"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="e" revision="lineage-15.1-caf-8974"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" remote="e" revision="lineage-15.1-caf-8994"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="e" revision="lineage-15.1-caf-8996"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" remote="e" revision="lineage-15.1-caf-8998"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sdm845" remote="e" revision="lineage-15.1-caf-845"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e"/>
