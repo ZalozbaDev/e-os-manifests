@@ -78,6 +78,7 @@
   <project groups="pdk" name="LineageOS/android_external_pdfium" path="external/pdfium"/>
   <project name="LineageOS/android_external_pigz" path="external/pigz"/>
   <project name="LineageOS/android_external_powertop" path="external/powertop"/>
+  <project groups="pdk" name="LineageOS/android_external_ppp" path="external/ppp"/>
   <project name="LineageOS/android_external_protobuf-c" path="external/protobuf-c"/>
   <project name="LineageOS/android_external_rsync" path="external/rsync"/>
   <project groups="pdk,qcom_msm8x26" name="LineageOS/android_external_sfntly" path="external/sfntly"/>
@@ -125,15 +126,6 @@
   <project groups="invensense,pdk" name="LineageOS/android_hardware_invensense" path="hardware/invensense"/>
   <project groups="pdk" name="LineageOS/android_hardware_libhardware" path="hardware/libhardware"/>
   <project groups="pdk" name="LineageOS/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project groups="qcom,qcom_audio,pdk" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/default"/>
-  <project groups="qcom,qcom_audio" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" revision="cm-14.1-caf-8084"/>
-  <project groups="qcom,qcom_audio" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" revision="cm-14.1-caf-8916"/>
-  <project groups="qcom,qcom_audio" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" revision="cm-14.1-caf-8952"/>
-  <project groups="qcom,qcom_audio" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="cm-14.1-caf-8960"/>
-  <project groups="qcom,qcom_audio" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" revision="cm-14.1-caf-8974"/>
-  <project groups="qcom,qcom_audio" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" revision="cm-14.1-caf-8994"/>
-  <project groups="qcom,qcom_audio" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" revision="cm-14.1-caf-8996"/>
-  <project groups="qcom,qcom_audio" name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" revision="cm-14.1-caf-8998"/>
   <project groups="pdk" name="LineageOS/android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl"/>
   <project groups="qcom" name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom/bt"/>
   <project groups="qcom" name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="cm-14.1-caf"/>
@@ -269,6 +261,15 @@
   </project>
   <project groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e"/>
   <project groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e"/>
+  <project groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e"/>
+  <project groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="cm-14.1-caf-8084"/>
+  <project groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="e" revision="cm-14.1-caf-8916"/>
+  <project groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" remote="e" revision="cm-14.1-caf-8952"/>
+  <project groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" remote="e" revision="cm-14.1-caf-8960"/>
+  <project groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="e" revision="cm-14.1-caf-8974"/>
+  <project groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" remote="e" revision="cm-14.1-caf-8994"/>
+  <project groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="e" revision="cm-14.1-caf-8996"/>
+  <project groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" remote="e" revision="cm-14.1-caf-8998"/>
   <project name="e/os/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="e"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="e"/>
@@ -446,7 +447,6 @@
   <project groups="pdk" name="platform/external/parameter-framework" path="external/parameter-framework" remote="aosp"/>
   <project groups="pdk" name="platform/external/pcre" path="external/pcre" remote="aosp"/>
   <project groups="pdk" name="platform/external/piex" path="external/piex" remote="aosp"/>
-  <project groups="pdk" name="platform/external/ppp" path="external/ppp" remote="aosp"/>
   <project groups="pdk" name="platform/external/proguard" path="external/proguard" remote="aosp"/>
   <project groups="pdk" name="platform/external/protobuf" path="external/protobuf" remote="aosp"/>
   <project groups="pdk" name="platform/external/regex-re2" path="external/regex-re2" remote="aosp"/>
