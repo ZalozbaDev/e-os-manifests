@@ -24,8 +24,8 @@ before_script:
   script:
     - cd "$SRC_DIR/$CI_COMMIT_REF_NAME"
     - repo init -u $REPO -b $CI_COMMIT_REF_NAME
-    - repo sync -c --force-sync --prune
-    - repo manifest -o $CI_PROJECT_DIR/default.xml
+    - repo sync -c --force-sync --force-sync --force-remove-dirty --prune
+    - repo manifest -r -o $CI_PROJECT_DIR/default.xml
     - cd $CI_PROJECT_DIR
     - git add .
     - git commit -m "Update $CI_COMMIT_REF_NAME manifest" || true
