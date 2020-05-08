@@ -275,7 +275,7 @@
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="3028f820aa5c48f00c7bb810006ec6af93df0938" upstream="v1-pie"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="b3bafbd1357c99eccb4d5932579226be539f534b" upstream="v1-pie"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="4ab1ed83de08fc035371d61d75c5d96a1b6cff8a" upstream="v1-pie"/>
-  <project groups="pdk-fs" name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="27856f1c8a2e8afd6e7f5d2d0806a39442bf696f" upstream="v1-pie"/>
+  <project groups="pdk-fs" name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="ca3d9c46fd06579eb389da8bbccfd2bde8876415" upstream="v1-pie"/>
   <project groups="pdk-cw-fs,pdk-fs" name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="6a6018d50d8cab8e9c0ab7f1f222333e50bc7590" upstream="v1-pie"/>
   <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="4e77a3c8ce40b06429a502765c9ae8f8db38d305" upstream="v1-pie"/>
   <project groups="pdk-fs" name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="4b7640d2c30afa32ea5a707889a75624fe1421f4" upstream="v1-pie"/>
