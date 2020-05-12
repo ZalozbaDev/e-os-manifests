@@ -215,7 +215,7 @@
   </project>
   <project name="LineageOS/android_vendor_qcom_opensource_rcs-service" path="vendor/qcom/opensource/rcs-service" revision="5dccbab946b999207ff3ceb3ac5f3afea6669775" upstream="refs/heads/lineage-15.1"/>
   <project groups="tools" name="LineageOS/contributors-cloud-generator" path="lineage/contributors-cloud-generator" revision="ddda9653e4b5f1c5522a3ac5be30aa17ee059ca7" upstream="master"/>
-  <project groups="tools" name="LineageOS/scripts" path="lineage/scripts" revision="b8bdd0f746e2f4c1a564258c2d66831734756a62" upstream="master"/>
+  <project groups="tools" name="LineageOS/scripts" path="lineage/scripts" revision="544bf38665ab405f36f89955a1ffa33438030aef" upstream="master"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" remote="aosp" revision="f87323bed1150074fee5a0ad64d76aaed0c58f00" upstream="refs/tags/android-8.1.0_r52"/>
   <project groups="pdk" name="device/generic/arm64" remote="aosp" revision="392eec3cb4c64721cd5b76fa36535954b5d45309" upstream="refs/tags/android-8.1.0_r52"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" remote="aosp" revision="9e96e041bf3c9d5b57b11f921c6339e076478a7a" upstream="refs/tags/android-8.1.0_r52"/>
