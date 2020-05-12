@@ -10,7 +10,7 @@
   
   <project groups="pdk" name="LineageOS/android_art" path="art" revision="3ff04a70bf0171cdacd311e1eedfaa0debbdbb7b" upstream="refs/heads/lineage-16.0"/>
   <project groups="pdk" name="LineageOS/android_bionic" path="bionic" revision="8604fcb3686a74d8f2a0632027525486febd45a4" upstream="refs/heads/lineage-16.0"/>
-  <project groups="pdk" name="LineageOS/android_bootable_recovery" path="bootable/recovery" revision="bdfbecf3620f59c33dc271fc8058a8030aed4d4f" upstream="refs/heads/lineage-16.0"/>
+  <project groups="pdk" name="LineageOS/android_bootable_recovery" path="bootable/recovery" revision="9d4b55b1b6a2e90a22e54b826eff2dcb1d18403c" upstream="refs/heads/lineage-16.0"/>
   <project groups="pdk,tradefed" name="LineageOS/android_build_kati" path="build/kati" revision="47b94ac5cfc5508b6c1c16c66439dd0702255b91" upstream="refs/heads/lineage-16.0"/>
   <project groups="pdk,tradefed" name="LineageOS/android_build_soong" path="build/soong" revision="6d326a29e504c88eac9fef7b019b620ecc3ec2f0" upstream="refs/heads/lineage-16.0">
     <linkfile dest="Android.bp" src="root.bp"/>
@@ -230,7 +230,7 @@
   <project groups="qcom,pdk-qcom" name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" revision="bd2b995e2259fbab65b5a134a61feadef34056eb" upstream="refs/heads/lineage-16.0"/>
   <project groups="qcom,pdk-qcom" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" revision="3e8495d73f1a36c809a66f3af46f53ae7b37f9f0" upstream="refs/heads/lineage-16.0"/>
   <project groups="tools" name="LineageOS/contributors-cloud-generator" path="lineage/contributors-cloud-generator" revision="ddda9653e4b5f1c5522a3ac5be30aa17ee059ca7" upstream="master"/>
-  <project groups="tools" name="LineageOS/scripts" path="lineage/scripts" revision="b8bdd0f746e2f4c1a564258c2d66831734756a62" upstream="master"/>
+  <project groups="tools" name="LineageOS/scripts" path="lineage/scripts" revision="544bf38665ab405f36f89955a1ffa33438030aef" upstream="master"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" remote="aosp" revision="40113d035473d35c56cf62e9801ddaed8d7c16ac" upstream="refs/tags/android-9.0.0_r46"/>
   <project groups="pdk" name="device/generic/arm64" remote="aosp" revision="325b7ec3eab920869050bbfedbd3461f9aed5eb5" upstream="refs/tags/android-9.0.0_r46"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" remote="aosp" revision="9e96e041bf3c9d5b57b11f921c6339e076478a7a" upstream="refs/tags/android-9.0.0_r46"/>
