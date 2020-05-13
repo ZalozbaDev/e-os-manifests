@@ -46,6 +46,7 @@
   <project groups="pdk" name="LineageOS/android_external_libchrome" path="external/libchrome" revision="39fa767844904a3c3344c14081cd572782ed01ba" upstream="refs/heads/lineage-16.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_external_libcups" path="external/libcups" revision="668641141fed27431727dd1cedbbfa20d24620a9" upstream="refs/heads/lineage-16.0"/>
   <project groups="pdk" name="LineageOS/android_external_libcxx" path="external/libcxx" revision="b59618d8ec6702824ec117c08d5c99e38c8f3afa" upstream="refs/heads/lineage-16.0"/>
+  <project groups="pdk" name="LineageOS/android_external_libexif" path="external/libexif" revision="2272fd1a98942957a99b7e71b3eff213298f9743" upstream="refs/heads/lineage-16.0"/>
   <project groups="pdk" name="LineageOS/android_external_libhevc" path="external/libhevc" revision="e02126b0265904168d5c497e6c8d685dcb52adb9" upstream="refs/heads/lineage-16.0"/>
   <project groups="pdk" name="LineageOS/android_external_libjpeg-turbo" path="external/libjpeg-turbo" revision="352b59d1f006549093d0b42132179b5545f9849d" upstream="refs/heads/lineage-16.0"/>
   <project name="LineageOS/android_external_libncurses" path="external/libncurses" revision="9cad3f32b720f695c215e0ed88d234e534a8e4fd" upstream="refs/heads/lineage-16.0"/>
@@ -247,8 +248,8 @@
   <project groups="pdk" name="device/generic/x86_64" remote="aosp" revision="506952733fdebb5a2ef086b519ceebe86a95ae31" upstream="refs/tags/android-9.0.0_r46"/>
   <project groups="device,marlin,pdk" name="device/google/contexthub" remote="aosp" revision="e37bcfce975a2243f7ed4328d703642a48d70819" upstream="refs/tags/android-9.0.0_r46"/>
   <project groups="pdk" name="device/sample" remote="aosp" revision="64f95592f3bc922952396445d7dbc7acebdefd96" upstream="refs/tags/android-9.0.0_r46"/>
-  <project name="e/os/android" path="android" remote="e" revision="d94b1768921bbcd96c9a62b5a44e7bff86ec5527" upstream="v1-pie"/>
-  <project groups="pdk" name="e/os/android_build" path="build/make" remote="e" revision="bccd5fd72e00b2bdb19e72ff52780ee853e91647" upstream="v1-pie">
+  <project name="e/os/android" path="android" remote="e" revision="f18e9ca2bd0f5ff46b89a267a36fd9bc2d59a41d" upstream="v1-pie"/>
+  <project groups="pdk" name="e/os/android_build" path="build/make" remote="e" revision="389b48133cbd3e81eb5cb9cd2ef5904f0f73347c" upstream="v1-pie">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -258,7 +259,7 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="89b56488abaff1c4a234b74322b9272e92c874ef" upstream="v1-pie"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="af0036abf2bc2845accff69180c64f2967ab7705" upstream="v1-pie"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="d30f5603284aa066c14dfe63e461b4c603f48c58" upstream="v1-pie"/>
   <project groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="b3b7b7647117bd5516e4948a9299b3754457a8e6" upstream="v1-pie"/>
   <project groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="e2fb9ae4156c54fd8d715fa236dec504cb6c281f" upstream="v1-pie"/>
   <project groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" upstream="lineage-16.0-caf-8084"/>
@@ -283,7 +284,7 @@
   <project groups="pdk-fs" name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="5d2eca523819766a06953ac2f9a5365213ad4ef7" upstream="v1-pie"/>
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="f51111cb392b87c5a9cff7d3bf32081febce28a5" upstream="v1-pie"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="93d47b4872f15092ef4f4aa10a3e0fbc044030ef" upstream="v1-pie"/>
-  <project groups="pdk-fs" name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="e5c956a26433f5f46076693f13b69ee7b5320c6e" upstream="v1-pie"/>
+  <project groups="pdk-fs" name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="48635350b830a3b246e9311ecce98efb694c86de" upstream="v1-pie"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="999eb78f75681e2614186bccbb288e450f296f39" upstream="v1-pie"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="c80b20610ea3593aca10a284ba778b41b914f33e" upstream="v1-pie"/>
   <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="f1fba315d33100e5bc59b82d94acd51a2af6f7b5" upstream="master"/>
@@ -417,7 +418,6 @@
   <project groups="pdk" name="platform/external/libedit" path="external/libedit" remote="aosp" revision="67e14dfc833aafa400a3aad8cb329cbaec503445" upstream="refs/tags/android-9.0.0_r46"/>
   <project groups="pdk" name="platform/external/libese" path="external/libese" remote="aosp" revision="f314bba6e9665c4789000447ee5d668f5481e99c" upstream="refs/tags/android-9.0.0_r46"/>
   <project groups="pdk" name="platform/external/libevent" path="external/libevent" remote="aosp" revision="f5930082c9827e9c3185ba104efacb5cbbaa76df" upstream="refs/tags/android-9.0.0_r46"/>
-  <project groups="pdk" name="platform/external/libexif" path="external/libexif" remote="aosp" revision="8f688823fc5399ab0f42ba2c8986cdd127dbde9b" upstream="refs/tags/android-9.0.0_r46"/>
   <project groups="pdk" name="platform/external/libffi" path="external/libffi" remote="aosp" revision="c82cc185378f84d9aa51c7ab8c8dd3f104312b97" upstream="refs/tags/android-9.0.0_r46"/>
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm" remote="aosp" revision="e775ffccfbedc4bb525cb2b5c9280a1dd0cfbe21" upstream="refs/tags/android-9.0.0_r46"/>
   <project groups="pdk" name="platform/external/libldac" path="external/libldac" remote="aosp" revision="68f49b758618a32ffb39aef34d1f10abd39798c2" upstream="refs/tags/android-9.0.0_r46"/>
