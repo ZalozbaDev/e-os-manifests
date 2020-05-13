@@ -3,24 +3,25 @@ variables:
 
 stages:
   - manifest
-
-before_script:
-  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-  - eval $(ssh-agent -s)
-  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-  - mkdir -p ~/.ssh
-  - chmod 700 ~/.ssh
-  - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-  - chmod 644 ~/.ssh/known_hosts
-  - git remote set-url origin ssh://git@gitlab.e.foundation:2222/$CI_PROJECT_PATH.git
-  - git config --global user.name "$GITLAB_USER_NAME"
-  - git config --global user.email "$GITLAB_USER_EMAIL"
+  - test
+  - build
 
 .update-manifest:
   image:
     name: "registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:prod"
     entrypoint: [""]
   stage: manifest
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+    - git remote set-url origin ssh://git@gitlab.e.foundation:2222/$CI_PROJECT_PATH.git
+    - git config --global user.name "$GITLAB_USER_NAME"
+    - git config --global user.email "$GITLAB_USER_EMAIL"
   script:
     - cd "$SRC_DIR/$CI_COMMIT_REF_NAME"
     - repo init -u $REPO -b $CI_COMMIT_REF_NAME
@@ -35,3 +36,63 @@ before_script:
       when: always
   tags:
     - generate-e-manifest
+
+.check-version:
+  image: "registry.gitlab.e.foundation:5000/e/tools/docker-tools:latest"
+  stage: test
+  script:
+    - curl -s https://gitlab.e.foundation/e/os/releases/-/raw/master/check-version.sh -o check-version.sh && chmod +x check-version.sh
+    - ./check-version.sh
+  rules:
+    - if: '$CI_COMMIT_TAG'
+      when: always
+    - when: never
+  tags:
+    - generic
+
+
+.trigger-build:
+  image: "registry.gitlab.e.foundation:5000/e/tools/docker-tools:latest"
+  stage: build
+  script:
+    - |
+      curl --request POST \
+        --form token=${TRIGGER_TOKEN} \
+        --form ref=master \
+        --form "variables[BRANCH_NAME]=${CI_COMMIT_REF_NAME}" \
+        --form "variables[DEVICES]=${DEVICES}" \
+        --form "variables[REPO]=${CI_REPOSITORY_URL}" \
+        --form "variables[RELEASE_TYPE]=${RELEASE_TYPE}" \
+        ${BUILD_PROJECT_API_URL}/trigger/pipeline
+  tags:
+    - generic
+
+.trigger-build-test:
+  extends: .trigger-build
+  variables:
+    RELEASE_TYPE: test
+  rules:
+    - if: '$CI_PIPELINE_SOURCE != "push"'
+      when: never
+    - changes:
+      - default.xml
+      when: always
+    - when: never
+
+.trigger-build-dev:
+  extends: .trigger-build
+  variables:
+    RELEASE_TYPE: dev
+  rules:
+    - if: '$CI_COMMIT_TAG'
+      when: always
+    - when: never
+
+.trigger-build-stable:
+  extends: .trigger-build
+  variables:
+    RELEASE_TYPE: stable
+  rules:
+    - if: '$CI_COMMIT_TAG'
+      when: manual
+    - when: never
