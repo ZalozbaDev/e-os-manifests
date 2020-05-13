@@ -5,3 +5,21 @@ include:
 
 update-manifest-nougat:
   extends: .update-manifest
+
+check-version:
+  extends: .check-version
+
+trigger-build-nougat-test:
+  extends: .trigger-build-test
+  variables:
+    DEVICES: "athene bacon condor kiwi mako mido natrium oneplus3 onyx s2 serranoltexx pinebook teres titan zerofltexx"
+
+trigger-build-nougat-dev:
+  extends: .trigger-build-dev
+  variables:
+    DEVICES: "addison athene axon7 bacon cancro cheeseburger condor crackling d855 falcon gemini h850 ha3g hammerhead harpia hiaeuhl hlte i9300 i9305 jalebi jfltexx kenzo kiwi libra lux m8 mako mido n7100 natrium oneplus2 oneplus3 onyx osprey peregrine pinebook pme s2 serrano3gxx serranodsdd serranoltexx shamu sumire titan teres treltexx t0lte wt88047 zerofltexx zeroltexx"
+
+trigger-build-nougat-stable:
+  extends: .trigger-build-stable
+  variables:
+    DEVICES: "herolte hero2lte"
