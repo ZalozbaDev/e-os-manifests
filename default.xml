@@ -246,7 +246,7 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
   <project dest-branch="v1-oreo" name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="1d04bf40aa08880c16b3cae4bba68a7b6eed2c13" upstream="v1-oreo"/>
-  <project dest-branch="v1-oreo" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="3d4b8c288cff0b51bc01ada7c66103b8aa282245" upstream="v1-oreo"/>
+  <project dest-branch="v1-oreo" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="5f1d79190afe34b9d7a3ffecbf5e1c0bb7ceb064" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="048c68bf12f5b6524173d6fb40b40f79af3048d9" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="01d7274a4fe880af2aaf9e22d0c092b0a4b653b2" upstream="v1-oreo"/>
   <project dest-branch="lineage-15.1-caf-8084" groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" upstream="lineage-15.1-caf-8084"/>
