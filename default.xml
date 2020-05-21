@@ -27,7 +27,7 @@
   <project dest-branch="refs/heads/lineage-16.0" name="LineageOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" revision="b17c84b2f251d5bf51d99a4fdf80e3f7c60666dc" upstream="refs/heads/lineage-16.0"/>
   <project dest-branch="refs/heads/lineage-16.0" name="LineageOS/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" revision="cd87191848dd8b7b54e6f1948667ece731446a2a" upstream="refs/heads/lineage-16.0"/>
   <project dest-branch="refs/heads/lineage-16.0" name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" revision="85290ef0527d2f4cf82fdc3ffc290c970ca57f6b" upstream="refs/heads/lineage-16.0"/>
-  <project dest-branch="refs/heads/lineage-16.0" name="LineageOS/android_external_bash" path="external/bash" revision="a40f25181897b91632c72b50713e0757562a6a4a" upstream="refs/heads/lineage-16.0"/>
+  <project dest-branch="refs/heads/lineage-16.0" name="LineageOS/android_external_bash" path="external/bash" revision="b629f8ea175433430f745a3e71022c3db2b41767" upstream="refs/heads/lineage-16.0"/>
   <project dest-branch="refs/heads/lineage-16.0" groups="pdk" name="LineageOS/android_external_chromium-libpac" path="external/chromium-libpac" revision="d4368b855c29f8f88836a90cf257b35792cae7b0" upstream="refs/heads/lineage-16.0"/>
   <project clone-depth="1" dest-branch="master" groups="pdk" name="LineageOS/android_external_chromium-webview" path="external/chromium-webview" revision="0ac43ed737bf7778a5d2743ea0c9a460b5bd96d2" upstream="master"/>
   <project dest-branch="refs/heads/lineage-16.0" groups="qcom,pdk-qcom" name="LineageOS/android_external_connectivity" path="external/connectivity" revision="0bcb1672a85eaa9e0e198a1aa7b5f6fe37884a7a" upstream="refs/heads/lineage-16.0"/>
@@ -259,7 +259,7 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
   <project dest-branch="v1-pie" name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="89b56488abaff1c4a234b74322b9272e92c874ef" upstream="v1-pie"/>
-  <project dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="d30f5603284aa066c14dfe63e461b4c603f48c58" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="e0a96339f3d9312bcca6202ee1b28ade56e09083" upstream="v1-pie"/>
   <project dest-branch="v1-pie" groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="b3b7b7647117bd5516e4948a9299b3754457a8e6" upstream="v1-pie"/>
   <project dest-branch="v1-pie" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="e2fb9ae4156c54fd8d715fa236dec504cb6c281f" upstream="v1-pie"/>
   <project dest-branch="lineage-16.0-caf-8084" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" upstream="lineage-16.0-caf-8084"/>
@@ -281,14 +281,14 @@
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="4e77a3c8ce40b06429a502765c9ae8f8db38d305" upstream="v1-pie"/>
   <project dest-branch="v1-pie" groups="pdk-fs" name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="4b7640d2c30afa32ea5a707889a75624fe1421f4" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="be035de8ef3b7e3f2d7195848c982909a0ca454a" upstream="v1-pie"/>
-  <project dest-branch="v1-pie" groups="pdk-fs" name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="5d2eca523819766a06953ac2f9a5365213ad4ef7" upstream="v1-pie"/>
-  <project dest-branch="v1-pie" name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="f51111cb392b87c5a9cff7d3bf32081febce28a5" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" groups="pdk-fs" name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="ad3e93ce85ee7e75276bb5089ef805c429d6ebe8" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="7ed461a88676a57f41be717f14f2ce0578280f60" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="93d47b4872f15092ef4f4aa10a3e0fbc044030ef" upstream="v1-pie"/>
-  <project dest-branch="v1-pie" groups="pdk-fs" name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="48635350b830a3b246e9311ecce98efb694c86de" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" groups="pdk-fs" name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="2194961aa8c20d8ab4ea52707020d3a9e41bbabd" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="999eb78f75681e2614186bccbb288e450f296f39" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="c80b20610ea3593aca10a284ba778b41b914f33e" upstream="v1-pie"/>
-  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="7a1d4325c2be2ac8aa6e880c06a034d5876620a3" upstream="master"/>
-  <project dest-branch="v1-pie" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="529ca0fc3c9d1ed700e7999e103388204df1f5d3" upstream="v1-pie"/>
+  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="b646178679cd6c5a4e71815c1e9af2e0d07710f2" upstream="master"/>
+  <project dest-branch="v1-pie" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="51c01b5bede9c706f8766653d4e6015841a40189" upstream="v1-pie"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk" name="kernel/configs" remote="aosp" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" name="kernel/tests" remote="aosp" revision="a4a8e36ee17fc1adfb60acaef014589a5ca326b9" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="28335d2c283293db4b20d3eb548338fdafa5abd5" upstream="refs/tags/android-9.0.0_r46"/>
