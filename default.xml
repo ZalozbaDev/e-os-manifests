@@ -248,7 +248,7 @@
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="pdk" name="device/generic/x86_64" remote="aosp" revision="506952733fdebb5a2ef086b519ceebe86a95ae31" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="device,marlin,pdk" name="device/google/contexthub" remote="aosp" revision="e37bcfce975a2243f7ed4328d703642a48d70819" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="pdk" name="device/sample" remote="aosp" revision="64f95592f3bc922952396445d7dbc7acebdefd96" upstream="refs/tags/android-9.0.0_r46"/>
-  <project dest-branch="v1-pie" name="e/os/android" path="android" remote="e" revision="f18e9ca2bd0f5ff46b89a267a36fd9bc2d59a41d" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" name="e/os/android" path="android" remote="e" revision="1d549030988fb9318e3c23370c71b919c0eedc5a" upstream="v1-pie"/>
   <project dest-branch="v1-pie" groups="pdk" name="e/os/android_build" path="build/make" remote="e" revision="389b48133cbd3e81eb5cb9cd2ef5904f0f73347c" upstream="v1-pie">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -268,7 +268,7 @@
   <project dest-branch="lineage-16.0-caf-8960" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" remote="e" revision="837e30800a6ec85809d7e2356d4098fbef9f7d3d" upstream="lineage-16.0-caf-8960"/>
   <project dest-branch="lineage-16.0-caf-8974" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="e" revision="e38512db04a81c44c0cbf6c7d6a29851e9c2cb2d" upstream="lineage-16.0-caf-8974"/>
   <project dest-branch="lineage-16.0-caf-8994" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" remote="e" revision="f83edfdbe64ade1f7f5731e28cedd2587043723a" upstream="lineage-16.0-caf-8994"/>
-  <project dest-branch="lineage-16.0-caf-8996" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="e" revision="6a98bd5eae995d3ffc56b41f20fe7ac03f5ddb5b" upstream="lineage-16.0-caf-8996"/>
+  <project dest-branch="v1-pie-caf-8996" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="e" revision="15cdd6201bddc1b9a3c88f131492a0f862a1887d" upstream="v1-pie-caf-8996"/>
   <project dest-branch="lineage-16.0-caf-8998" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" remote="e" revision="161687e3a00d8742e78bb5c660d8f2176ce8d2fe" upstream="lineage-16.0-caf-8998"/>
   <project dest-branch="lineage-16.0-caf-845" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sdm845" remote="e" revision="55efc744292bd69a8874c2c61997762397c13057" upstream="lineage-16.0-caf-845"/>
   <project dest-branch="lineage-16.0-caf-8150" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sm8150" remote="e" revision="69a9cbdb87291748e791aadc209b7ed9ff259d89" upstream="lineage-16.0-caf-8150"/>
