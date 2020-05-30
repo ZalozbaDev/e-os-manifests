@@ -10,7 +10,6 @@
   
   <project dest-branch="refs/heads/lineage-16.0" groups="pdk" name="LineageOS/android_art" path="art" revision="3ff04a70bf0171cdacd311e1eedfaa0debbdbb7b" upstream="refs/heads/lineage-16.0"/>
   <project dest-branch="refs/heads/lineage-16.0" groups="pdk" name="LineageOS/android_bionic" path="bionic" revision="8604fcb3686a74d8f2a0632027525486febd45a4" upstream="refs/heads/lineage-16.0"/>
-  <project dest-branch="refs/heads/lineage-16.0" groups="pdk" name="LineageOS/android_bootable_recovery" path="bootable/recovery" revision="9d4b55b1b6a2e90a22e54b826eff2dcb1d18403c" upstream="refs/heads/lineage-16.0"/>
   <project dest-branch="refs/heads/lineage-16.0" groups="pdk,tradefed" name="LineageOS/android_build_kati" path="build/kati" revision="47b94ac5cfc5508b6c1c16c66439dd0702255b91" upstream="refs/heads/lineage-16.0"/>
   <project dest-branch="refs/heads/lineage-16.0" groups="pdk,tradefed" name="LineageOS/android_build_soong" path="build/soong" revision="6d326a29e504c88eac9fef7b019b620ecc3ec2f0" upstream="refs/heads/lineage-16.0">
     <linkfile dest="Android.bp" src="root.bp"/>
@@ -248,7 +247,8 @@
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="pdk" name="device/generic/x86_64" remote="aosp" revision="506952733fdebb5a2ef086b519ceebe86a95ae31" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="device,marlin,pdk" name="device/google/contexthub" remote="aosp" revision="e37bcfce975a2243f7ed4328d703642a48d70819" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="pdk" name="device/sample" remote="aosp" revision="64f95592f3bc922952396445d7dbc7acebdefd96" upstream="refs/tags/android-9.0.0_r46"/>
-  <project dest-branch="v1-pie" name="e/os/android" path="android" remote="e" revision="1d549030988fb9318e3c23370c71b919c0eedc5a" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" name="e/os/android" path="android" remote="e" revision="c763929c094dfc67ef1ec7f250ce44c0f08550f2" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" groups="pdk" name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="0909e361d6ab8a93cc68f16a269588bd3b300165" upstream="v1-pie"/>
   <project dest-branch="v1-pie" groups="pdk" name="e/os/android_build" path="build/make" remote="e" revision="389b48133cbd3e81eb5cb9cd2ef5904f0f73347c" upstream="v1-pie">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -288,7 +288,7 @@
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="999eb78f75681e2614186bccbb288e450f296f39" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="c80b20610ea3593aca10a284ba778b41b914f33e" upstream="v1-pie"/>
   <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="24c70c6b74de8d929a5fa1591a08c859ace68e7f" upstream="master"/>
-  <project dest-branch="v1-pie" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="968611dcfb58fd8279fd45631c7ff07fb495785a" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="1c8da90016bd0c62d427df8ee95ad02ea042e943" upstream="v1-pie"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk" name="kernel/configs" remote="aosp" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" name="kernel/tests" remote="aosp" revision="a4a8e36ee17fc1adfb60acaef014589a5ca326b9" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="28335d2c283293db4b20d3eb548338fdafa5abd5" upstream="refs/tags/android-9.0.0_r46"/>
