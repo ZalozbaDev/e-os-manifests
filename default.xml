@@ -280,7 +280,7 @@
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="51ce9582a01b2c0ab4aaa1f30cfcafa80eb174d6" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="2f16adcddee6e50a6e63bdcfc47a5a7481cab8db" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="1a8b1674e4ac730b70eae5dbbc5508f5d94967c4" upstream="v1-nougat"/>
-  <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="5da4a043a3b3bc7b6b5430ec363141db3e767da9" upstream="v1-nougat"/>
+  <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="2694cb5247e4252120df7a11dc53ac2c3e3590d5" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1d5eddcbc5ec99f9486426d947754ddd369b8b82" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="5a804a8c27ffe6494d334e1c25eb76bb1b510e8b" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="072930efa8873fdcee4061ef477d77a6b501ef2d" upstream="v1-nougat"/>
