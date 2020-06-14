@@ -236,7 +236,7 @@
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="device/sample" remote="aosp" revision="509608c76570d623c05952c8eecdc2868ca8a952" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="v1-oreo" name="e/os/android" path="android" remote="e" revision="3d665fdd50fe1f9c337abe13d99ff8dc456c6ba2" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk" name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="b8573b0a0881c5a920943f5933369a7d08b82db2" upstream="v1-oreo"/>
-  <project dest-branch="v1-oreo" groups="pdk" name="e/os/android_build" path="build/make" remote="e" revision="b4d353ba9f0fb80b5203ff25ecfcd63048549a6f" upstream="v1-oreo">
+  <project dest-branch="v1-oreo" groups="pdk" name="e/os/android_build" path="build/make" remote="e" revision="5c8613632cf309422f7af3557ed3ee17bfd355eb" upstream="v1-oreo">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -271,7 +271,7 @@
   <project dest-branch="v1-oreo" name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="1ba9c275fcf8b7c9b846a02f5eac5302a5ed2950" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk-fs" name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="a9b2f494176c08c2faed6bee04782bac540b6325" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1b9370e37c0e5378ac90612bba86bfbc3f8f6496" upstream="v1-oreo"/>
-  <project dest-branch="v1-oreo" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="2b18b98567e44cc48079e22fc9fa39b799f1d8dd" upstream="v1-oreo"/>
+  <project dest-branch="v1-oreo" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="fab62a810d9b47438eb5458b48ff61bb4e609faf" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk-fs" name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="b965f8d3746ce46b1d33115ec1e98a1dca7062a1" upstream="v1-oreo"/>
   <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="53d7d18efa09580c6f9ccae6cde877389393e193" upstream="master"/>
   <project dest-branch="v1-oreo" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="e955138a9e66ec987655cd2d0bf934a5989a5f5c" upstream="v1-oreo"/>
