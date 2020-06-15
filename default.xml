@@ -217,7 +217,7 @@
   <project clone-depth="1" dest-branch="refs/heads/cm-14.1" groups="pdk,linux,arm" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="7280ce2399316a5dbd8872e0bfe69435d8719230" upstream="refs/heads/cm-14.1"/>
   <project clone-depth="1" dest-branch="refs/heads/cm-14.1" groups="pdk,linux,arm" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="48ef1e67aa261116d2c244a52a30b8ba044399ff" upstream="refs/heads/cm-14.1"/>
   <project clone-depth="1" dest-branch="refs/heads/cm-14.1" groups="pdk,linux,x86" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="b3acfc1f26aae5cf8da7301e89a2594ae945c060" upstream="refs/heads/cm-14.1"/>
-  <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_system_bt" path="system/bt" revision="01b84e0a8888e6e6843aab86811ceb8e6139698b" upstream="refs/heads/cm-14.1"/>
+  <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_system_bt" path="system/bt" revision="a68df7b0d0d5fab28d118b647c43b66195d6b5bd" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_system_core" path="system/core" revision="b362f59e444e239a36defb0f6c7317bffb9d2858" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_system_extras" path="system/extras" revision="f30ae7fd7508bed7974045d37b70030e24c7d4e6" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_system_extras_su" path="system/extras/su" revision="11730a5035cf294298bd96c1586f589a48dd4cf9" upstream="refs/heads/cm-14.1"/>
@@ -257,10 +257,10 @@
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="device/sample" remote="aosp" revision="11e84765fa179b5337c9a2fce685d5ba2388fe2c" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="v1-nougat" name="e/os/android" path="android" remote="e" revision="75e3e57f608b9451c94e3364ff50490baa1c343a" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk" name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="88b8bb9d3cae029a4fbca1cc3026f04f2984cf97" upstream="v1-nougat"/>
-  <project dest-branch="v1-nougat" groups="pdk" name="e/os/android_build" path="build" remote="e" revision="7b41c447359a1eb58d115a163d21921f007c2243" upstream="v1-nougat">
+  <project dest-branch="v1-nougat" groups="pdk" name="e/os/android_build" path="build" remote="e" revision="0f3059a094f0725fb7959a539deb4e2c30cb2e5e" upstream="v1-nougat">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project dest-branch="v1-nougat" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="954f1f44310ea904ddd70402f8b1236233f29dc8" upstream="v1-nougat"/>
+  <project dest-branch="v1-nougat" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="c039525ec4b3bd50d2d8f038a0377c7a19bba355" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="a635bce269a537608b93c45bf7f8cd9cac55e92f" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="7d4c47fe4af5f639bb546fed7e962f4639129888" upstream="v1-nougat"/>
   <project dest-branch="cm-14.1-caf-8084" groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" upstream="cm-14.1-caf-8084"/>
