@@ -284,11 +284,11 @@
   <project dest-branch="v1-pie" groups="pdk-fs" name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="ad3e93ce85ee7e75276bb5089ef805c429d6ebe8" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="b328016a3f84c7f783d6787bf0658e7477c49e0b" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="93d47b4872f15092ef4f4aa10a3e0fbc044030ef" upstream="v1-pie"/>
-  <project dest-branch="v1-pie" groups="pdk-fs" name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="2194961aa8c20d8ab4ea52707020d3a9e41bbabd" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" groups="pdk-fs" name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="55ecb7a1628de88f2432b70ec4c080092c2abff1" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="999eb78f75681e2614186bccbb288e450f296f39" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="aa50d20349324292294ac72109e3841dbc8f76fb" upstream="v1-pie"/>
-  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="53d7d18efa09580c6f9ccae6cde877389393e193" upstream="master"/>
-  <project dest-branch="v1-pie" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="97ec50dd344f5bdf0341e6a291ac6eec58edf7e0" upstream="v1-pie"/>
+  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="b940f0957176eac37f602ce53e90f6431b43a31d" upstream="master"/>
+  <project dest-branch="v1-pie" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="fbf96ab523b4571add76e9c127f78441b2575028" upstream="v1-pie"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk" name="kernel/configs" remote="aosp" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" name="kernel/tests" remote="aosp" revision="a4a8e36ee17fc1adfb60acaef014589a5ca326b9" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="28335d2c283293db4b20d3eb548338fdafa5abd5" upstream="refs/tags/android-9.0.0_r46"/>
