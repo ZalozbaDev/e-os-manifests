@@ -288,7 +288,7 @@
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="999eb78f75681e2614186bccbb288e450f296f39" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="aa50d20349324292294ac72109e3841dbc8f76fb" upstream="v1-pie"/>
   <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="1975de7999efb376d1c943771a736e99e96bbff7" upstream="master"/>
-  <project dest-branch="v1-pie" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="fbf96ab523b4571add76e9c127f78441b2575028" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="658beda57332bec12163051fd142537314b894de" upstream="v1-pie"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk" name="kernel/configs" remote="aosp" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" name="kernel/tests" remote="aosp" revision="a4a8e36ee17fc1adfb60acaef014589a5ca326b9" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="28335d2c283293db4b20d3eb548338fdafa5abd5" upstream="refs/tags/android-9.0.0_r46"/>
