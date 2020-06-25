@@ -15,7 +15,7 @@ PRODUCT_VERSION_MINOR=$(cat common.mk | grep "PRODUCT_VERSION_MINOR = " | sed -E
 PRODUCT_VERSION="$PRODUCT_VERSION_MAJOR.$PRODUCT_VERSION_MINOR"
 echo "Product version: $PRODUCT_VERSION"
 
-COMMIT_TAG_VERSION=$(echo $CI_COMMIT_TAG | sed -E 's/v(.\..\..).*/\1/')
+COMMIT_TAG_VERSION=$(echo $CI_COMMIT_TAG | sed -E 's/v(.\..).*/\1/')
 echo "Tag version:     $COMMIT_TAG_VERSION"
 
 
