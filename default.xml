@@ -260,7 +260,7 @@
   </project>
   <project dest-branch="v1-pie" name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="89b56488abaff1c4a234b74322b9272e92c874ef" upstream="v1-pie"/>
   <project dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="d65c58b3d0f31a68d66cd3024c87b27fa4334015" upstream="v1-pie"/>
-  <project dest-branch="v1-pie" groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="b3b7b7647117bd5516e4948a9299b3754457a8e6" upstream="v1-pie"/>
+  <project dest-branch="v1-pie" groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="17c26d1a2d7da472eda14bda2c18cf4ce9d4c702" upstream="v1-pie"/>
   <project dest-branch="v1-pie" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="e2fb9ae4156c54fd8d715fa236dec504cb6c281f" upstream="v1-pie"/>
   <project dest-branch="lineage-16.0-caf-8084" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" upstream="lineage-16.0-caf-8084"/>
   <project dest-branch="lineage-16.0-caf-8916" groups="qcom,qcom_audio,pdk-qcom" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="e" revision="6676b869284a8718f037def628eae1329b36ac20" upstream="lineage-16.0-caf-8916"/>
