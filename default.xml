@@ -246,7 +246,7 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
   <project dest-branch="v1-oreo" name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="1d04bf40aa08880c16b3cae4bba68a7b6eed2c13" upstream="v1-oreo"/>
-  <project dest-branch="v1-oreo" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="c0a109f74da22bd7078bb28f0b563e4377fe71cd" upstream="v1-oreo"/>
+  <project dest-branch="v1-oreo" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="f5a0a6a0a6d7e35bd6e3e2045009345a03943779" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="048c68bf12f5b6524173d6fb40b40f79af3048d9" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="01d7274a4fe880af2aaf9e22d0c092b0a4b653b2" upstream="v1-oreo"/>
   <project dest-branch="lineage-15.1-caf-8084" groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" upstream="lineage-15.1-caf-8084"/>
@@ -273,8 +273,8 @@
   <project dest-branch="v1-oreo" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1b9370e37c0e5378ac90612bba86bfbc3f8f6496" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="fab62a810d9b47438eb5458b48ff61bb4e609faf" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk-fs" name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="b965f8d3746ce46b1d33115ec1e98a1dca7062a1" upstream="v1-oreo"/>
-  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="1975de7999efb376d1c943771a736e99e96bbff7" upstream="master"/>
-  <project dest-branch="v1-oreo" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="6eb9bea7361ff51f1785d16cf7d93b9be38889f5" upstream="v1-oreo"/>
+  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="d8c6418813a77973c19b79bd84d126e899a7f3c4" upstream="master"/>
+  <project dest-branch="v1-oreo" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="f7fcff2f996bfe64e011a0dad8aff7432acd450f" upstream="v1-oreo"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" name="kernel/tests" remote="aosp" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="a011038d864e3faa528ec1037a568e5824955a0f" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="platform/compatibility/cdd" path="compatibility/cdd" remote="aosp" revision="ca5bd0f77af6feda04b2fccb5318fac8abb86339" upstream="refs/tags/android-8.1.0_r52"/>
