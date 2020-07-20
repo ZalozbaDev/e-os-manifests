@@ -260,7 +260,7 @@
   <project dest-branch="v1-nougat" groups="pdk" name="e/os/android_build" path="build" remote="e" revision="0f3059a094f0725fb7959a539deb4e2c30cb2e5e" upstream="v1-nougat">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project dest-branch="v1-nougat" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="acfb5c86e96bff94949f38a242dd638ef7de8059" upstream="v1-nougat"/>
+  <project dest-branch="v1-nougat" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="02581e77eb58654be56606a9d94087b076c2187d" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk" name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="a635bce269a537608b93c45bf7f8cd9cac55e92f" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="qcom,qcom_audio,pdk" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="7d4c47fe4af5f639bb546fed7e962f4639129888" upstream="v1-nougat"/>
   <project dest-branch="cm-14.1-caf-8084" groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" upstream="cm-14.1-caf-8084"/>
