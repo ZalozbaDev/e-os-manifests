@@ -24,9 +24,10 @@
   <project dest-branch="refs/heads/lineage-15.1" name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" revision="85290ef0527d2f4cf82fdc3ffc290c970ca57f6b" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="refs/heads/lineage-15.1" name="LineageOS/android_external_bash" path="external/bash" revision="5418a65b77cf33e078fdb64da876204fd0b3103c" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="refs/heads/lineage-15.1" name="LineageOS/android_external_brctl" path="external/brctl" revision="85130b403dea07b2230efed3287236fa0caefb1c" upstream="refs/heads/lineage-15.1"/>
-  <project dest-branch="refs/heads/lineage-15.1" groups="pdk" name="LineageOS/android_external_chromium-libpac" path="external/chromium-libpac" revision="be29595f3b7147df1fecbd406a86e882f455984d" upstream="refs/heads/lineage-15.1"/>
-  <project clone-depth="1" dest-branch="master" groups="pdk" name="LineageOS/android_external_chromium-webview" path="external/chromium-webview" revision="8a8cec316e7ceda84514005ca4eb7d02672a02c2" upstream="master"/>
+  <project dest-branch="refs/heads/lineage-15.1" groups="pdk" name="LineageOS/android_external_chromium-libpac" path="external/chromium-libpac" revision="8e0bdac8a4f899cae6fd76609e269452bfd3140b" upstream="refs/heads/lineage-15.1"/>
+  <project clone-depth="1" dest-branch="master" groups="pdk" name="LineageOS/android_external_chromium-webview" path="external/chromium-webview" revision="f05c347d88eb60d37b83a51c08b10f31b00ce9b0" upstream="master"/>
   <project dest-branch="refs/heads/lineage-15.1" name="LineageOS/android_external_connectivity" path="external/connectivity" revision="0bcb1672a85eaa9e0e198a1aa7b5f6fe37884a7a" upstream="refs/heads/lineage-15.1"/>
+  <project dest-branch="refs/heads/lineage-15.1" groups="pdk" name="LineageOS/android_external_dng_sdk" path="external/dng_sdk" revision="e37223fe9a83600701afc1e0a363079a57c9dfe6" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="refs/heads/lineage-15.1" groups="pdk" name="LineageOS/android_external_e2fsprogs" path="external/e2fsprogs" revision="81fe13e107fc6760712cf559dce05f2fedb9051d" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="refs/heads/lineage-15.1" name="LineageOS/android_external_ebtables" path="external/ebtables" revision="d7dfb008fb025d0a9b9c1d50b9de3de7cef33e04" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="refs/heads/lineage-15.1" groups="pdk" name="LineageOS/android_external_elfutils" path="external/elfutils" revision="f679e836504ff50c6e74b6193d97e8d6c719f67c" upstream="refs/heads/lineage-15.1"/>
@@ -70,7 +71,7 @@
   <project dest-branch="refs/heads/lineage-15.1" groups="pdk" name="LineageOS/android_external_toybox" path="external/toybox" revision="8276aea646189d4204153f4c6614859ae9145c19" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="refs/heads/lineage-15.1" groups="pdk" name="LineageOS/android_external_tremolo" path="external/tremolo" revision="b7487045e5de2998e17f1f8bacd9063a71482bb6" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="refs/heads/lineage-15.1" name="LineageOS/android_external_unrar" path="external/unrar" revision="a13960a77be8221a26d75835d05ef6686986e4ca" upstream="refs/heads/lineage-15.1"/>
-  <project dest-branch="refs/heads/lineage-15.1" groups="pdk" name="LineageOS/android_external_v8" path="external/v8" revision="2baa6d54ef7fcbe473dcc67a3fc535e6cabc67b7" upstream="refs/heads/lineage-15.1"/>
+  <project dest-branch="refs/heads/lineage-15.1" groups="pdk" name="LineageOS/android_external_v8" path="external/v8" revision="5f09ad868324b6dad13f5933fbd46c031139ab96" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="refs/heads/lineage-15.1" name="LineageOS/android_external_vim" path="external/vim" revision="b1f019d5e611a7fa661e218e8e11d9e02083e4c0" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="refs/heads/lineage-15.1" groups="pdk" name="LineageOS/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="b1b58c120fd1c9eeeaa0cc59da8b83e2fa067e1b" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="refs/heads/lineage-15.1" name="LineageOS/android_external_zip" path="external/zip" revision="3e0b8acbdd20db415b91941709adf07c1ef8f3c4" upstream="refs/heads/lineage-15.1"/>
@@ -215,7 +216,7 @@
   </project>
   <project dest-branch="refs/heads/lineage-15.1" name="LineageOS/android_vendor_qcom_opensource_rcs-service" path="vendor/qcom/opensource/rcs-service" revision="5dccbab946b999207ff3ceb3ac5f3afea6669775" upstream="refs/heads/lineage-15.1"/>
   <project dest-branch="master" groups="tools" name="LineageOS/contributors-cloud-generator" path="lineage/contributors-cloud-generator" revision="ddda9653e4b5f1c5522a3ac5be30aa17ee059ca7" upstream="master"/>
-  <project dest-branch="master" groups="tools" name="LineageOS/scripts" path="lineage/scripts" revision="0b193a874e19f0f64e9b4baf199a72fcffee19dc" upstream="master"/>
+  <project dest-branch="master" groups="tools" name="LineageOS/scripts" path="lineage/scripts" revision="961ad2b7fca512193365d654e3fafd0eae83b2e5" upstream="master"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk-cw-fs,pdk" name="device/common" remote="aosp" revision="f87323bed1150074fee5a0ad64d76aaed0c58f00" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="device/generic/arm64" remote="aosp" revision="392eec3cb4c64721cd5b76fa36535954b5d45309" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="device/generic/armv7-a-neon" remote="aosp" revision="9e96e041bf3c9d5b57b11f921c6339e076478a7a" upstream="refs/tags/android-8.1.0_r52"/>
@@ -234,9 +235,9 @@
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="device,fugu,broadcom_pdk,generic_fs,pdk" name="device/google/atv" remote="aosp" revision="0956280428ba979a2a78e852dd484167ece3b9af" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="device,marlin,pdk" name="device/google/contexthub" remote="aosp" revision="6c6efc263a0daa6d6a377ea8e129d8bbc7b32675" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="device/sample" remote="aosp" revision="509608c76570d623c05952c8eecdc2868ca8a952" upstream="refs/tags/android-8.1.0_r52"/>
-  <project dest-branch="v1-oreo" name="e/os/android" path="android" remote="e" revision="3d665fdd50fe1f9c337abe13d99ff8dc456c6ba2" upstream="v1-oreo"/>
+  <project dest-branch="v1-oreo" name="e/os/android" path="android" remote="e" revision="1a428a0fa29fc4817a97a2691d9920a3116d4941" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk" name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="b8573b0a0881c5a920943f5933369a7d08b82db2" upstream="v1-oreo"/>
-  <project dest-branch="v1-oreo" groups="pdk" name="e/os/android_build" path="build/make" remote="e" revision="5c8613632cf309422f7af3557ed3ee17bfd355eb" upstream="v1-oreo">
+  <project dest-branch="v1-oreo" groups="pdk" name="e/os/android_build" path="build/make" remote="e" revision="0b9e0dd1d8dec263f78c7eaa1c1507f3965e8db9" upstream="v1-oreo">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -261,7 +262,7 @@
   <project dest-branch="v1-oreo" name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="8ced37e2131f10d15ffc21c57427d9aa988af9a5" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk-fs" name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="9f8c0408ce8acc073ed4f383fea1bfba06e02581" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk-fs" name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="ec878102283738e1b41ad29f93ffe3d662ff7cb6" upstream="v1-oreo"/>
-  <project dest-branch="v1-oreo" groups="pdk-fs" name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="2d7532777adb69ec518e0936f7f2b43de054887e" upstream="v1-oreo"/>
+  <project dest-branch="v1-oreo" groups="pdk-fs" name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="325c4dbd8d52dd3abb4a1ccbf8dbe659a5a77268" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk-cw-fs,pdk-fs" name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="1a1ac929d2310bdb4f12b223d51bb38ce49149b5" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="774a2798695a0ee87b56abe93757a323a010d1dd" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk-fs" name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="152e6d4c6fbc2e47d1ae46700fdbef525e5f5999" upstream="v1-oreo"/>
@@ -273,7 +274,7 @@
   <project dest-branch="v1-oreo" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1b9370e37c0e5378ac90612bba86bfbc3f8f6496" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="fab62a810d9b47438eb5458b48ff61bb4e609faf" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk-fs" name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="b965f8d3746ce46b1d33115ec1e98a1dca7062a1" upstream="v1-oreo"/>
-  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="d8c6418813a77973c19b79bd84d126e899a7f3c4" upstream="master"/>
+  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="0a5dbfde2fe61f88b00612f440bf9c823bc51d4b" upstream="master"/>
   <project dest-branch="v1-oreo" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="f7fcff2f996bfe64e011a0dad8aff7432acd450f" upstream="v1-oreo"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" name="kernel/tests" remote="aosp" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="a011038d864e3faa528ec1037a568e5824955a0f" upstream="refs/tags/android-8.1.0_r52"/>
@@ -322,7 +323,6 @@
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="platform/external/dexmaker" path="external/dexmaker" remote="aosp" revision="e62dfc0cb516ce70d9b8337a81a585da66c6b88e" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="platform/external/dhcpcd-6.8.2" path="external/dhcpcd-6.8.2" remote="aosp" revision="54d1fc2d574d21f788abb64b10c9a6352eba0b65" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="platform/external/dlmalloc" path="external/dlmalloc" remote="aosp" revision="6661f3ca66b55d8f5a57b96fec97efaf8f3897a5" upstream="refs/tags/android-8.1.0_r52"/>
-  <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="platform/external/dng_sdk" path="external/dng_sdk" remote="aosp" revision="9bbc04196faa97b8b7df2ec6b997a7109a8a209c" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="platform/external/dnsmasq" path="external/dnsmasq" remote="aosp" revision="2d1fee713bb65ac71ea60fead3b8d53415e875e7" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="platform/external/doclava" path="external/doclava" remote="aosp" revision="f8c9b6c5dd536c5ad3b995be77f7189ca08ae345" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="platform/external/donuts" path="external/donuts" remote="aosp" revision="005389fb31a67841b5de42f0d25fbfab843e208c" upstream="refs/tags/android-8.1.0_r52"/>
