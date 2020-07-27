@@ -26,13 +26,14 @@
   <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_bouncycastle" path="external/bouncycastle" revision="b81e13ce0a60eabfb2a1008fbfa603f1f8939497" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_external_brctl" path="external/brctl" revision="85130b403dea07b2230efed3287236fa0caefb1c" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_bzip2" path="external/bzip2" revision="0820f67f09cbbbebb6b3991ce94842d4eb86a34f" upstream="refs/heads/cm-14.1"/>
-  <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_chromium-libpac" path="external/chromium-libpac" revision="6c45dbb07ef7b812e861911e9c5b8cb9e792a07f" upstream="refs/heads/cm-14.1"/>
-  <project clone-depth="1" dest-branch="master" groups="pdk" name="LineageOS/android_external_chromium-webview" path="external/chromium-webview" revision="8a8cec316e7ceda84514005ca4eb7d02672a02c2" upstream="master"/>
+  <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_chromium-libpac" path="external/chromium-libpac" revision="0f300f3056e16a86c1461da21d111f8b1300b0b9" upstream="refs/heads/cm-14.1"/>
+  <project clone-depth="1" dest-branch="master" groups="pdk" name="LineageOS/android_external_chromium-webview" path="external/chromium-webview" revision="f05c347d88eb60d37b83a51c08b10f31b00ce9b0" upstream="master"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_external_cmsdk-api-coverage" path="external/cmsdk-api-coverage" revision="c281622c132eade02fd790fca993d8fd09385cc8" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_external_connectivity" path="external/connectivity" revision="9a6a5e7b56f1e67c7e585d75f18eacc54398695d" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_curl" path="external/curl" revision="d5d65601632665b732ef30e5072346f1d5d82d63" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_external_cyanogen_UICommon" path="external/uicommon" revision="f465bc68b7d5311ca2dc13f39a8466eb4bff6027" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" groups="pdk-fs" name="LineageOS/android_external_deqp" path="external/deqp" revision="8ed8f43aed846a734a900de0072353dc11f71edb" upstream="refs/heads/cm-14.1"/>
+  <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_dng_sdk" path="external/dng_sdk" revision="6859c11169091749b2e33cf5ae34e3337c53f31f" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_dnsmasq" path="external/dnsmasq" revision="41e4b42dbec939c12457cd4ab59112e95a0326a3" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_e2fsprogs" path="external/e2fsprogs" revision="2173635b09c10b6269dfb99f378c522c4d67761e" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_external_ebtables" path="external/ebtables" revision="8b1e493df0ebad8ba6015a2bdae794fe04ffa982" upstream="refs/heads/cm-14.1"/>
@@ -94,7 +95,7 @@
   <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_tremolo" path="external/tremolo" revision="474c4d43c8d72c999bc7045142004982101fa98c" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_external_unrar" path="external/unrar" revision="04f0097904667f822e7476318f30b8f45be64f9a" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_external_unzip" path="external/unzip" revision="5af53f0fb3c872fa7055286ed6bda1de6acf3e13" upstream="refs/heads/cm-14.1"/>
-  <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_v8" path="external/v8" revision="f97893f129f8c9739979caaa134d9649543aa2e9" upstream="refs/heads/cm-14.1"/>
+  <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_v8" path="external/v8" revision="2060ac7ea88664162c7d80e865a5583ff9f17b00" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_external_vim" path="external/vim" revision="b1f019d5e611a7fa661e218e8e11d9e02083e4c0" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" groups="pdk" name="LineageOS/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="65d4363d575db67047308b9fb02c3cd1a8a6e6d6" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_external_yaffs2" path="external/yaffs2" revision="fd7903aa063ed814fbfc204c6f666acc408d33a8" upstream="refs/heads/cm-14.1"/>
@@ -238,7 +239,7 @@
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" revision="70c2c64bcd3df5e7d9d78f9cd9ab9afaa8dc7142" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="refs/heads/cm-14.1" name="LineageOS/android_vendor_qcom_opensource_time-services" path="vendor/qcom/opensource/time-services" revision="dfab2a8b0418966421160512bfb18ec57b20159f" upstream="refs/heads/cm-14.1"/>
   <project dest-branch="master" groups="tools" name="LineageOS/contributors-cloud-generator" path="lineage/contributors-cloud-generator" revision="ddda9653e4b5f1c5522a3ac5be30aa17ee059ca7" upstream="master"/>
-  <project dest-branch="master" groups="tools" name="LineageOS/scripts" path="lineage/scripts" revision="0b193a874e19f0f64e9b4baf199a72fcffee19dc" upstream="master"/>
+  <project dest-branch="master" groups="tools" name="LineageOS/scripts" path="lineage/scripts" revision="961ad2b7fca512193365d654e3fafd0eae83b2e5" upstream="master"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk-cw-fs,pdk" name="device/common" remote="aosp" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="device/generic/arm64" remote="aosp" revision="6cb781ce6b178e671586c7448389d00bd8342c8e" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="device/generic/armv7-a-neon" remote="aosp" revision="31055dc8e7110e85be92f8d5033534ce6f3b632e" upstream="refs/tags/android-7.1.2_r36"/>
@@ -255,9 +256,9 @@
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="device,fugu,broadcom_pdk,generic_fs,pdk" name="device/google/atv" remote="aosp" revision="9e6796d59ffd0e665eea793142cf2f6ec43362bc" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="device,marlin,pdk" name="device/google/contexthub" remote="aosp" revision="c77d0b6294d47fb26e942b4f0281f148191da6c9" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="device/sample" remote="aosp" revision="11e84765fa179b5337c9a2fce685d5ba2388fe2c" upstream="refs/tags/android-7.1.2_r36"/>
-  <project dest-branch="v1-nougat" name="e/os/android" path="android" remote="e" revision="75e3e57f608b9451c94e3364ff50490baa1c343a" upstream="v1-nougat"/>
+  <project dest-branch="v1-nougat" name="e/os/android" path="android" remote="e" revision="6f76127c28d0e684d7f285d79da112815459eb69" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk" name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="88b8bb9d3cae029a4fbca1cc3026f04f2984cf97" upstream="v1-nougat"/>
-  <project dest-branch="v1-nougat" groups="pdk" name="e/os/android_build" path="build" remote="e" revision="0f3059a094f0725fb7959a539deb4e2c30cb2e5e" upstream="v1-nougat">
+  <project dest-branch="v1-nougat" groups="pdk" name="e/os/android_build" path="build" remote="e" revision="9b7e8d5e8e0b6c67850a58a2baa65cfa25117037" upstream="v1-nougat">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project dest-branch="v1-nougat" groups="pdk-cw-fs,pdk-fs" name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="02581e77eb58654be56606a9d94087b076c2187d" upstream="v1-nougat"/>
@@ -275,7 +276,7 @@
   <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="e3005068b842ba04f3cdba590344f58ddad7fca5" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="e" revision="d55eca32670a848e1bf42f46ba2912b3e2ee05d0" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="b93974f1cd52cc8eb45cc3662fb66718b166c38a" upstream="v1-nougat"/>
-  <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="c4a19be9c9ff6e07ce886f9fea90d2ac088d8c7b" upstream="v1-nougat"/>
+  <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="b91835b767e955f97112e37602d461ff2057a32c" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="5ad153619ec5b6873f4b1c27451b6c3e430ef9ff" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="f9b2bbebe2a88748500721433c27f3cfdd3da697" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="51ce9582a01b2c0ab4aaa1f30cfcafa80eb174d6" upstream="v1-nougat"/>
@@ -285,8 +286,8 @@
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1d5eddcbc5ec99f9486426d947754ddd369b8b82" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="3e0d4241b8ace4eb54de60715f104181b6f8f91a" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="072930efa8873fdcee4061ef477d77a6b501ef2d" upstream="v1-nougat"/>
-  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="d8c6418813a77973c19b79bd84d126e899a7f3c4" upstream="master"/>
-  <project dest-branch="v1-nougat" name="e/os/android_vendor_cm" path="vendor/cm" remote="e" revision="3387c4a9eddb0a9c42ae61165692192d930a008c" upstream="v1-nougat"/>
+  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="0a5dbfde2fe61f88b00612f440bf9c823bc51d4b" upstream="master"/>
+  <project dest-branch="v1-nougat" name="e/os/android_vendor_cm" path="vendor/cm" remote="e" revision="8bd2cdad1cbc3417bf4a422856ed1810dd2c8700" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/cm_platform_sdk" path="vendor/cmsdk" remote="e" revision="6eb4c1f014be75378eb1912a99a3d755ff08a14f" upstream="v1-nougat"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="platform/abi/cpp" path="abi/cpp" remote="aosp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="3a89d1ce9fe7a5160ee87ee11f99edbf540020fc" upstream="refs/tags/android-7.1.2_r36"/>
@@ -326,7 +327,6 @@
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="platform/external/dexmaker" path="external/dexmaker" remote="aosp" revision="8e77f1890450085d4aa635c86dfd91160572631e" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="platform/external/dhcpcd-6.8.2" path="external/dhcpcd-6.8.2" remote="aosp" revision="ca69393b8f54e0cd38d876547a0d82e641951798" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="platform/external/dlmalloc" path="external/dlmalloc" remote="aosp" revision="6661f3ca66b55d8f5a57b96fec97efaf8f3897a5" upstream="refs/tags/android-7.1.2_r36"/>
-  <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="platform/external/dng_sdk" path="external/dng_sdk" remote="aosp" revision="55f75647324fb733e9303967c2b9cced5e0c2c57" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="platform/external/doclava" path="external/doclava" remote="aosp" revision="d6ec3cddb1040e5861a0438917b36e3a22f82ead" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="platform/external/donuts" path="external/donuts" remote="aosp" revision="005389fb31a67841b5de42f0d25fbfab843e208c" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="drm_gralloc,pdk-fs" name="platform/external/drm_gralloc" path="external/drm_gralloc" remote="aosp" revision="cda66b80878c0c0f0799a145b41895c1149da88a" upstream="refs/tags/android-7.1.2_r36"/>
