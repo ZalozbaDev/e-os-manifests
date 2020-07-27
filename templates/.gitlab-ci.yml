@@ -63,6 +63,7 @@ stages:
         --form "variables[DEVICES]=${DEVICES}" \
         --form "variables[REPO]=${CI_REPOSITORY_URL}" \
         --form "variables[RELEASE_TYPE]=${RELEASE_TYPE}" \
+        --form "variables[PUBLISH_AUTOMATICALLY]=true" \
         ${BUILD_PROJECT_API_URL}/trigger/pipeline
   tags:
     - generic
