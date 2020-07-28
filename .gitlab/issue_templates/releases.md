@@ -2,7 +2,7 @@
 
 ## Important steps
 
-- [ ] create `target`, `released` and `missed` label
+- [ ] create `target`, `released` and `missed` label in https://gitlab.e.foundation/groups/e/-/labels
 - [ ] add targetted issues into the test plan
 - [ ] run the test build
 - [ ] run the test session
