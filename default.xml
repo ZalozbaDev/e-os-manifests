@@ -5,9 +5,9 @@
   <remote fetch="ssh://git@gitlab.e.foundation:2222" name="e-priv" revision="v1-pie"/>
   <remote fetch="https://github.com" name="github" review="review.lineageos.org"/>
   <remote fetch="ssh://git@github.com" name="private"/>
-  
+
   <default remote="github" revision="refs/heads/lineage-16.0" sync-c="true" sync-j="4"/>
-  
+
   <project dest-branch="refs/heads/lineage-16.0" groups="pdk" name="LineageOS/android_art" path="art" revision="3ff04a70bf0171cdacd311e1eedfaa0debbdbb7b" upstream="refs/heads/lineage-16.0"/>
   <project dest-branch="refs/heads/lineage-16.0" groups="pdk" name="LineageOS/android_bionic" path="bionic" revision="8604fcb3686a74d8f2a0632027525486febd45a4" upstream="refs/heads/lineage-16.0"/>
   <project dest-branch="refs/heads/lineage-16.0" groups="pdk,tradefed" name="LineageOS/android_build_kati" path="build/kati" revision="47b94ac5cfc5508b6c1c16c66439dd0702255b91" upstream="refs/heads/lineage-16.0"/>
@@ -287,7 +287,7 @@
   <project dest-branch="v1-pie" groups="pdk-fs" name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="55ecb7a1628de88f2432b70ec4c080092c2abff1" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="999eb78f75681e2614186bccbb288e450f296f39" upstream="v1-pie"/>
   <project dest-branch="v1-pie" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="98facaf8ae6f87a8315f2719e9eb59cd79963dfd" upstream="v1-pie"/>
-  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="0a5dbfde2fe61f88b00612f440bf9c823bc51d4b" upstream="master"/>
+  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="7aad0281e03b00d9b6500e91f42bc0a121473b42" upstream="master"/>
   <project dest-branch="v1-pie" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="90398a4b7344ab21ccde9759654123d3a5a52fbc" upstream="v1-pie"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk" name="kernel/configs" remote="aosp" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" name="kernel/tests" remote="aosp" revision="a4a8e36ee17fc1adfb60acaef014589a5ca326b9" upstream="refs/tags/android-9.0.0_r46"/>
@@ -716,6 +716,6 @@
   <project dest-branch="refs/tags/android-9.0.0_r46" name="toolchain/benchmark" remote="aosp" revision="ce43588700ff84f20b6bf6a513d8932f693e33dd" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="pdk" name="toolchain/binutils" remote="aosp" revision="15d7fe529a4fc80dcbb21306e55cb55f7ec1cf4a" upstream="refs/tags/android-9.0.0_r46"/>
   <project dest-branch="refs/tags/android-9.0.0_r46" groups="pdk" name="toolchain/pgo-profiles" remote="aosp" revision="24bd8873cfbddd16a8fb4c485c6ffa3406a33489" upstream="refs/tags/android-9.0.0_r46"/>
-  
+
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>
