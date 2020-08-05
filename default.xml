@@ -275,7 +275,7 @@
   <project dest-branch="v1-oreo" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="fab62a810d9b47438eb5458b48ff61bb4e609faf" upstream="v1-oreo"/>
   <project dest-branch="v1-oreo" groups="pdk-fs" name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="b965f8d3746ce46b1d33115ec1e98a1dca7062a1" upstream="v1-oreo"/>
   <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="7aad0281e03b00d9b6500e91f42bc0a121473b42" upstream="master"/>
-  <project dest-branch="v1-oreo" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="f7fcff2f996bfe64e011a0dad8aff7432acd450f" upstream="v1-oreo"/>
+  <project dest-branch="v1-oreo" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="8285ff9972ac8bfd0be5c5bc7d5a16749aa9bb02" upstream="v1-oreo"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" name="kernel/tests" remote="aosp" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="a011038d864e3faa528ec1037a568e5824955a0f" upstream="refs/tags/android-8.1.0_r52"/>
   <project dest-branch="refs/tags/android-8.1.0_r52" groups="pdk" name="platform/compatibility/cdd" path="compatibility/cdd" remote="aosp" revision="ca5bd0f77af6feda04b2fccb5318fac8abb86339" upstream="refs/tags/android-8.1.0_r52"/>
