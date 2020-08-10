@@ -7,7 +7,7 @@
 
 ## dev channel
 
-- [ ] check the test session feedback
+- [ ] check the test session feedback
     - mark validated issues with ~"status::release"
     - mark issues in error with ~"status::development"
 - [ ] tag manifest
