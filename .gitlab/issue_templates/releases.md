@@ -1,10 +1,20 @@
 <!-- If needed, you can edit the template at https://gitlab.e.foundation/e/os/releases/-/edit/master/.gitlab/issue_templates/releases.md -->
 
-## Important steps
+## Prepare
 
-- [ ] create `target`, `released` and `missed` label in https://gitlab.e.foundation/groups/e/-/labels
+- [ ] create `target`, `released` and `missed` labels in https://gitlab.e.foundation/groups/e/-/labels
 - [ ] add targetted issues into the test plan
-- [ ] run the test build
-- [ ] run the test session
+
+## dev channel
+
+- [ ] check the test session feedback
+    - mark validated issues with ~"status::release"
+    - mark issues in error with ~"status::development"
 - [ ] tag manifest
 - [ ] create release note
+
+## stable channel
+
+- [ ] Warn Cordon
+- [ ] Warn ReCommerce
+- [ ] Stable test session
