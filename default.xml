@@ -272,7 +272,7 @@
   <project dest-branch="cm-14.1-caf-8994" groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" remote="e" revision="9861377105267962c5c0ee53f4e551873066c647" upstream="cm-14.1-caf-8994"/>
   <project dest-branch="cm-14.1-caf-8996" groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="e" revision="3d5c7fa0e73ce5d53bddd836419757a21cd6182a" upstream="cm-14.1-caf-8996"/>
   <project dest-branch="cm-14.1-caf-8998" groups="qcom,qcom_audio" name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" remote="e" revision="026b16f70f1d375acfe886b97da700e352fc2c3a" upstream="cm-14.1-caf-8998"/>
-  <project dest-branch="v1-nougat" name="e/os/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="e" revision="5c74285173de4140348911c6f5a3fa963dc1c142" upstream="v1-nougat"/>
+  <project dest-branch="v1-nougat" name="e/os/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="e" revision="be9efb6cb6889efc527c2aea470c4fabcd55dc54" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="e3005068b842ba04f3cdba590344f58ddad7fca5" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="e" revision="d55eca32670a848e1bf42f46ba2912b3e2ee05d0" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" groups="pdk-fs" name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="b93974f1cd52cc8eb45cc3662fb66718b166c38a" upstream="v1-nougat"/>
@@ -286,8 +286,8 @@
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1d5eddcbc5ec99f9486426d947754ddd369b8b82" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="3e0d4241b8ace4eb54de60715f104181b6f8f91a" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="072930efa8873fdcee4061ef477d77a6b501ef2d" upstream="v1-nougat"/>
-  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="0a5dbfde2fe61f88b00612f440bf9c823bc51d4b" upstream="master"/>
-  <project dest-branch="v1-nougat" name="e/os/android_vendor_cm" path="vendor/cm" remote="e" revision="b749c4a1981c9cf0f102cd7bda32cb8dcb9979e1" upstream="v1-nougat"/>
+  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="e09a57968ab3aa0235e6a84636030a05d2f7a938" upstream="master"/>
+  <project dest-branch="v1-nougat" name="e/os/android_vendor_cm" path="vendor/cm" remote="e" revision="bd9c4379d2b2248faa5a5a84dd574af4710432a1" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/cm_platform_sdk" path="vendor/cmsdk" remote="e" revision="6eb4c1f014be75378eb1912a99a3d755ff08a14f" upstream="v1-nougat"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="platform/abi/cpp" path="abi/cpp" remote="aosp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="3a89d1ce9fe7a5160ee87ee11f99edbf540020fc" upstream="refs/tags/android-7.1.2_r36"/>
