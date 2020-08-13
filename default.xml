@@ -287,7 +287,7 @@
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="3e0d4241b8ace4eb54de60715f104181b6f8f91a" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="072930efa8873fdcee4061ef477d77a6b501ef2d" upstream="v1-nougat"/>
   <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="4c2878cbe6bf9e87b3687a100133efea753c1e72" upstream="master"/>
-  <project dest-branch="v1-nougat" name="e/os/android_vendor_cm" path="vendor/cm" remote="e" revision="8d84586978bb6193f2c5f49b1514ad7cd30620b2" upstream="v1-nougat"/>
+  <project dest-branch="v1-nougat" name="e/os/android_vendor_cm" path="vendor/cm" remote="e" revision="13ad25f454a85d61f690098327fb28ae98c94075" upstream="v1-nougat"/>
   <project dest-branch="v1-nougat" name="e/os/cm_platform_sdk" path="vendor/cmsdk" remote="e" revision="6eb4c1f014be75378eb1912a99a3d755ff08a14f" upstream="v1-nougat"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk" name="platform/abi/cpp" path="abi/cpp" remote="aosp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-7.1.2_r36"/>
   <project dest-branch="refs/tags/android-7.1.2_r36" groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="3a89d1ce9fe7a5160ee87ee11f99edbf540020fc" upstream="refs/tags/android-7.1.2_r36"/>
