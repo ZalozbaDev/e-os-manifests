@@ -2,23 +2,23 @@
 
 ## To-do
 
-### Devices team
+### Devices team
 
 - [ ] Configure build system
 - [ ] Configure release system
 
-### Test team
+### Test team
 
 - [ ] Run a test session (if testers available)
 
 ### Communication team
 
 - [ ] Prepare documentation
-- [ ] Prepare communication
+- [ ] Prepare communication
 
 ### On release day
 
-- [ ] Publish builds
+- [ ] Publish builds
 - [ ] Publish documentation
 - [ ] Communicate
 
