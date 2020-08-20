@@ -17,7 +17,7 @@ trigger-build-oreo-test:
 trigger-build-oreo-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "a3xeltexx albus angler bullhead d802 dumpling herolte hero2lte j53gxx j5lte j5ltechn j5nlte j7eltexx jason land pioneer polaris sagit santoni starlte star2lte taimen whyred x2 zl1"
+    DEVICES: "a3xeltexx albus angler beryllium bullhead chiron d802 dumpling herolte hero2lte j53gxx j5lte j5ltechn j5nlte j7eltexx jason land pioneer polaris sagit santoni starlte star2lte taimen tissot whyred x2 zl1"
 
 trigger-build-oreo-stable:
   extends: .trigger-build-stable
