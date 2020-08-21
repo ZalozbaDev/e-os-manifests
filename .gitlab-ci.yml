@@ -3,23 +3,23 @@ include:
     ref: master
     file: '/templates/.gitlab-ci.yml'
 
-update-manifest-pie:
+update-manifest-q:
   extends: .update-manifest
 
 check-version:
   extends: .check-version
 
-trigger-build-pie-test:
+trigger-build-q-test:
   extends: .trigger-build-test
   variables:
-    DEVICES: "a5y17lte beryllium capricorn chiron dreamlte dream2lte FP2 FP3 guacamoleb klte mata sailfish tissot"
+    DEVICES: "I01WD bardock bardockpro mata FP2 FP3 shamu sailfish marlin m8 m8d x2 zl1 kuntao d855 h850 d802 h990 river lake osprey harpia lux addison surnia merlin evert chef victara payton griffin nash nx563j oneplus2 oneplus3 enchilada fajita guacamole guacamoleb cheryl star2lte starlte a5xelte jfltexx a3xeltexx s5neolte gts4lvwifi jactivelte crownlte pioneer kirin mermaid voyager discovery crackling wt88047 dipper tissot chiron beryllium gemini natrium sagit polaris jason whyred lavender twolip onclite wayne jasmine_sprout lithium scorpio Amber z2_plus"
 
-trigger-build-pie-dev:
+trigger-build-q-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "a5y17lte a5xelte a7y17lte beryllium capricorn chiron dreamlte dream2lte enchilada fajita FP2 FP3 guacamole guacamoleb klte sailfish tissot marlin mata dipper river violet"
+    DEVICES: ""
 
-trigger-build-pie-stable:
+trigger-build-q-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "dreamlte dream2lte FP3"
+    DEVICES: ""
