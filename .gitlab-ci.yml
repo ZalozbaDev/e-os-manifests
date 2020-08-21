@@ -12,12 +12,12 @@ check-version:
 trigger-build-q-test:
   extends: .trigger-build-test
   variables:
-    DEVICES: "I01WD bardock bardockpro mata FP2 FP3 shamu sailfish marlin m8 m8d x2 zl1 kuntao d855 h850 d802 h990 river lake osprey harpia lux addison surnia merlin evert chef victara payton griffin nash nx563j oneplus2 oneplus3 enchilada fajita guacamole guacamoleb cheryl star2lte starlte a5xelte jfltexx a3xeltexx s5neolte gts4lvwifi jactivelte crownlte pioneer kirin mermaid voyager discovery crackling wt88047 dipper tissot chiron beryllium gemini natrium sagit polaris jason whyred lavender twolip onclite wayne jasmine_sprout lithium scorpio Amber z2_plus"
+    DEVICES: "FP3 guacamole guacamoleb star2lte starlte"
 
 trigger-build-q-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: ""
+    DEVICES: "I01WD bardock bardockpro mata FP2 FP3 shamu sailfish marlin m8 m8d x2 zl1 kuntao d855 h850 d802 h990 river lake osprey harpia lux addison surnia merlin evert chef victara payton griffin nash nx563j oneplus2 oneplus3 enchilada fajita guacamole guacamoleb cheryl star2lte starlte a5xelte jfltexx a3xeltexx s5neolte gts4lvwifi jactivelte crownlte pioneer kirin mermaid voyager discovery crackling wt88047 dipper tissot chiron beryllium gemini natrium sagit polaris jason whyred lavender twolip onclite wayne jasmine_sprout lithium scorpio Amber z2_plus"
 
 trigger-build-q-stable:
   extends: .trigger-build-stable
