@@ -150,7 +150,7 @@
   <project dest-branch="refs/heads/lineage-17.1" name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" revision="bf75f55ad5d4aa9f698a357468524a03dbdd8be1" upstream="refs/heads/lineage-17.1"/>
   <project dest-branch="refs/heads/lineage-17.1" groups="pdk-fs" name="LineageOS/android_packages_apps_HTMLViewer" path="packages/apps/HTMLViewer" revision="ae6281909805f011b8a25dd40eab443eecb3b91b" upstream="refs/heads/lineage-17.1"/>
   <project dest-branch="refs/heads/lineage-17.1" groups="pdk-fs" name="LineageOS/android_packages_apps_KeyChain" path="packages/apps/KeyChain" revision="0f9918dc5e6eae9ee8801f55d8e0426bf50a9422" upstream="refs/heads/lineage-17.1"/>
-  <project dest-branch="refs/heads/lineage-17.1" name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" revision="6d9b7c4fa5f05b6776d718e4b89d2950b1de2935" upstream="refs/heads/lineage-17.1"/>
+  <project dest-branch="refs/heads/lineage-17.1" name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" revision="7e5db13fd6d6d703a19a34f8704dbc70a8d104cb" upstream="refs/heads/lineage-17.1"/>
   <project dest-branch="refs/heads/lineage-17.1" groups="pdk-fs" name="LineageOS/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="6c65b79bcec82c2ee1b1166c683fcaca710b949f" upstream="refs/heads/lineage-17.1"/>
   <project dest-branch="refs/heads/lineage-17.1" groups="pdk-fs" name="LineageOS/android_packages_apps_Messaging" path="packages/apps/Messaging" revision="421843b6bfbbb1876bdb11c8e9e9ab7c633a97e8" upstream="refs/heads/lineage-17.1"/>
   <project dest-branch="refs/heads/lineage-17.1" groups="apps_nfc,pdk-fs" name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" revision="ae902f6dece8c7aac01790786b6085d9232e8282" upstream="refs/heads/lineage-17.1"/>
@@ -284,9 +284,9 @@
   <project dest-branch="v1-q" name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="9a845e39991a136b8e417a7c0a4e614d0a3b84a1" upstream="v1-q"/>
   <project dest-branch="v1-q" name="e/os/android_packages_apps_iconloaderlib" path="packages/apps/iconloaderlib" remote="e" revision="3d473033e12e831780ec6a5e15ccdc2cc6a3de4e" upstream="v1-q"/>
   <project dest-branch="v1-q" groups="pdk-fs,pdk-cw-fs,cts" name="e/os/android_platform_testing" path="platform_testing" remote="e" revision="dc8d0e695185a8acbf19b4a59e4bce4497e51417" upstream="v1-q"/>
-  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="d327168d0c8b1c9966b1a24c9fedda809a73e20a" upstream="master"/>
+  <project dest-branch="master" name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="1ac06f37b08aefe477da9c85a905d032f5ce0d84" upstream="master"/>
   <project dest-branch="v1-q" groups="pdk" name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="9b2e4a6e837e70d3919ed2a634c643b873b02997" upstream="v1-q"/>
-  <project dest-branch="v1-q" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="ee49a782370c525a66468802a22d94fdd16d7343" upstream="v1-q"/>
+  <project dest-branch="v1-q" name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="3e9eb53ef2833ff07895b53664441a9068c3f30b" upstream="v1-q"/>
   <project dest-branch="refs/tags/android-10.0.0_r41" name="kernel/build" remote="aosp" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r41"/>
   <project dest-branch="refs/tags/android-10.0.0_r41" groups="vts,pdk" name="kernel/configs" remote="aosp" revision="d837383e3a7c01485e04c1a1880c16736930e905" upstream="refs/tags/android-10.0.0_r41"/>
   <project dest-branch="refs/tags/android-10.0.0_r41" groups="vts,pdk" name="kernel/tests" remote="aosp" revision="765503ee2a99b865dc7bba30219408238ae61a8b" upstream="refs/tags/android-10.0.0_r41"/>
@@ -793,7 +793,7 @@
   <project dest-branch="refs/tags/android-10.0.0_r41" groups="nopresubmit,pdk,tradefed" name="platform/tools/loganalysis" path="tools/loganalysis" remote="aosp" revision="eec32327da28db6f5e599a4ab76f7c93995896ef" upstream="refs/tags/android-10.0.0_r41"/>
   <project dest-branch="refs/tags/android-10.0.0_r41" groups="pdk,tools" name="platform/tools/metalava" path="tools/metalava" remote="aosp" revision="edcafddcb54e149af8d4135a346501dde802fb30" upstream="refs/tags/android-10.0.0_r41"/>
   <project dest-branch="refs/tags/android-10.0.0_r41" groups="pdk" name="platform/tools/ndkports" path="tools/ndkports" remote="aosp" revision="74fefbc2160250129cbd157272fcfb3c9ac20f18" upstream="refs/tags/android-10.0.0_r41"/>
-  <project dest-branch="master" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" name="platform/tools/repohooks" path="tools/repohooks" remote="aosp" revision="41a1fd1aac95a1037bfb58dc4bba99854272909c" upstream="master"/>
+  <project dest-branch="master" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" name="platform/tools/repohooks" path="tools/repohooks" remote="aosp" revision="1baec120bf1814fca307928fd6e62982875a3951" upstream="master"/>
   <project dest-branch="refs/tags/android-10.0.0_r41" groups="pdk,tools" name="platform/tools/security" path="tools/security" remote="aosp" revision="3c5ee5d6f2f50895611eacd71a62b11efcfb0648" upstream="refs/tags/android-10.0.0_r41"/>
   <project dest-branch="refs/tags/android-10.0.0_r41" groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" remote="aosp" revision="4857a1a24ab6fd537bc4186fc88548c2b9c29e82" upstream="refs/tags/android-10.0.0_r41"/>
   <project dest-branch="refs/tags/android-10.0.0_r41" groups="pdk" name="platform/tools/test/graphicsbenchmark" path="tools/test/graphicsbenchmark" remote="aosp" revision="143e833b3762e93b0a1fe6a6bc127f09e5afade8" upstream="refs/tags/android-10.0.0_r41"/>
