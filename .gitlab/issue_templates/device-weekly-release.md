@@ -16,9 +16,14 @@
 - [ ] Prepare documentation
 - [ ] Prepare communication
 
+### Infra team
+
+- [ ] Prepare the symbolic links
+
 ### On release day
 
-- [ ] Publish builds
+- [ ] Run the release build
+- [ ] Release the builds
 - [ ] Publish documentation
 - [ ] Communicate
 
