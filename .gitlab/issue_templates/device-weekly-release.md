@@ -7,6 +7,11 @@
 - [ ] Configure build system
 - [ ] Configure release system
 - [ ] Run the release build
+    - `DEVICES`:
+    - `BRANCH_NAME`:
+    - `REPO`:
+    - `PUBLISH_AUTOMATICALLY`:
+    - `RELEASE_TYPE`: 
 
 ### Test team
 
