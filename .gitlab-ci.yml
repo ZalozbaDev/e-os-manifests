@@ -17,7 +17,7 @@ trigger-build-pie-test:
 trigger-build-pie-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "a5y17lte a5xelte a7y17lte beryllium capricorn chiron cheeseburger dreamlte dream2lte dumpling enchilada fajita FP2 FP3 guacamole guacamoleb klte sailfish tissot marlin mata dipper river violet zenfone3 X00TD X01BD"
+    DEVICES: "a5y17lte a5xelte a7y17lte beryllium capricorn chiron cheeseburger dreamlte dream2lte dumpling enchilada fajita FP2 FP3 guacamole guacamoleb klte land sailfish santoni tissot marlin mata dipper r5 r7plus r7sf river violet zenfone3 X00TD X01BD"
 
 trigger-build-pie-stable:
   extends: .trigger-build-stable
