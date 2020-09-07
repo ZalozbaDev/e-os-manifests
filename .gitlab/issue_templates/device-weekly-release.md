@@ -6,6 +6,7 @@
 
 - [ ] Configure build system
 - [ ] Configure release system
+- [ ] Run the release build
 
 ### Test team
 
