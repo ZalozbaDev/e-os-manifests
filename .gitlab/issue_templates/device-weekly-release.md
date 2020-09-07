@@ -7,11 +7,11 @@
 - [ ] Configure build system
 - [ ] Configure release system
 - [ ] Run the release build
-    - `DEVICES`:
-    - `BRANCH_NAME`:
-    - `REPO`:
-    - `PUBLISH_AUTOMATICALLY`:
-    - `RELEASE_TYPE`: 
+    - `DEVICES`: ``
+    - `BRANCH_NAME`: ``
+    - `REPO`: `https://gitlab.e.foundation/e/os/releases.git`
+    - `PUBLISH_AUTOMATICALLY`: `true`
+    - `RELEASE_TYPE`: `dev`
 
 ### Test team
 
