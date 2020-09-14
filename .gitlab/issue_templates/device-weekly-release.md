@@ -6,7 +6,7 @@
 
 - [ ] Configure build system
 - [ ] Configure release system
-- [ ] Run the release build
+- [ ] [Run the release build](https://gitlab.e.foundation/e/priv/os/build/pipelines/new)
     - `DEVICES`: ``
     - `BRANCH_NAME`: ``
     - `REPO`: `https://gitlab.e.foundation/e/os/releases.git`
