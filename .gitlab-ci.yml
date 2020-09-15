@@ -12,7 +12,7 @@ check-version:
 trigger-build-q-test:
   extends: .trigger-build-test
   variables:
-    DEVICES: "FP3 guacamole guacamoleb star2lte starlte"
+    DEVICES: "FP3 guacamole guacamoleb star2lte starlte violet"
 
 trigger-build-q-dev:
   extends: .trigger-build-dev
