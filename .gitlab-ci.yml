@@ -12,7 +12,7 @@ check-version:
 trigger-build-pie-test:
   extends: .trigger-build-test
   variables:
-    DEVICES: "a5y17lte beryllium capricorn chiron dreamlte dream2lte FP2 FP3 guacamoleb klte mata s2 sailfish tissot violet X00TD X01BD zenfone3"
+    DEVICES: "a5y17lte beryllium capricorn chiron dreamlte dream2lte FP2 FP3 guacamoleb klte land mata s2 sailfish tissot violet X00TD X01BD zenfone3"
 
 trigger-build-pie-dev:
   extends: .trigger-build-dev
