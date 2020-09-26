@@ -105,7 +105,7 @@
   <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" revision="dfd2336cebaa4e01d9694ec0692b3cbf065e8db6" upstream="lineage-16.0-caf-8084" dest-branch="lineage-16.0-caf-8084" groups="pdk-qcom,qcom,qcom_display"/>
   <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" revision="197a40e18b003ef8c7c5049d5b2d67fa4154f57c" upstream="lineage-16.0-caf-8916" dest-branch="lineage-16.0-caf-8916" groups="pdk-qcom,qcom,qcom_display"/>
   <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" revision="f38874231c09b4ca483a2a6402355c4e8f6afef4" upstream="lineage-16.0-caf-8952" dest-branch="lineage-16.0-caf-8952" groups="pdk-qcom,qcom,qcom_display"/>
-  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" revision="7178e057d771d7886c5f31c79d684614b57bbe3f" upstream="lineage-16.0-caf-8960" dest-branch="lineage-16.0-caf-8960" groups="pdk-qcom,qcom,qcom_display"/>
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" revision="b90f1719c1adbdf1644ddba0c061c045a79df94e" upstream="lineage-16.0-caf-8960" dest-branch="lineage-16.0-caf-8960" groups="pdk-qcom,qcom,qcom_display"/>
   <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="0cc9709b80e254f0fa8d823f464eaa999344c226" upstream="lineage-16.0-caf-8974" dest-branch="lineage-16.0-caf-8974" groups="pdk-qcom,qcom,qcom_display"/>
   <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" revision="4523303d95025f1097ab786bafbf75992a49ea70" upstream="lineage-16.0-caf-8994" dest-branch="lineage-16.0-caf-8994" groups="pdk-qcom,qcom,qcom_display"/>
   <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="44a0b38f9b32e5944879b3a1bf292b1b8a132d53" upstream="lineage-16.0-caf-8996" dest-branch="lineage-16.0-caf-8996" groups="pdk-qcom,qcom,qcom_display"/>
@@ -259,7 +259,7 @@
     <linkfile src="tools" dest="build/tools"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="26afe03a7ed0338ffb5b0f01b94e5c4aa4610230" upstream="v1-pie" dest-branch="v1-pie"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="a89e4bbbc7172982d7e11e1f96d29bd294ba0d0d" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="70046cf0ffe1b7d02559cdd44af1516f9a54ea0f" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="b5499cdb222cbd6f32c137bed91dedddfe111688" upstream="v1-pie" dest-branch="v1-pie" groups="pdk"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="e2fb9ae4156c54fd8d715fa236dec504cb6c281f" upstream="v1-pie" dest-branch="v1-pie" groups="qcom,qcom_audio,pdk-qcom"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" upstream="lineage-16.0-caf-8084" dest-branch="lineage-16.0-caf-8084" groups="qcom,qcom_audio,pdk-qcom"/>
@@ -272,24 +272,24 @@
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" remote="e" revision="161687e3a00d8742e78bb5c660d8f2176ce8d2fe" upstream="lineage-16.0-caf-8998" dest-branch="lineage-16.0-caf-8998" groups="qcom,qcom_audio,pdk-qcom"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sdm845" remote="e" revision="55efc744292bd69a8874c2c61997762397c13057" upstream="lineage-16.0-caf-845" dest-branch="lineage-16.0-caf-845" groups="qcom,qcom_audio,pdk-qcom"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sm8150" remote="e" revision="69a9cbdb87291748e791aadc209b7ed9ff259d89" upstream="lineage-16.0-caf-8150" dest-branch="lineage-16.0-caf-8150" groups="qcom,qcom_audio,pdk-qcom"/>
-  <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="4533f6f019d3b8fea18154c29ac0c2dd0efa7ed7" upstream="v1-pie" dest-branch="v1-pie"/>
+  <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="102f5bee0d7c232fd356a0a2397444f98d20b874" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="9f230f012b10b5a86690900ab002964a4b744e5c" upstream="v1-pie" dest-branch="v1-pie"/>
-  <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="670b0f4e605f973d2db542d227cb57021bddc6b7" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="ab265c43d56b9dd24b2e21c7909829d1df0dd97a" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="1663c5358fc1b6bea55344be3ef223646f5ed15e" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="ad26f1d63a75bbf9067e96ce74ee4df4653ac0ba" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="9791dca4f984650ac2c204ca29748f505ab3baa6" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="f0d85fefbccbb1f15aa9b3280bee8d9a1b7aa30a" upstream="v1-pie" dest-branch="v1-pie"/>
+  <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="52a9f7685cef380e5b6b187bb1a7c41a26f4743b" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="eaede93088f56afb7f1fabf4c0315edf3f37e95e" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="474b415c8016cd136f19c87baaa088eb73f5604c" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="d01da58dc80d53e036f125ba2f7f1c547c6f38b9" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="2b8455bd2c35c45d466310495aa04846a42e0a7e" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="1041117b68ad74b54e9706e3f09366ae47eb6c85" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="a40916dc0e9201cbced104f91dc42c5492441da1" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="7364322a04dcae9a17b8b4d3750600561a1cf433" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="62c9fd828d360503a6aa146e3adb55a6293beb1c" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="611cf813ceb604c071a375c8be5d486dbab14623" upstream="v1-pie" dest-branch="v1-pie"/>
-  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="5ae8031d932ff7de62352aafd0cdc39c0fc91503" upstream="v1-pie" dest-branch="v1-pie"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="cd870e62a15565c583aae0a5582d5a78771edf33" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="b30740481c9d2d35525721eb4de45de2decd7ea0" upstream="v1-pie" dest-branch="v1-pie"/>
+  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="cde691c7a63f025eadd851597d5599928be26cad" upstream="v1-pie" dest-branch="v1-pie"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="ff0886fe9e49e066270d448224854cc63cacde1b" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="e3ae6169928c59157c8f4496a049553eee1a4ed4" upstream="v1-pie" dest-branch="v1-pie" groups="pdk"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="eb3ffe3a110ef86dd2a4ef5156366b1fd1756e4c" upstream="v1-pie" dest-branch="v1-pie"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="14775cda8dc0cc8a301d201b3ac9e16c06f11c85" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="kernel/configs" remote="aosp" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk"/>
   <project name="kernel/tests" remote="aosp" revision="a4a8e36ee17fc1adfb60acaef014589a5ca326b9" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46"/>
   <project name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="28335d2c283293db4b20d3eb548338fdafa5abd5" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,tradefed"/>
