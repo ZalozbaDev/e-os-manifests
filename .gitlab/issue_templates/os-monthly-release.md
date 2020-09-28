@@ -19,4 +19,10 @@
 - [ ] Warn ReCommerce
 - [ ] Stable test session
 
+## What's inside?
+
+| Component | Type | Description | Issue |
+| --------- | ---- | ----------- | ----- |
+|           |      |             |       |
+
 /confidential
