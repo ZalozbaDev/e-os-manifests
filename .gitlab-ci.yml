@@ -17,7 +17,7 @@ trigger-build-nougat-test:
 trigger-build-nougat-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "a5y17lte addison athene axon7 bacon cancro capricorn cheeseburger crackling d855 FP2 gemini h850 ha3g harpia herolte hero2lte hiaeuhl hlte i9300 i9305 jalebi jfltexx kenzo kiwi libra lux mata mido n7100 natrium oneplus2 oneplus3 onyx osprey pinebook pme s2 serrano3gxx serranodsdd serranoltexx shamu sumire teres treltexx t0lte"
+    DEVICES: "a5y17lte addison athene axon7 bacon cancro capricorn cheeseburger condor crackling d855 falcon FP2 gemini h850 ha3g hammerhead harpia herolte hero2lte hiaeuhl hlte i9300 i9305 jalebi jfltexx kenzo kiwi libra lux m8 mako mata mido n7100 natrium oneplus2 oneplus3 onyx osprey peregrine pinebook pme titan s2 serrano3gxx serranodsdd serranoltexx shamu sumire teres treltexx t0lte wt88047 zerofltexx zeroltexx"
 
 trigger-build-nougat-stable:
   extends: .trigger-build-stable
