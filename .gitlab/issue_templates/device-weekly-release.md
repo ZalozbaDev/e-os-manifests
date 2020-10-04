@@ -29,6 +29,7 @@
 ### On release day
 
 - [ ] Add the device label under /e/ group (https://gitlab.e.foundation/groups/e/-/labels/new, color code `#34495E`)
+- [ ] Create the Community page for install help
 - [ ] Release the builds
 - [ ] Publish documentation
 - [ ] Communicate
