@@ -7,7 +7,7 @@ then
   VENDOR="android_vendor_cm"
 fi
 
-VENDOR_COMMIT_ID=$(cat default.xml | grep $VENDOR | sed -E 's/.*revision="(.*)" .*/\1/')
+VENDOR_COMMIT_ID=$(cat default.xml | grep $VENDOR | sed -E 's/.*revision="(\S*)" .*/\1/')
 
 curl -s https://gitlab.e.foundation/e/os/$VENDOR/-/raw/$VENDOR_COMMIT_ID/config/common.mk -o common.mk
 PRODUCT_VERSION_MAJOR=$(cat common.mk | grep "PRODUCT_VERSION_MAJOR = " | sed -E 's/PRODUCT_VERSION_MAJOR = ([0-9]*)/\1/')
