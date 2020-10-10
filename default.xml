@@ -78,7 +78,7 @@
   <project name="LineageOS/android_external_zip" path="external/zip" revision="c4117e141be848db220f292f08006182427cd93f" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0"/>
   <project name="LineageOS/android_external_zlib" path="external/zlib" revision="2653cea279ffecbfcd145953b653be04528498b1" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk"/>
   <project name="LineageOS/android_frameworks_av" path="frameworks/av" revision="533b5117ad28f3eb8307d029e4b523b0e38508df" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk"/>
-  <project name="LineageOS/android_frameworks_native" path="frameworks/native" revision="23a8ea7cd2aa38cc28d37ae0e1e06043ec5da0b3" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk"/>
+  <project name="LineageOS/android_frameworks_native" path="frameworks/native" revision="206c9128ca56a5eef333b6c331eb2df8b4ed63b8" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk"/>
   <project name="LineageOS/android_frameworks_opt_datetimepicker" path="frameworks/opt/datetimepicker" revision="bf6e0618cf1f2642923b2258969deb3fc950dadc" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="2fef2b18a391bd19cd74574dc0ea6088ee3459ee" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk"/>
   <project name="LineageOS/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="99728169788e8d6f66a7a45156657b151a0b2c63" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk"/>
@@ -289,7 +289,7 @@
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="cde691c7a63f025eadd851597d5599928be26cad" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="ff0886fe9e49e066270d448224854cc63cacde1b" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="e3ae6169928c59157c8f4496a049553eee1a4ed4" upstream="v1-pie" dest-branch="v1-pie" groups="pdk"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="cd39dde093da2cfefa8350ce6ce58d98b6fe708c" upstream="v1-pie" dest-branch="v1-pie"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="058031589c2f928be1b18df57540a5d9594140f4" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="kernel/configs" remote="aosp" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk"/>
   <project name="kernel/tests" remote="aosp" revision="a4a8e36ee17fc1adfb60acaef014589a5ca326b9" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46"/>
   <project name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="28335d2c283293db4b20d3eb548338fdafa5abd5" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,tradefed"/>
