@@ -238,7 +238,7 @@
   <project name="LineageOS/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" revision="70c2c64bcd3df5e7d9d78f9cd9ab9afaa8dc7142" upstream="refs/heads/cm-14.1" dest-branch="refs/heads/cm-14.1"/>
   <project name="LineageOS/android_vendor_qcom_opensource_time-services" path="vendor/qcom/opensource/time-services" revision="dfab2a8b0418966421160512bfb18ec57b20159f" upstream="refs/heads/cm-14.1" dest-branch="refs/heads/cm-14.1"/>
   <project name="LineageOS/contributors-cloud-generator" path="lineage/contributors-cloud-generator" revision="a26467077a286663d413c3efb98b05b418f634b0" upstream="master" dest-branch="master" groups="tools"/>
-  <project name="LineageOS/scripts" path="lineage/scripts" revision="abe23b37bfe9c0b4093bbe15f68301e6d7564b45" upstream="master" dest-branch="master" groups="tools"/>
+  <project name="LineageOS/scripts" path="lineage/scripts" revision="2fea5942d26cc61ec1cbe368ed18252acd355d61" upstream="master" dest-branch="master" groups="tools"/>
   <project name="device/common" remote="aosp" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r36" dest-branch="refs/tags/android-7.1.2_r36" groups="pdk-cw-fs,pdk"/>
   <project name="device/generic/arm64" remote="aosp" revision="6cb781ce6b178e671586c7448389d00bd8342c8e" upstream="refs/tags/android-7.1.2_r36" dest-branch="refs/tags/android-7.1.2_r36" groups="pdk"/>
   <project name="device/generic/armv7-a-neon" remote="aosp" revision="31055dc8e7110e85be92f8d5033534ce6f3b632e" upstream="refs/tags/android-7.1.2_r36" dest-branch="refs/tags/android-7.1.2_r36" groups="pdk"/>
