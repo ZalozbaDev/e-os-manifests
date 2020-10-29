@@ -17,9 +17,9 @@ trigger-build-q-test:
 trigger-build-q-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "river lake mata enchilada fajita tissot oneplus2 oneplus3 guacamole guacamoleb"
+    DEVICES: "FP3 river lake mata enchilada fajita tissot oneplus2 oneplus3 guacamole guacamoleb"
 
 trigger-build-q-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: ""
+    DEVICES: "FP3"
