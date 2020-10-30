@@ -17,6 +17,7 @@
 
 - [ ] Warn Cordon
 - [ ] Warn ReCommerce
+- [ ] Warn ESPRI DIGITAL
 - [ ] Stable test session
 
 ## What's inside?
