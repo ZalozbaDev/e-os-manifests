@@ -270,7 +270,7 @@
   <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="542f796e2d79d4f294a4c700dc8cadc9ffd499f9" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="2ca5107f2a4bdc5afa248f45deea1e54ffe304f1" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="81f555fe11a34c7970a4c564b5642f9e9e9ce47f" upstream="v1-q" dest-branch="v1-q" groups="qcom,qcom_audio,pdk-qcom"/>
-  <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="cf6a2e8e909d040e69167013cccc6a4ecb461a6e" upstream="v1-q" dest-branch="v1-q"/>
+  <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="80397741c17d4dcb41632e8e8b95659e8bebeda0" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="6c18c99d82d8119f41bf9993e360e87e7aa285f5" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="7f076b672fae32cb4e3d335436a521fbb4355b1c" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="f084c176609ae2b1fca2188f725ccaa8f7513f2a" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
