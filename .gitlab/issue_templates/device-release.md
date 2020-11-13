@@ -7,14 +7,16 @@
 ⚠️ Problem
 >>>
 
-## Technical part
+## Technical part
 
 ### Inputs
 
 - 📋 Get sources
 - 📋 Check /e/ support checklist
 - 📋 Document stock ROM installation
-- 📋 Decide classical support or GSI support
+- 📋 Decide between
+    - classical support
+    - GSI support
 
 ### Support
 
@@ -39,7 +41,7 @@
     - 📋 Handle feedback
 - Public beta
   - 📋 Public beta documentation
-  - 📋 Annoucement
+  - 📋 Announcement
   - 📋 Handle feedback
 
 ### Installation
