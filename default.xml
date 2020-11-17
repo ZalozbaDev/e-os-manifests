@@ -267,7 +267,7 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="bf5742e9045b774c15553616629371e36d13cac8" upstream="v1-q" dest-branch="v1-q"/>
+  <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="e6869784fa398404a7914d6e0dd1b8494a14f60b" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="542f796e2d79d4f294a4c700dc8cadc9ffd499f9" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="2ca5107f2a4bdc5afa248f45deea1e54ffe304f1" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="81f555fe11a34c7970a4c564b5642f9e9e9ce47f" upstream="v1-q" dest-branch="v1-q" groups="qcom,qcom_audio,pdk-qcom"/>
