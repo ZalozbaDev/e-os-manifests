@@ -5,9 +5,9 @@
   <remote name="e-priv" fetch="ssh://git@gitlab.e.foundation:2222" revision="v1-pie"/>
   <remote name="github" fetch="https://github.com" review="review.lineageos.org"/>
   <remote name="private" fetch="ssh://git@github.com"/>
-  
+
   <default remote="github" revision="refs/heads/lineage-16.0" sync-j="4" sync-c="true"/>
-  
+
   <project name="LineageOS/android_art" path="art" revision="3ff04a70bf0171cdacd311e1eedfaa0debbdbb7b" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="b91dfc8b9dcb1ffbf9572fc0406878e599c45ccc" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk"/>
   <project name="LineageOS/android_build_kati" path="build/kati" revision="47b94ac5cfc5508b6c1c16c66439dd0702255b91" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk,tradefed"/>
@@ -276,12 +276,12 @@
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sm8150" remote="e" revision="69a9cbdb87291748e791aadc209b7ed9ff259d89" upstream="lineage-16.0-caf-8150" dest-branch="lineage-16.0-caf-8150" groups="qcom,qcom_audio,pdk-qcom"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="64708869353fa6f1568dc6b013321be97b6bd1b9" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="ba4ad6ae5d5b3142c1541c6ae14484e704cb79cd" upstream="v1-pie" dest-branch="v1-pie"/>
-  <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="44e059f3e02be6f25f4945432dfd3614fccd1af8" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="b54d960bd0fa82b8dae7acd67112f4db6b04eb49" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="348930ddbddb8f322601ee24d8d9dad1d675ecb9" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="8c36050dcf58cf9883033f4dd0c28c7da855709f" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="8d5423dbf31108aaeed047dfac08a7ec0eb47f7d" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="474b415c8016cd136f19c87baaa088eb73f5604c" upstream="v1-pie" dest-branch="v1-pie"/>
-  <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="5eac55f151d1c0ee86deb89ec0d2e6df234ddf22" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="81f313a04e4362a227eddcf6fa1f9ad74cca7656" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="3f2b0bbdc2128d566f2ad09e525d3227f9a675d5" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="725b1617f3b88ab2df68be502d17cd2d631c4f13" upstream="v1-pie" dest-branch="v1-pie"/>
+  <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="1b8859bb97b8005e659fe53bd504aba2687c8ada" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="2b8455bd2c35c45d466310495aa04846a42e0a7e" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="6d2db6965da420ebb21e0ccc93cf96aab852f76c" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="820b736fc14d19c70af2d02dcc2d696e89ab1ef2" upstream="v1-pie" dest-branch="v1-pie"/>
@@ -289,7 +289,7 @@
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="9bf99f5800d5c22a6a0f4ade10638ecb66c05264" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="6b9e12911a2e840aeb6514ea618bdd88a821f627" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="0e1667b1adb5a43e31917a51fa5fcdc2b4cb8426" upstream="v1-pie" dest-branch="v1-pie"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="0b2c139b877532d700d80bf1cb0011181224e26f" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="60dfff97dcfdeeb8ec1b16409ae3cee11a3a7e6b" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="e3ae6169928c59157c8f4496a049553eee1a4ed4" upstream="v1-pie" dest-branch="v1-pie" groups="pdk"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="3ca16d78ee2960dde2d92636ecab3ebfeacac419" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="kernel/configs" remote="aosp" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk"/>
@@ -716,6 +716,6 @@
   <project name="toolchain/benchmark" remote="aosp" revision="ce43588700ff84f20b6bf6a513d8932f693e33dd" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46"/>
   <project name="toolchain/binutils" remote="aosp" revision="15d7fe529a4fc80dcbb21306e55cb55f7ec1cf4a" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="toolchain/pgo-profiles" remote="aosp" revision="24bd8873cfbddd16a8fb4c485c6ffa3406a33489" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
-  
+
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
 </manifest>
