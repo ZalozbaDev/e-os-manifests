@@ -276,7 +276,7 @@
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1b9370e37c0e5378ac90612bba86bfbc3f8f6496" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="fab62a810d9b47438eb5458b48ff61bb4e609faf" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="b965f8d3746ce46b1d33115ec1e98a1dca7062a1" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="97f96c864cfae8dc6b05048c842d4c6616cdfe9c" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="eb002a690bb879382247f363720ffd66843ffde0" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="1a63362c81f53d5114dbd2deb72ab5fb3ae411eb" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="df591e11b027aaae6b5a67190cc0d02e5c7b056c" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="kernel/tests" remote="aosp" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52"/>
