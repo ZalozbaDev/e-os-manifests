@@ -258,7 +258,7 @@
   <project name="device/sample" remote="aosp" revision="d64a03ec745d8e4085ae65a868f1e8d66b2d9c4c" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="pdk"/>
   <project name="e/os/android" path="android" remote="e" revision="125b242419a357a852334982f770b7cb3a827291" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="a1ea476005b44e8e63c08bc3ec6bd423d84260ec" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
-  <project name="e/os/android_build" path="build/make" remote="e" revision="2ba00ad734f8d487888a0a7231cd79146b4ce5c3" upstream="v1-q" dest-branch="v1-q" groups="pdk">
+  <project name="e/os/android_build" path="build/make" remote="e" revision="58d208d98af9920288d36d17c206e2645e63f9eb" upstream="v1-q" dest-branch="v1-q" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -298,7 +298,7 @@
   <project name="e/os/android_packages_apps_iconloaderlib" path="packages/apps/iconloaderlib" remote="e" revision="3d473033e12e831780ec6a5e15ccdc2cc6a3de4e" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="e" revision="3c638fcebfe91e278df0ab60be7ac0c9c742f7c8" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_platform_testing" path="platform_testing" remote="e" revision="dc8d0e695185a8acbf19b4a59e4bce4497e51417" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs,pdk-cw-fs,cts"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="a3fbd4ba71c59386d0990b01ee5b7b592db6c0c5" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="5ba91cffc7a8116ece2be0a2cfacf8e085249202" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="bc115c08b0bb1c0ed43c1a207777fd15b0d2c125" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="938306dca6a85dfebe53e5045a97fca165dd9434" upstream="v1-q" dest-branch="v1-q"/>
   <project name="kernel/build" remote="aosp" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41"/>
