@@ -286,7 +286,7 @@
   <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="116cd46216ca627a6e1d6497981a8dc1b36c1633" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="3245eb2360c9d8139730addfc2a8c78466651686" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="fbdd35fcdd32d0ec128367aedc8237fd6d709db2" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="ad723a1d10918ede76a714e4eaf4e1ba92894753" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="7311b1f384704325958f1512afa21ef75c44a634" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="feb8f9a8e748b552c8cb773892ec31cd303a8e29" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="d384428e1f8f4315dfa68166a64c7cc64b3504d0" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="015b30d4f636b1e16f9018cb6a7576b9f3122c79" upstream="v1-q" dest-branch="v1-q"/>
