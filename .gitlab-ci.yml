@@ -12,14 +12,14 @@ check-version:
 trigger-build-q-test:
   extends: .trigger-build-test
   variables:
-    DEVICES: "FP3 chiron guacamole guacamoleb mata river star2lte starlte whyred"
+    DEVICES: "beryllium chiron FP3 guacamole guacamoleb GS290 mata river starlte star2lte tissot whyred"
 
 trigger-build-q-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "FP3 river lake mata enchilada fajita tissot oneplus2 oneplus3 guacamole guacamoleb"
+    DEVICES: "enchilada fajita FP3 guacamole guacamoleb GS290 lake mata oneplus2 oneplus3 river tissot"
 
 trigger-build-q-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "FP3"
+    DEVICES: "FP3 GS290"
