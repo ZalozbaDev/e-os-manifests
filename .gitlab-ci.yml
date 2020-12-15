@@ -12,7 +12,7 @@ check-version:
 trigger-build-oreo-test:
   extends: .trigger-build-test
   variables:
-    DEVICES: "a3xeltexx dumpling herolte hero2lte land polaris sagit starlte whyred"
+    DEVICES: "a3xeltexx beryllium chiron dumpling herolte hero2lte kiwi land polaris sagit starlte star2lte tissot whyred"
 
 trigger-build-oreo-dev:
   extends: .trigger-build-dev
