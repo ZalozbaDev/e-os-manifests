@@ -11,7 +11,7 @@
   <project name="LineageOS/android_art" path="art" revision="3ff04a70bf0171cdacd311e1eedfaa0debbdbb7b" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="b91dfc8b9dcb1ffbf9572fc0406878e599c45ccc" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk"/>
   <project name="LineageOS/android_build_kati" path="build/kati" revision="47b94ac5cfc5508b6c1c16c66439dd0702255b91" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk,tradefed"/>
-  <project name="LineageOS/android_build_soong" path="build/soong" revision="6d326a29e504c88eac9fef7b019b620ecc3ec2f0" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk,tradefed">
+  <project name="LineageOS/android_build_soong" path="build/soong" revision="c27467148be7a09251ebbefd59759066e3f1aa42" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="pdk,tradefed">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
@@ -251,7 +251,7 @@
   <project name="device/sample" remote="aosp" revision="64f95592f3bc922952396445d7dbc7acebdefd96" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="e/os/android" path="android" remote="e" revision="638e6fec8aa622b4feedad9ae6cfa852ca68f07d" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="0909e361d6ab8a93cc68f16a269588bd3b300165" upstream="v1-pie" dest-branch="v1-pie" groups="pdk"/>
-  <project name="e/os/android_build" path="build/make" remote="e" revision="4ce098175d6a3c26f322bbd1cd87c67bd0d972b1" upstream="v1-pie" dest-branch="v1-pie" groups="pdk">
+  <project name="e/os/android_build" path="build/make" remote="e" revision="e9fa93e6b90b6f052e36419c098ead54c029b4cd" upstream="v1-pie" dest-branch="v1-pie" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -274,12 +274,12 @@
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" remote="e" revision="161687e3a00d8742e78bb5c660d8f2176ce8d2fe" upstream="lineage-16.0-caf-8998" dest-branch="lineage-16.0-caf-8998" groups="qcom,qcom_audio,pdk-qcom"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sdm845" remote="e" revision="55efc744292bd69a8874c2c61997762397c13057" upstream="lineage-16.0-caf-845" dest-branch="lineage-16.0-caf-845" groups="qcom,qcom_audio,pdk-qcom"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sm8150" remote="e" revision="69a9cbdb87291748e791aadc209b7ed9ff259d89" upstream="lineage-16.0-caf-8150" dest-branch="lineage-16.0-caf-8150" groups="qcom,qcom_audio,pdk-qcom"/>
-  <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="a01b2f00aa713d994f527a1d4dceb45e6be56002" upstream="v1-pie" dest-branch="v1-pie"/>
+  <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="fc012049bb197ee0e0752085a31c9e72c8f19bfb" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="ba4ad6ae5d5b3142c1541c6ae14484e704cb79cd" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="dde221d72fdff140e9166ae51787f0f42e5782d2" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="9e281d9c1a9cd8c83ff2e5251f6b04b2c2d6f401" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="76c1eb653189d993a882d947674973065abd9d8d" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="f18f6ec85783a8e309b18e8010bde44dd2cd6d9d" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="6e7af0cb11b42ecabb9f14a8ad6426a7b8f61e96" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="255400a8b78659d7da8197b52d4a5b01253fe182" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="d317946ac1bbb6a2873727f3e69840a55aac66d7" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="2b8455bd2c35c45d466310495aa04846a42e0a7e" upstream="v1-pie" dest-branch="v1-pie"/>
