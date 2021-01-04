@@ -270,7 +270,7 @@
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" remote="e" revision="9861377105267962c5c0ee53f4e551873066c647" upstream="cm-14.1-caf-8994" dest-branch="cm-14.1-caf-8994" groups="qcom,qcom_audio"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="e" revision="3d5c7fa0e73ce5d53bddd836419757a21cd6182a" upstream="cm-14.1-caf-8996" dest-branch="cm-14.1-caf-8996" groups="qcom,qcom_audio"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" remote="e" revision="026b16f70f1d375acfe886b97da700e352fc2c3a" upstream="cm-14.1-caf-8998" dest-branch="cm-14.1-caf-8998" groups="qcom,qcom_audio"/>
-  <project name="e/os/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="e" revision="2c149c54c79988485ded25a5b1eb6352ca02950c" upstream="v1-nougat" dest-branch="v1-nougat"/>
+  <project name="e/os/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="e" revision="d7757c65e5f7ccc3ba7871ea7fb1f2deeb7f6de6" upstream="v1-nougat" dest-branch="v1-nougat"/>
   <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="e3005068b842ba04f3cdba590344f58ddad7fca5" upstream="v1-nougat" dest-branch="v1-nougat" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="e" revision="d55eca32670a848e1bf42f46ba2912b3e2ee05d0" upstream="v1-nougat" dest-branch="v1-nougat" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="b93974f1cd52cc8eb45cc3662fb66718b166c38a" upstream="v1-nougat" dest-branch="v1-nougat" groups="pdk-fs"/>
