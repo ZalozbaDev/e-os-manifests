@@ -296,7 +296,7 @@
   <project name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="015b30d4f636b1e16f9018cb6a7576b9f3122c79" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="b8ab6d3f9941535ba872521d97906fe21451a50e" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="4fdf2375f429f1fc4efbc47d0ad6bb54b3c2ab23" upstream="v1-q" dest-branch="v1-q"/>
-  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="0d74a0985fb35c90596a898e17241004c0dfbfc9" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="f1ee1e5687c7212899c1fa314d38c3867fdf696b" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="cc7e348d7cacb7635901531b9ee95569528d6a12" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="ff0eff5afe07c10458b0b537745327756c509715" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_iconloaderlib" path="packages/apps/iconloaderlib" remote="e" revision="3d473033e12e831780ec6a5e15ccdc2cc6a3de4e" upstream="v1-q" dest-branch="v1-q"/>
