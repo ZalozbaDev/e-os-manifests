@@ -262,7 +262,7 @@
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="e" revision="4e49287efe116173c05541130290b938a16ea190" upstream="lineage-15.1-caf-8996" dest-branch="lineage-15.1-caf-8996" groups="qcom,qcom_audio,pdk"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" remote="e" revision="5b9273d43625da8349fbd11221c0f863af7118b5" upstream="lineage-15.1-caf-8998" dest-branch="lineage-15.1-caf-8998" groups="qcom,qcom_audio,pdk"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sdm845" remote="e" revision="e1003dcc9752e0f3b66b534c7dc80ccd189b2a9e" upstream="lineage-15.1-caf-845" dest-branch="lineage-15.1-caf-845" groups="qcom,qcom_audio,pdk"/>
-  <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="e9e3706c233d7ace18f75035fe6ef603143aba9b" upstream="v1-oreo" dest-branch="v1-oreo"/>
+  <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="a22aa2427e060a4ee829965fa278b43439cbcec3" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="81cfe786cccf964dbcc755647b09440295f4da49" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="ec878102283738e1b41ad29f93ffe3d662ff7cb6" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="cb79faae97133c585b875ad0234a307ac3782e82" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
@@ -278,7 +278,7 @@
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="fab62a810d9b47438eb5458b48ff61bb4e609faf" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="b965f8d3746ce46b1d33115ec1e98a1dca7062a1" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="6ea6a15d4624c7d3f148d3076c483e8e333efd95" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="21d1a1d91b17824f0eac635c4270f5da3e3d66a7" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="a40b12adaae00244acb641da405abb5114fe21af" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="1a63362c81f53d5114dbd2deb72ab5fb3ae411eb" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="b0912ca2c60c2b99989b46856b95d9d246bc0f43" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="kernel/tests" remote="aosp" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52"/>
