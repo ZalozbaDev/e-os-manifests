@@ -17,7 +17,7 @@ trigger-build-q-test:
 trigger-build-q-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "beryllium chiron crownlte enchilada fajita FP2 FP3 GS290 guacamole guacamoleb lake lavender lithium marlin mata oneplus2 oneplus3 river sailfish scorpio shamu star2lte starlte tissot"
+    DEVICES: "beryllium cheeseburger chiron crownlte dipper dumpling enchilada fajita FP2 FP3 GS290 guacamole guacamoleb harpia jasmine_sprout jason lake lavender lithium lux marlin mata onclite oneplus2 oneplus3 osprey river sagit sailfish scorpio shamu star2lte starlte tissot twolip wayne whyred"
 
 trigger-build-q-stable:
   extends: .trigger-build-stable
