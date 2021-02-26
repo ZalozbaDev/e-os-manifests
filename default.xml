@@ -302,7 +302,7 @@
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="6add7540669824315dcf8119a92c509921e1d459" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="329787ecf88cb59e14d825049b577663471e7358" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="e8a0ca401c2ae5f4765cd01d0aed244318e93817" upstream="v1-q" dest-branch="v1-q"/>
-  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="d0996573c552e85d9bf655ccf3921f8e0b86ed0a" upstream="v1-q" dest-branch="v1-q"/>
+  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="f09e8f83ca36657e8077a877a6cac4095f81d11f" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_iconloaderlib" path="packages/apps/iconloaderlib" remote="e" revision="3d473033e12e831780ec6a5e15ccdc2cc6a3de4e" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="2855d0fbaff0ce620661a7ae9795016cfc1d52f8" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="e" revision="8a66ff5ea7dde7b13c7839c47cae1b428f8a8470" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
