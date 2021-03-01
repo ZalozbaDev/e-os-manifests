@@ -12,7 +12,7 @@ check-version:
 trigger-build-nougat-test:
   extends: .trigger-build-test
   variables:
-    DEVICES: "athene bacon cheeseburger herolte hero2lte kiwi mido natrium oneplus3 onyx pinebook s2 serranoltexx teres zerofltexx"
+    DEVICES: "athene bacon cheeseburger hammerhead herolte hero2lte kiwi mido natrium oneplus3 onyx pinebook s2 serranoltexx teres zerofltexx"
 
 trigger-build-nougat-dev:
   extends: .trigger-build-dev
