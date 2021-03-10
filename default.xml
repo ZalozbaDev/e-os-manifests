@@ -5,9 +5,9 @@
   <remote name="e-priv" fetch="ssh://git@gitlab.e.foundation:2222" revision="v1-q"/>
   <remote name="github" fetch="https://github.com" review="review.lineageos.org"/>
   <remote name="private" fetch="ssh://git@github.com"/>
-  
+
   <default remote="github" revision="refs/heads/lineage-17.1" sync-j="4" sync-c="true"/>
-  
+
   <project name="LineageOS/android_art" path="art" revision="fc405947d9dee5c8fcbdacd0a0e3dc477db064f4" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="40e6fdba0b80a99c240603eecfb5b1d7c2ee1ed2" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="pdk"/>
   <project name="LineageOS/android_build_blueprint" path="build/blueprint" revision="f80fffc9164a30b4ab1cc5a672b8c250ff2534ab" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="pdk,tradefed"/>
@@ -300,14 +300,14 @@
   <project name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="18e8377f2109ece7caf6885d4dbeac3586052913" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="a97da38fc5955f2d5f4049d079f7962ef0e422f2" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="6add7540669824315dcf8119a92c509921e1d459" upstream="v1-q" dest-branch="v1-q"/>
-  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="329787ecf88cb59e14d825049b577663471e7358" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="0d6d889148df2c08ade49f28328f0015ca6d1956" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="e8a0ca401c2ae5f4765cd01d0aed244318e93817" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="f09e8f83ca36657e8077a877a6cac4095f81d11f" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_iconloaderlib" path="packages/apps/iconloaderlib" remote="e" revision="3d473033e12e831780ec6a5e15ccdc2cc6a3de4e" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="2855d0fbaff0ce620661a7ae9795016cfc1d52f8" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="e" revision="8a66ff5ea7dde7b13c7839c47cae1b428f8a8470" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_platform_testing" path="platform_testing" remote="e" revision="66d4c8c49e749f7175232978df27b5bb08861d24" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs,pdk-cw-fs,cts"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="8dbbf29a7dee3085e2e5ddfe729244093b23debb" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="cedadef4130442371f1b940004296d9796584bbf" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="8f2672c5e663d71e2a69d1a72070afac71357907" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="a95c50b7582470dfe11320f363547beb6d8c4d9e" upstream="v1-q" dest-branch="v1-q"/>
   <project name="kernel/build" remote="aosp" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41"/>
@@ -805,6 +805,6 @@
   <project name="platform/tools/trebuchet" path="tools/trebuchet" remote="aosp" revision="5c74aa19df59af3292dadc6db03ffbf5235b3a9d" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs"/>
   <project name="toolchain/benchmark" remote="aosp" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41"/>
   <project name="toolchain/pgo-profiles" remote="aosp" revision="248f97c5fdc39400ebcb51b72ba2263fe12781a7" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="pdk"/>
-  
+
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
 </manifest>
