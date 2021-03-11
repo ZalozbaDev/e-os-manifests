@@ -294,7 +294,7 @@
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="4adbea52505fcb72d8ebcd5704b8272c69478b63" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="e8af92dc1c341debe9faabebd3e939d303bfd252" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="ec5acdce1c265915c1b72c74a97b93e28f49f1c8" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="cedadef4130442371f1b940004296d9796584bbf" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="844cf90324ef416d2a3e6a61503e7a8a1c2a56a3" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="b227b222b05a6f5661c8c8905397c6dfb95447a0" upstream="v1-pie" dest-branch="v1-pie" groups="pdk"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="400f17239c41d52dbe9fd566f298f9409f2bdc56" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="kernel/configs" remote="aosp" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk"/>
