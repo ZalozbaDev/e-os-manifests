@@ -307,7 +307,7 @@
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="2855d0fbaff0ce620661a7ae9795016cfc1d52f8" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="e" revision="8a66ff5ea7dde7b13c7839c47cae1b428f8a8470" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_platform_testing" path="platform_testing" remote="e" revision="66d4c8c49e749f7175232978df27b5bb08861d24" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs,pdk-cw-fs,cts"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="cedadef4130442371f1b940004296d9796584bbf" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="844cf90324ef416d2a3e6a61503e7a8a1c2a56a3" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="8f2672c5e663d71e2a69d1a72070afac71357907" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="a95c50b7582470dfe11320f363547beb6d8c4d9e" upstream="v1-q" dest-branch="v1-q"/>
   <project name="kernel/build" remote="aosp" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41"/>
