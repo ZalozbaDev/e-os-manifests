@@ -285,7 +285,7 @@
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="ebbff1948867b96834145e6b98097e849a25f949" upstream="v1-nougat" dest-branch="v1-nougat"/>
   <project name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="a47cc47566b6e2e0fe2df0eacaf125ef3521086c" upstream="v1-nougat" dest-branch="v1-nougat"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="0e92dfa065801439bb026e4a6be6323002298b71" upstream="v1-nougat" dest-branch="v1-nougat" groups="pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="cedadef4130442371f1b940004296d9796584bbf" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="844cf90324ef416d2a3e6a61503e7a8a1c2a56a3" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="3613533b82a283206cc5986abffe803c18f58894" upstream="v1-nougat" dest-branch="v1-nougat" groups="pdk"/>
   <project name="e/os/android_vendor_cm" path="vendor/cm" remote="e" revision="3494d947308d1ff146c23461466329e313441a7d" upstream="v1-nougat" dest-branch="v1-nougat"/>
   <project name="e/os/cm_platform_sdk" path="vendor/cmsdk" remote="e" revision="dedf24c46804606ced9094dcfc7d8db4330e2cae" upstream="v1-nougat" dest-branch="v1-nougat"/>
