@@ -5,10 +5,10 @@
   <remote name="e-priv" fetch="ssh://git@gitlab.e.foundation:2222" revision="v1-oreo"/>
   <remote name="github" fetch="https://github.com" review="review.lineageos.org"/>
   <remote name="private" fetch="ssh://git@github.com"/>
-
+  
   <default remote="github" revision="refs/heads/lineage-15.1" sync-j="4" sync-c="true"/>
-
-  <project name="LineageOS/android_art" path="art" revision="14e6dd3f806deebb794c1d7eaba0ad8aac663444" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
+  
+  <project name="LineageOS/android_art" path="art" revision="40ca2f0bcd7c641add5c5d32e6469c0ec0de0451" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="fee4dc888bd235123fceff06aed02e0b1db73d7f" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_build_kati" path="build/kati" revision="570abd86c250686d2a125e654a36fe97ecd3b230" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk,tradefed"/>
   <project name="LineageOS/android_build_soong" path="build/soong" revision="bb70bebe3566681460f225f298b475ddb35e8dd3" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk,tradefed">
@@ -26,9 +26,10 @@
   <project name="LineageOS/android_external_bash" path="external/bash" revision="5418a65b77cf33e078fdb64da876204fd0b3103c" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1"/>
   <project name="LineageOS/android_external_brctl" path="external/brctl" revision="85130b403dea07b2230efed3287236fa0caefb1c" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1"/>
   <project name="LineageOS/android_external_chromium-libpac" path="external/chromium-libpac" revision="8e0bdac8a4f899cae6fd76609e269452bfd3140b" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
-  <project name="LineageOS/android_external_chromium-webview" path="external/chromium-webview" revision="c7ee4db409335ac6227e6507869c0a1739ab281a" upstream="master" dest-branch="master" groups="pdk" clone-depth="1"/>
+  <project name="LineageOS/android_external_chromium-webview" path="external/chromium-webview" revision="dcdf52575ed69a2a16678ffcfbdb7bbc28597029" upstream="master" dest-branch="master" groups="pdk" clone-depth="1"/>
   <project name="LineageOS/android_external_connectivity" path="external/connectivity" revision="0bcb1672a85eaa9e0e198a1aa7b5f6fe37884a7a" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1"/>
   <project name="LineageOS/android_external_dng_sdk" path="external/dng_sdk" revision="e37223fe9a83600701afc1e0a363079a57c9dfe6" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
+  <project name="LineageOS/android_external_dnsmasq" path="external/dnsmasq" revision="337f9214c0372df36c862ab43ee61b072bfd92a3" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_external_e2fsprogs" path="external/e2fsprogs" revision="81fe13e107fc6760712cf559dce05f2fedb9051d" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_external_ebtables" path="external/ebtables" revision="d7dfb008fb025d0a9b9c1d50b9de3de7cef33e04" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1"/>
   <project name="LineageOS/android_external_elfutils" path="external/elfutils" revision="f679e836504ff50c6e74b6193d97e8d6c719f67c" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
@@ -75,7 +76,7 @@
   <project name="LineageOS/android_external_toybox" path="external/toybox" revision="8276aea646189d4204153f4c6614859ae9145c19" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_external_tremolo" path="external/tremolo" revision="b7487045e5de2998e17f1f8bacd9063a71482bb6" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_external_unrar" path="external/unrar" revision="a13960a77be8221a26d75835d05ef6686986e4ca" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1"/>
-  <project name="LineageOS/android_external_v8" path="external/v8" revision="5f09ad868324b6dad13f5933fbd46c031139ab96" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
+  <project name="LineageOS/android_external_v8" path="external/v8" revision="366860b2952bd0c0e442003667c1ad0f08286091" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_external_vim" path="external/vim" revision="b1f019d5e611a7fa661e218e8e11d9e02083e4c0" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1"/>
   <project name="LineageOS/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="5250466f3b42400e8573d4e02f835a5611bed75d" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_external_zip" path="external/zip" revision="3e0b8acbdd20db415b91941709adf07c1ef8f3c4" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1"/>
@@ -83,9 +84,9 @@
   <project name="LineageOS/android_frameworks_av" path="frameworks/av" revision="44a74d57903af0019e0c772023c491881f6e1fa9" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_frameworks_layoutlib" path="frameworks/layoutlib" revision="90a0450244f59f604822c313a296248848afcd97" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_frameworks_minikin" path="frameworks/minikin" revision="a5e7c8a822c8a96b62d597727ba8ebd021cf3b7f" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="LineageOS/android_frameworks_native" path="frameworks/native" revision="247aa6ddc783bb1fd8f538ad75d0b50ea7645d29" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
+  <project name="LineageOS/android_frameworks_native" path="frameworks/native" revision="90277a5f7e57d2ecd8008b9da5d5ff436d080b42" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_frameworks_opt_datetimepicker" path="frameworks/opt/datetimepicker" revision="9cd7d36d8a464a22a94180e0a5da5a1b465f68fd" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="LineageOS/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="669e3a03a600229f3b1d58c35a9614c310dfaae4" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
+  <project name="LineageOS/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="24e84c192f534e79ea759ad595dc0a196906a7de" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_frameworks_support" path="frameworks/support" revision="32e67e60201feee32b5af8ef4bb66c98292cd3b7" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="73942684d510228eb848d679b312be1069bd9184" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="8c96d23735f9e467c828622c1192fc6a46392eea" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk,broadcom_wlan"/>
@@ -188,8 +189,8 @@
   <project name="LineageOS/android_prebuilts_build-tools" path="prebuilts/build-tools" revision="c12d4a78b9bd57d7a6b2446c16cf4da532702bc7" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk" clone-depth="1"/>
   <project name="LineageOS/android_prebuilts_lineage-sdk" path="prebuilts/lineage-sdk" revision="cebdb660afa983da928c59662108f362fe491be9" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" clone-depth="1"/>
   <project name="LineageOS/android_prebuilts_misc" path="prebuilts/misc" revision="6fbf69992aa3099c6fdf548dd236ae1815907809" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk" clone-depth="1"/>
-  <project name="LineageOS/android_system_bt" path="system/bt" revision="5d6ebdee6a96147a506b634610ec0e119910d1a4" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
-  <project name="LineageOS/android_system_connectivity_wificond" path="system/connectivity/wificond" revision="b1649109b77d80cdb3dba8f2a2a8deb1847e5599" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
+  <project name="LineageOS/android_system_bt" path="system/bt" revision="9e0a9878352586b45a21dc36336d1400582bdec8" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
+  <project name="LineageOS/android_system_connectivity_wificond" path="system/connectivity/wificond" revision="7b311a98d03975f586e2d673b62ea30b00983158" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_system_core" path="system/core" revision="0982e098dc9cb11a6650bd0c8f06416197ddca91" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_system_extras" path="system/extras" revision="0cdb99e1b6c28acdb0fe01dc40b15c1992ab08dd" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_system_extras_su" path="system/extras/su" revision="bffcdefa59834186b75987541930dbfa92d15a21" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1"/>
@@ -198,7 +199,7 @@
   <project name="LineageOS/android_system_libhidl" path="system/libhidl" revision="a24c880f56c282ede6b0374938740a61b8c753ac" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_system_libhwbinder" path="system/libhwbinder" revision="d8e0beca85214282dcf036e5d73384e2b3d44ace" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_system_media" path="system/media" revision="cab97b8deff12dbd7d04c48d1aab529f6efb10c0" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
-  <project name="LineageOS/android_system_netd" path="system/netd" revision="7bb75769d5b7667073631e2156d611399dd5729f" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
+  <project name="LineageOS/android_system_netd" path="system/netd" revision="972733f91aa10a178d6e4eae440c4db020ab5f36" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_system_nfc" path="system/nfc" revision="af7bb2926381e071fd83b6f8fbf551ad3132a8c7" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_system_qcom" path="system/qcom" revision="0dae0321559275a0ed8c1e376a767785ac738002" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="qcom"/>
   <project name="LineageOS/android_system_security" path="system/security" revision="658ee37d26021824d10e47cc0f7eb597cfd6c6d9" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
@@ -241,9 +242,9 @@
   <project name="device/google/atv" remote="aosp" revision="0956280428ba979a2a78e852dd484167ece3b9af" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="device,fugu,broadcom_pdk,generic_fs,pdk"/>
   <project name="device/google/contexthub" remote="aosp" revision="6c6efc263a0daa6d6a377ea8e129d8bbc7b32675" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="device,marlin,pdk"/>
   <project name="device/sample" remote="aosp" revision="509608c76570d623c05952c8eecdc2868ca8a952" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
-  <project name="e/os/android" path="android" remote="e" revision="581ca291fd7297de0cb018d1d6e57812b3a62a51" upstream="v1-oreo" dest-branch="v1-oreo"/>
+  <project name="e/os/android" path="android" remote="e" revision="ae260e01fe7c0c8f0f473de4fd19a013cd780d77" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="7cd4cea67835824f55a5a67628cdd13b794d6712" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk"/>
-  <project name="e/os/android_build" path="build/make" remote="e" revision="816f9c90148527f32dad1721f3679192b51fa1b5" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk">
+  <project name="e/os/android_build" path="build/make" remote="e" revision="0b5969770afc2f7314d9997a363becbe10ab8977" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -253,7 +254,7 @@
     <linkfile src="tools" dest="build/tools"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="5039d4196ba1acb0762531580c144fcc2bce8a9c" upstream="v1-oreo" dest-branch="v1-oreo"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="0a385cd97b66344149d72871a6bcfbfb8009b55b" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="2c823e17cf535314a601597cc2c3fd5fb4ef7667" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="62723e310d3cdb9451a5bd2d3a6af8f54507ffb8" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="e" revision="a075d1d0b00431fbc753ddc6b4a6cf846590ec19" upstream="v1-oreo" dest-branch="v1-oreo" groups="qcom,qcom_audio,pdk"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="e" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" upstream="lineage-15.1-caf-8084" dest-branch="lineage-15.1-caf-8084" groups="qcom,qcom_audio,pdk"/>
@@ -281,9 +282,9 @@
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="82ef11347d4af59bb9b8012039431ea6b11391be" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="ea01500d3df59e05aae5b70e0e6fdc75b565536e" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="b4973765d31e4feff8ab343768f35a694bdb4889" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="844cf90324ef416d2a3e6a61503e7a8a1c2a56a3" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="b0eece19db216c0a9b1d3a2753a298277aa00ef8" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="c3640e56199713734bb2d662fdb95cc3a3d18d8a" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="1f9724153eb6f46c7ed79f20b15bac92ebfbec7d" upstream="v1-oreo" dest-branch="v1-oreo"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="809e1e7a284e629306c428458718aedea88b8603" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="kernel/tests" remote="aosp" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52"/>
   <project name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="a011038d864e3faa528ec1037a568e5824955a0f" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk,tradefed"/>
   <project name="platform/compatibility/cdd" path="compatibility/cdd" remote="aosp" revision="ca5bd0f77af6feda04b2fccb5318fac8abb86339" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
@@ -330,7 +331,6 @@
   <project name="platform/external/dexmaker" path="external/dexmaker" remote="aosp" revision="e62dfc0cb516ce70d9b8337a81a585da66c6b88e" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
   <project name="platform/external/dhcpcd-6.8.2" path="external/dhcpcd-6.8.2" remote="aosp" revision="54d1fc2d574d21f788abb64b10c9a6352eba0b65" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
   <project name="platform/external/dlmalloc" path="external/dlmalloc" remote="aosp" revision="6661f3ca66b55d8f5a57b96fec97efaf8f3897a5" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
-  <project name="platform/external/dnsmasq" path="external/dnsmasq" remote="aosp" revision="2d1fee713bb65ac71ea60fead3b8d53415e875e7" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
   <project name="platform/external/doclava" path="external/doclava" remote="aosp" revision="f8c9b6c5dd536c5ad3b995be77f7189ca08ae345" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
   <project name="platform/external/donuts" path="external/donuts" remote="aosp" revision="005389fb31a67841b5de42f0d25fbfab843e208c" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
   <project name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" remote="aosp" revision="a0efb9658f3c3f123e0a342ed174cb2dce6a0746" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="drm_hwcomposer,pdk-fs"/>
@@ -655,6 +655,6 @@
   <project name="platform/tools/tradefederation" path="tools/tradefederation/core" remote="aosp" revision="86d42d1f8ee02c3402d116a22898ac7944b48db9" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk,tradefed"/>
   <project name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" remote="aosp" revision="8dd3029197cdaa6d9e867d4c645b489a6f9f52b6" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk,tradefed"/>
   <project name="toolchain/binutils" remote="aosp" revision="a4125cf8aeab9dfeac00f1bda80645987897152f" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
-
+  
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
 </manifest>
