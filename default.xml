@@ -284,10 +284,10 @@
   <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="57f06cb7e2aad141c8b7579fb5617aabf972242d" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="289f418fe6331439f56ab5a353620be50e1c860b" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="ccb16033fca9766282ad32d171680a119ad384bc" upstream="v1-pie" dest-branch="v1-pie"/>
-  <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="1c01a34884b869e05984dc47305c8b01d2822d34" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="02302ca21c6562c08dfbbf0683c871aa3ef3ea0a" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="91211b10d55989bc19e058db581dcb9a95fe1e4a" upstream="v1-pie" dest-branch="v1-pie"/>
-  <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="048010691256240eed98bec06d61696cd9077083" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="e5114782442d15bdac41bee14d8e061567f00123" upstream="v1-pie" dest-branch="v1-pie"/>
+  <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="63571e419eceba0c2327003211fca712e62c0688" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="36bfa2e2aaf22850ce4d9abebdd74120ea212d00" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="e" revision="c9d55d5f866dbacc7e440ca479aa6d574c2ee9ef" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="b525d0fe2175e4f42e9e8ee4af9ab1b4e4738007" upstream="v1-pie" dest-branch="v1-pie"/>
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="d3c46636b2ca421c995530940e2d7b9c63f0e9c4" upstream="v1-pie" dest-branch="v1-pie" groups="pdk-fs"/>
