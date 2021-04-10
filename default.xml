@@ -73,6 +73,13 @@
   <project name="LineageOS/android_frameworks_opt_timezonepicker" path="frameworks/opt/timezonepicker" revision="d27fc884f33e383a857e550abca3fc97f225725b" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="27def02df7dfa71fa8ae41e3c644ec9f747da106" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="pdk"/>
   <project name="LineageOS/android_hardware_broadcom_nfc" path="hardware/broadcom/nfc" revision="75b7597077d59d41208e105575883647455af46d" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1"/>
+  <project name="LineageOS/android_hardware_intel_bootstub" path="hardware/intel/bootstub" revision="14399d52442a9f81b91bdfc38b2269496ba60268" upstream="lineage-17.1" dest-branch="lineage-17.1" groups="intel,pdk"/>
+  <project name="LineageOS/android_hardware_intel_common_libmix" path="hardware/intel/common/libmix" revision="c1342385f0ef00fc8513a49f8c6945ece730d0ab" upstream="lineage-17.1" dest-branch="lineage-17.1" groups="intel,pdk"/>
+  <project name="LineageOS/android_hardware_intel_common_omx-components" path="hardware/intel/common/omx-components" revision="a70fc663f870e119912594fb0eba7191baff3ec2" upstream="lineage-17.1" dest-branch="lineage-17.1" groups="intel,pdk"/>
+  <project name="LineageOS/android_hardware_intel_common_utils" path="hardware/intel/common/utils" revision="9831abd60e70ef4cf50148068f25d3b78874113d" upstream="lineage-17.1" dest-branch="lineage-17.1" groups="intel,pdk"/>
+  <project name="LineageOS/android_hardware_intel_img_hwcomposer" path="hardware/intel/img/hwcomposer" revision="6029cc99f757a9d7a3b65d7cf5250a058a51efa3" upstream="lineage-17.1" dest-branch="lineage-17.1" groups="intel,pdk"/>
+  <project name="LineageOS/android_hardware_intel_img_psb_headers" path="hardware/intel/img/psb_headers" revision="69a1d5de121e59343018007e5641b47fa5ff8e1f" upstream="lineage-17.1" dest-branch="lineage-17.1" groups="intel,pdk"/>
+  <project name="LineageOS/android_hardware_intel_img_psb_video" path="hardware/intel/img/psb_video" revision="01cc5e130c2a0f0ef559b7e49840ee1d2cdea1f3" upstream="lineage-17.1" dest-branch="lineage-17.1" groups="intel,pdk"/>
   <project name="LineageOS/android_hardware_interfaces" path="hardware/interfaces" revision="1c3f0f91744896ae7d02064cdbcc4b15a8c4e6fa" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="pdk"/>
   <project name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" path="hardware/knowles/athletico/sound_trigger_hal" revision="7f994b20519094470dcc11bf79c3263f4cdd80d7" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="coral"/>
   <project name="LineageOS/android_hardware_libhardware" path="hardware/libhardware" revision="8caddb38009ef6f4fd650795637891698e34bb3d" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="pdk"/>
@@ -265,7 +272,7 @@
   <project name="device/generic/x86_64" remote="aosp" revision="506952733fdebb5a2ef086b519ceebe86a95ae31" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="pdk"/>
   <project name="device/google/contexthub" remote="aosp" revision="98f1a92c3f698f656b6adda339a4ebbdd8e7eb8c" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="device,marlin,pdk"/>
   <project name="device/sample" remote="aosp" revision="d64a03ec745d8e4085ae65a868f1e8d66b2d9c4c" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="pdk"/>
-  <project name="e/os/android" path="android" remote="e" revision="0b5f8ee08d20745ed78e5550bff21acd664a4145" upstream="v1-q" dest-branch="v1-q"/>
+  <project name="e/os/android" path="android" remote="e" revision="73fb68d31b9c9d6107b5336ed0d98a7d244a52a0" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="401fbdd5b1757700065a2717379556698766461a" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_build" path="build/make" remote="e" revision="eb3f1c40f9e4f7b1d84d0256bed2ee4d0d0e6549" upstream="v1-q" dest-branch="v1-q" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile"/>
@@ -296,8 +303,8 @@
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="066faa53c7fe26d0d84c271b0a37b683d8bca653" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="2026c7131535c1448c83ce0531861c2fb9c001eb" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="40cfb777cede8fc489427ce1b47773a9e7992fc1" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="03d4282c46977488b23c4ea2bde77cef65393c0e" upstream="v1-q" dest-branch="v1-q"/>
-  <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="a67a07e948867d5a14e218eaded1403d4399f7cb" upstream="v1-q" dest-branch="v1-q"/>
+  <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="aee62a04f84540e62e4ad1e9dc32fff1834d572d" upstream="v1-q" dest-branch="v1-q"/>
+  <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="a9897394c6651f82cf43c6406aec14a21e8c3a5d" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="cf775e1eff61f2cf7a068be809eb3848de049b7b" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="8f150bfb05ad323218d4278f3f72239def8dd403" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="e" revision="2b09e95187a365cf7ec018147c96341a8875343d" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
@@ -650,6 +657,13 @@
   <project name="platform/hardware/google/interfaces" path="hardware/google/interfaces" remote="aosp" revision="30694a83d688989bc3702b14e427e5dee2df9555" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="pdk"/>
   <project name="platform/hardware/google/pixel" path="hardware/google/pixel" remote="aosp" revision="522219f9c76214aeec23b2cd8e5733122e0207e3" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="generic_fs,pixel"/>
   <project name="platform/hardware/google/pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="aosp" revision="ff2a800fdcc182c20b1271c4835d1aa7e5f4af17" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="generic_fs,pixel"/>
+  <project name="platform/hardware/intel/audio_media" path="hardware/intel/audio_media" remote="aosp" revision="0e60b77af3fa70393ee9fa0e80811d1b39c5f6fc" upstream="master" dest-branch="master" groups="intel,pdk"/>
+  <project name="platform/hardware/intel/common/bd_prov" path="hardware/intel/common/bd_prov" remote="aosp" revision="8af329f2d2b54dfcfa84051d3ce1fae95f79011a" upstream="master" dest-branch="master" groups="intel,pdk"/>
+  <project name="platform/hardware/intel/common/libstagefrighthw" path="hardware/intel/common/libstagefrighthw" remote="aosp" revision="bfc9bda74643eedd4414e996d2a089a36d9acb24" upstream="master" dest-branch="master" groups="intel,pdk"/>
+  <project name="platform/hardware/intel/common/libva" path="hardware/intel/common/libva" remote="aosp" revision="a49a95403f6b214f91fb9c6251dd7440d5069d48" upstream="master" dest-branch="master" groups="intel,pdk"/>
+  <project name="platform/hardware/intel/common/libwsbm" path="hardware/intel/common/libwsbm" remote="aosp" revision="43470eaa35b14e3c723caf5fcdeafc57e3670ffb" upstream="master" dest-branch="master" groups="intel,pdk"/>
+  <project name="platform/hardware/intel/common/wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core" remote="aosp" revision="689411deff0f97b7904e86a371a92dfd2605177c" upstream="master" dest-branch="master" groups="intel,pdk"/>
+  <project name="platform/hardware/intel/sensors" path="hardware/intel/sensors" remote="aosp" revision="68dc9e70b79dacddc4e0bf00af0de7f764b04eed" upstream="master" dest-branch="master" groups="intel_sensors,pdk"/>
   <project name="platform/hardware/invensense" path="hardware/invensense" remote="aosp" revision="a51c32c7d16d32462fcd2d3fc61474bb0ec56864" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="invensense,pdk"/>
   <project name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element" remote="aosp" revision="313a6535990bd70a4cfc65d8b2bf8b40372b0920" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="pdk"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" remote="aosp" revision="cfc84f61b62766b96f4607cdcdcab8d9b48aa04f" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41" groups="qcom_camera,pdk-qcom"/>
