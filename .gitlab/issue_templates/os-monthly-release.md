@@ -15,9 +15,9 @@
 
 ## stable channel
 
-- [ ] Warn Cordon
 - [ ] Warn ReCommerce
 - [ ] Warn ESPRI DIGITAL
+- [ ] Warn Link it up
 - [ ] Stable test session
 
 ## What's inside?
