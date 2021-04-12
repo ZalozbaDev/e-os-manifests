@@ -2,23 +2,29 @@
 
 ## Prepare
 
-- [ ] create `target`, `released` and `missed` labels in https://gitlab.e.foundation/groups/e/-/labels
-- [ ] add targetted issues into the test plan
+- [ ] update the milestone [issue board]()
+- [ ] Share the test plan
+    - [issues fixed]() <!--The issues part of each test build are the one closed, and with the corresponding milestone -->
+
+## Test
+
+- [ ] Share test build
+    - [test session page] <!-- to be created at https://gitlab.e.foundation/teams/test-team/documentation/-/wikis/monthly-update/vX.Y -->
+- [ ] Reopen the issues that appear as not fixed
+    - if it's not possible to fix it before the release, change the milestone
 
 ## dev channel
 
-- [ ] check the test session feedback
-    - mark validated issues with ~"status::release"
-    - mark issues in error with ~"status::development"
 - [ ] tag manifest
-- [ ] create release note
+- [ ] create the release note
+- [ ] check potential build issues
 
 ## stable channel
 
+- [ ] Stable test session
 - [ ] Warn ReCommerce
 - [ ] Warn ESPRI DIGITAL
 - [ ] Warn Link it up
-- [ ] Stable test session
 
 ## Release note template
 
