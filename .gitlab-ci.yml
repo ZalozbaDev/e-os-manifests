@@ -17,7 +17,7 @@ trigger-build-q-test:
 trigger-build-q-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "a3xelte a5xelte a5y17lte a7y17lte Amber bacon bardock bardockpro beryllium cheeseburger chef cheryl chiron crownlte d802 d855 dipper discovery dumpling enchilada evert fajita FP2 FP3 GS290 gemini ginkgo gts4lvwifi guacamole guacamoleb griffin h850 h990 harpia hlte I01WD jactivelte jasmine_sprout jason kirin klteactivexx kuntao lake lavender lilac lithium lux m8 m8d marlin merlin mata mermaid mido nash natrium nx563j onclite oneplus2 oneplus3 osprey payton pioneer polaris river s3ve3gds s3ve3gjv s3ve3gxx s5neolte sagit sailfish santoni scorpio shamu star2lte starlte surnia suzuran taimen tissot treble_arm_avN treble_arm_bvN treble_arm64_avN treble_arm64_bvN treble_a64_avN treble_a64_bvN twolip victara voyager wt88047 wayne whyred x2 z2_plus z3c zl1"
+    DEVICES: "a3xelte a5xelte a5y17lte a7y17lte Amber bacon bardock bardockpro beryllium cheeseburger chef cheryl chiron crownlte d802 d855 dipper discovery dumpling enchilada evert fajita FP2 FP3 GS290 gemini ginkgo gts4lvwifi guacamole guacamoleb griffin h850 h990 harpia hlte I01WD jactivelte jasmine_sprout jason kirin klteactivexx kuntao lake lavender lilac lithium lux m8d marlin merlin mata mermaid mido nash natrium nx563j onclite oneplus2 oneplus3 osprey payton pioneer polaris river s3ve3gds s3ve3gjv s3ve3gxx s5neolte sagit sailfish santoni scorpio shamu star2lte starlte surnia suzuran taimen tissot treble_arm_avN treble_arm_bvN treble_arm64_avN treble_arm64_bvN treble_a64_avN treble_a64_bvN twolip victara voyager wt88047 wayne whyred x2 z2_plus z3c zl1"
 
 trigger-build-q-stable:
   extends: .trigger-build-stable
