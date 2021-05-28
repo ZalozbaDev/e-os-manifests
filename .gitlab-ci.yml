@@ -9,11 +9,6 @@ update-manifest-q:
 check-version:
   extends: .check-version
 
-trigger-build-q-test:
-  extends: .trigger-build-test
-  variables:
-    DEVICES: "beryllium chiron crownlte FP2 FP3 GS290 guacamole guacamoleb ginkgo hlte lavender lilac lithium marlin mata river s3ve3gxx s5neolte sailfish scorpio shamu star2lte starlte surnia suzuran tissot whyred z3c"
-
 trigger-build-q-dev:
   extends: .trigger-build-dev
   variables:
