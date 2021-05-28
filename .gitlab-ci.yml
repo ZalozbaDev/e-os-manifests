@@ -9,11 +9,6 @@ update-manifest-pie:
 check-version:
   extends: .check-version
 
-trigger-build-pie-test:
-  extends: .trigger-build-test
-  variables:
-    DEVICES: "a5y17lte beryllium capricorn cheeseburger chiron dreamlte dream2lte FP2 FP3 gts28vewifi guacamoleb kiwi klte land mata s2 sailfish tissot violet X00TD X01BD zenfone3"
-
 trigger-build-pie-dev:
   extends: .trigger-build-dev
   variables:
