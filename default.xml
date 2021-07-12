@@ -310,7 +310,7 @@
   <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="0b800cc7b9e4bb878decfebe2546ee5ce099b7d2" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="e" revision="2b09e95187a365cf7ec018147c96341a8875343d" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="bd2202a390f199485d8e5b74cd77d82fa9bb427a" upstream="v1-q" dest-branch="v1-q"/>
-  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="4f2fddc8540e3ac2858360238887977153e450e8" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
+  <project name="ZalozbaDev/e-os-android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="devel_fp3" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="81de2a50aab1640de1d8a4ec416b47dc375319c2" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="d32d05fce9e56e86187ee0a65d2be5afa448e5d7" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_iconloaderlib" path="packages/apps/iconloaderlib" remote="e" revision="3d473033e12e831780ec6a5e15ccdc2cc6a3de4e" upstream="v1-q" dest-branch="v1-q"/>
