@@ -1,9 +1,18 @@
-mkdir -p /srv/e/src /srv/e/zips /srv/e/logs /srv/e/ccache
+# How to build & install the customized /e/ OS onto the FairPhone 3(+) 
+## Prepare phone
 
-# original
-# docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" -e "BRANCH_NAME=v0.17.1-q" -e "DEVICE_LIST=FP3" -e "REPO=https://gitlab.e.foundation/e/os/releases.git"   registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:community
+* Obtain a FairPhone 3(+)
+* Install /e/ according to this description: https://doc.e.foundation/devices/FP3/install
 
-# customized
-docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
--e "BRANCH_NAME=devel_fp3-q" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
-registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:community
+## Build OTA image
+
+* Obtain a powerful Linux PC / server
+* Install Docker
+* Run the "build.sh" script (possibly as root)
+
+## Install image
+
+* Put phone into recovery mode
+* "adb sideload" the .zip file
+* Reboot
+
