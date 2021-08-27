@@ -307,7 +307,7 @@
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="89528f513630b222fad7ec5541f1e514bf4cc1b4" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="678a382c7c56fc7d6e06ea32a603b8cb939aa0ab" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="823b224c59f26692545a0e8101c3afde15c7fbd8" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="ce38e44f0added0d360236a3896e63ab15f3fef8" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="2980b8c088f0a0cca3403f972d6cb3c939aa3a56" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="40cfb777cede8fc489427ce1b47773a9e7992fc1" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="aee62a04f84540e62e4ad1e9dc32fff1834d572d" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="b48a33389c2e006fcc3b027e14c0444183cbc016" upstream="v1-q" dest-branch="v1-q"/>
@@ -323,7 +323,7 @@
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="c75c02f85e9f4531ddcbcba25063c90ca89bd16d" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="e" revision="1a36bb66fa78b1e356985a4087da1daf5f3ccaf1" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="ace40b399500ed066707ebfc4e06d50eb5b77ec4" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="3454c4e2038caaeccd8b1600e50d8179a38a4bdf" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="a527b8224295e0c95bcc51a98631914b374348e6" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="8f2672c5e663d71e2a69d1a72070afac71357907" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="3fda7031778df00697799bb37648d8404705b9da" upstream="v1-q" dest-branch="v1-q"/>
   <project name="kernel/build" remote="aosp" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41"/>
