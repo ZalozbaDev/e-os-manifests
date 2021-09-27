@@ -12,4 +12,4 @@ check-version:
 trigger-build-r-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "a5y17lte a7y17lte ahannah akari akatsuki apollon aura bacon beckham beryllium beyond0lte beyond1lte beyond2lte beyondx cheeseburger chiron dipper dumpling FP2 FP3 guacamole jason lavender lithium m20lte mata onclite river sagit scorpio shamu sunfish whyred"
+    DEVICES: "a5y17lte a7y17lte ahannah akari akatsuki apollon aura bacon beckham beryllium beyond0lte beyond1lte beyond2lte beyondx blueline bonito cedric channel cheeseburger chiron dipper dumpling FP2 FP3 guacamole jasmine_sprout jason lavender lithium m20lte mata onclite river sagit scorpio shamu sunfish whyred"
