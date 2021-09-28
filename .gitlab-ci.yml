@@ -17,4 +17,4 @@ trigger-build-q-dev:
 trigger-build-q-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "2e FP2 FP3 GS290"
+    DEVICES: "2e avicii FP2 FP3 GS290 starlte star2lte"
