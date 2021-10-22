@@ -5,9 +5,9 @@
   <remote name="e-priv" fetch="ssh://git@gitlab.e.foundation:2222" revision="v1-oreo"/>
   <remote name="github" fetch="https://github.com" review="review.lineageos.org"/>
   <remote name="private" fetch="ssh://git@github.com"/>
-  
+
   <default remote="github" revision="refs/heads/lineage-15.1" sync-j="4" sync-c="true"/>
-  
+
   <project name="LineageOS/android_art" path="art" revision="40ca2f0bcd7c641add5c5d32e6469c0ec0de0451" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="fee4dc888bd235123fceff06aed02e0b1db73d7f" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk"/>
   <project name="LineageOS/android_build_kati" path="build/kati" revision="570abd86c250686d2a125e654a36fe97ecd3b230" upstream="refs/heads/lineage-15.1" dest-branch="refs/heads/lineage-15.1" groups="pdk,tradefed"/>
@@ -269,7 +269,7 @@
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="e" revision="4e49287efe116173c05541130290b938a16ea190" upstream="lineage-15.1-caf-8996" dest-branch="lineage-15.1-caf-8996" groups="qcom,qcom_audio,pdk"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" remote="e" revision="5b9273d43625da8349fbd11221c0f863af7118b5" upstream="lineage-15.1-caf-8998" dest-branch="lineage-15.1-caf-8998" groups="qcom,qcom_audio,pdk"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/sdm845" remote="e" revision="e1003dcc9752e0f3b66b534c7dc80ccd189b2a9e" upstream="lineage-15.1-caf-845" dest-branch="lineage-15.1-caf-845" groups="qcom,qcom_audio,pdk"/>
-  <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="ad7bba8f6946d8f56183fd6855f4496907f0e2c5" upstream="v1-oreo" dest-branch="v1-oreo"/>
+  <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="21986c7b9b05d447dae1ce4357c36dfac2ee75ff" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="88c4ec321095d57daf73f528a3a0bc143118ff30" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="9435881bed291b72caf03aeeb971991fbfe70ef6" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="857c64708fbc3ba1a33ff0ac5ae73da77da778a2" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
@@ -655,6 +655,6 @@
   <project name="platform/tools/tradefederation" path="tools/tradefederation/core" remote="aosp" revision="86d42d1f8ee02c3402d116a22898ac7944b48db9" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk,tradefed"/>
   <project name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" remote="aosp" revision="8dd3029197cdaa6d9e867d4c645b489a6f9f52b6" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk,tradefed"/>
   <project name="toolchain/binutils" remote="aosp" revision="a4125cf8aeab9dfeac00f1bda80645987897152f" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
-  
+
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
 </manifest>
