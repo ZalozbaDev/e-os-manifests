@@ -5,9 +5,9 @@
   <remote name="e-priv" fetch="ssh://git@gitlab.e.foundation:2222" revision="v1-nougat"/>
   <remote name="github" fetch="https://github.com" review="review.lineageos.org"/>
   <remote name="private" fetch="ssh://git@github.com"/>
-  
+
   <default remote="github" revision="refs/heads/cm-14.1" sync-j="4" sync-c="true"/>
-  
+
   <project name="LineageOS/android_art" path="art" revision="c9c158c03fc493b5658ae728f9e10ae84510a99c" upstream="refs/heads/cm-14.1" dest-branch="refs/heads/cm-14.1" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="5fef0bb4fd1d1d87f185eb824c4ea7fbd715795b" upstream="refs/heads/cm-14.1" dest-branch="refs/heads/cm-14.1" groups="pdk"/>
   <project name="LineageOS/android_build_kati" path="build/kati" revision="bc43789a938c10cb00b81ddf08239c1b4cea48bb" upstream="refs/heads/cm-14.1" dest-branch="refs/heads/cm-14.1" groups="pdk,tradefed"/>
@@ -285,7 +285,7 @@
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="ebbff1948867b96834145e6b98097e849a25f949" upstream="v1-nougat" dest-branch="v1-nougat"/>
   <project name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="a47cc47566b6e2e0fe2df0eacaf125ef3521086c" upstream="v1-nougat" dest-branch="v1-nougat"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="96c09e0ffbaf26fbc9ffcf6fcceac4c7ee803990" upstream="v1-nougat" dest-branch="v1-nougat" groups="pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="8e8e7078f9fdfc9829f8537f157e0ec63ca96578" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="0d051a13aea6e5a6eedf8cfcc99479229b60eb82" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="3613533b82a283206cc5986abffe803c18f58894" upstream="v1-nougat" dest-branch="v1-nougat" groups="pdk"/>
   <project name="e/os/android_vendor_cm" path="vendor/cm" remote="e" revision="966deb3a0cdc760e67a760659a7099594cb1872c" upstream="v1-nougat" dest-branch="v1-nougat"/>
   <project name="e/os/cm_platform_sdk" path="vendor/cmsdk" remote="e" revision="dedf24c46804606ced9094dcfc7d8db4330e2cae" upstream="v1-nougat" dest-branch="v1-nougat"/>
