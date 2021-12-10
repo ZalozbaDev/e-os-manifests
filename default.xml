@@ -329,8 +329,8 @@
   <project name="e/os/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="e" revision="b8e0db8287256178967c4c0687226cf1c2faf85b" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="ecc0ae4f6a053d058eb3446525c409b2e16a9efa" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_platform_testing" path="platform_testing" remote="e" revision="6b4305e4b82eca5d18c13497047ebf488540d0c9" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs,pdk-cw-fs,cts"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="ca90f8b4a5442dbf8924c70c841c4ec2c4cdea36" upstream="master" dest-branch="master"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="d2b850a094fd69059713a7cf91209a6040962be6" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="4cf1a9df2efcf430bf83672bab37fff6c0ef2659" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="a832659304062f753dfe7b4a91509a181e51be40" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="kernel/configs" remote="aosp" revision="e4102999005f8f3c8db1fdacfba80a2c581a72f1" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="vts,pdk"/>
   <project name="kernel/prebuilts/4.19/arm64" remote="aosp" revision="332808127a212d39ef607a3241fe0ff1d48cd795" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="pdk" clone-depth="1"/>
   <project name="kernel/tests" remote="aosp" revision="0b69217c71fdb04e6e2dea74443ebe3e4391104a" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="vts,pdk"/>
