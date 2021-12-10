@@ -285,9 +285,9 @@
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="76c036553d76fb62bab93db2f971a0ea45804894" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="ea01500d3df59e05aae5b70e0e6fdc75b565536e" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="73286bea672f59aa423ffaade1e9532d0c76838c" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="ca90f8b4a5442dbf8924c70c841c4ec2c4cdea36" upstream="master" dest-branch="master"/>
+  <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="4cf1a9df2efcf430bf83672bab37fff6c0ef2659" upstream="master" dest-branch="master"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="c3640e56199713734bb2d662fdb95cc3a3d18d8a" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="5b2cc3713f6c7a38035fff9077f8754dd68a011e" upstream="v1-oreo" dest-branch="v1-oreo"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="1652a0c008b8da6a566ad2a1dd60adc8f15b4eec" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="kernel/tests" remote="aosp" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52"/>
   <project name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="a011038d864e3faa528ec1037a568e5824955a0f" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk,tradefed"/>
   <project name="platform/compatibility/cdd" path="compatibility/cdd" remote="aosp" revision="ca5bd0f77af6feda04b2fccb5318fac8abb86339" upstream="refs/tags/android-8.1.0_r52" dest-branch="refs/tags/android-8.1.0_r52" groups="pdk"/>
