@@ -282,7 +282,7 @@
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="a19c3f843b486ca1199ddce4f65f66bb85aa32a7" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="bfbcabf0d0539c144c5527aacf67b6ac0837a399" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="9762d966e05073cfefcdd0f68388ac24bd8c266d" upstream="v1-oreo" dest-branch="v1-oreo"/>
-  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="76c036553d76fb62bab93db2f971a0ea45804894" upstream="v1-oreo" dest-branch="v1-oreo"/>
+  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="269b604f38f74c28ae6155ed3cf63994ca55e0d3" upstream="v1-oreo" dest-branch="v1-oreo"/>
   <project name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="ea01500d3df59e05aae5b70e0e6fdc75b565536e" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="73286bea672f59aa423ffaade1e9532d0c76838c" upstream="v1-oreo" dest-branch="v1-oreo" groups="pdk-fs"/>
   <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="4cf1a9df2efcf430bf83672bab37fff6c0ef2659" upstream="master" dest-branch="master"/>
