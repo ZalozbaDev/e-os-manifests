@@ -9,6 +9,16 @@ update-manifest-q:
 check-version:
   extends: .check-version
 
+trigger-build-qa-q-dev:
+  extends: .trigger-build-qa-dev
+  variables:
+    DEVICES: "FP3 starlte"
+
+trigger-build-qa-q-stable:
+  extends: .trigger-build-qa-stable
+  variables:
+    DEVICES: "FP3 starlte"
+
 trigger-build-q-dev:
   extends: .trigger-build-dev
   variables:
