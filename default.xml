@@ -282,7 +282,7 @@
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="a9812f63a8a45f1bf0ed6cbcb285663ad9cd7f0e" upstream="v1-nougat" dest-branch="v1-nougat"/>
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="bc3c6723ca8b6ec40bb3a31954467ba1a8446d58" upstream="v1-nougat" dest-branch="v1-nougat" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="39096a86073bccdf87e904d6714c78b76092d618" upstream="v1-nougat" dest-branch="v1-nougat"/>
-  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="ebbff1948867b96834145e6b98097e849a25f949" upstream="v1-nougat" dest-branch="v1-nougat"/>
+  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="11a5c8e735c80e3462b93741da1039144bcd3ea6" upstream="v1-nougat" dest-branch="v1-nougat"/>
   <project name="e/os/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="e" revision="a47cc47566b6e2e0fe2df0eacaf125ef3521086c" upstream="v1-nougat" dest-branch="v1-nougat"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="96c09e0ffbaf26fbc9ffcf6fcceac4c7ee803990" upstream="v1-nougat" dest-branch="v1-nougat" groups="pdk-fs"/>
   <project name="e/os/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="e" revision="0d051a13aea6e5a6eedf8cfcc99479229b60eb82" upstream="master" dest-branch="master"/>
