@@ -5,9 +5,9 @@
   <remote name="e-priv" fetch="ssh://git@gitlab.e.foundation:2222" revision="refs/heads/v1-r"/>
   <remote name="github" fetch="https://github.com" review="review.lineageos.org"/>
   <remote name="private" fetch="ssh://git@github.com"/>
-  
+
   <default remote="github" revision="refs/heads/lineage-18.1" sync-j="4" sync-c="true"/>
-  
+
   <project name="LineageOS/android" path="android" revision="72b1216b2efa1e77b1f09cacb167f95c0d4ebf52" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1"/>
   <project name="LineageOS/android_art" path="art" revision="7f2b48980eaa3e9ebeb3fe2df55ae4beb96f8248" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="3a003876ad043c5280e0fbb334e8d17c3d941bfc" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk"/>
@@ -306,7 +306,7 @@
   <project name="device/sample" remote="aosp" revision="5c4f1d093d7771d6ac327e87e19698cec6bf3a34" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="pdk"/>
   <project name="e/os/android" path="lineage/android" remote="e" revision="d4ace58363d2778d480312fd8f12a95b56b11d56" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="a05dd203249d1efd38432a3b76986c296f3c3386" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk"/>
-  <project name="e/os/android_build" path="build/make" remote="e" revision="5b7e730832a62f9e5978250bb06622d267c26f5e" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk">
+  <project name="e/os/android_build" path="build/make" remote="e" revision="f50bc027e08dcfee2bbb5c3b9207306e05d797e1" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -919,6 +919,6 @@
   <project name="toolchain/benchmark" remote="aosp" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46"/>
   <project name="toolchain/pgo-profiles" remote="aosp" revision="df7cd88e8839bdf864700fc7d302b678a604b943" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="pdk"/>
   <project name="tools/platform-compat" remote="aosp" revision="b553fea7dd2aa8dcc26f4d8f91effd86e55dd72e" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="pdk-cw-fs,pdk-fs,pdk"/>
-  
+
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
 </manifest>
