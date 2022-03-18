@@ -9,16 +9,6 @@ update-manifest-r:
 check-version:
   extends: .check-version
 
-trigger-build-qa-r-dev:
-  extends: .trigger-build-qa-dev
-  variables:
-    DEVICES: "FP3"
-
-trigger-build-qa-r-stable:
-  extends: .trigger-build-qa-stable
-  variables:
-    DEVICES: "FP3"
-
 trigger-build-r-dev:
   extends: .trigger-build-dev
   variables:
