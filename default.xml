@@ -340,7 +340,10 @@
   <project name="e/os/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="e" revision="3f8c4402fdc6b29915847592cda1cfeb8557fd99" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="ffcf70612e5e360aefa1295f6c8ec027f40cb2c4" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_platform_testing" path="platform_testing" remote="e" revision="6b4305e4b82eca5d18c13497047ebf488540d0c9" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs,pdk-cw-fs,cts"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="122ebedd22c3818e92b7014f06bf35c6954e957a" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="6ae2f26dd8186fbcf216d846bf23b5f61142f5d2" upstream="main" dest-branch="main"/>
+  <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" revision="9e5033804ca7f5ae6faddda2bdc6e1d12ddebc3b"/>
+  <project path="external/ih8sn" name="e/os/ih8sn" remote="e" revision="ccbf6fbeb551d1030203369055b6eb6bda454194" />
+
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="1c32d2d35785fed7f72c539a408abc382d961b22" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="kernel/configs" remote="aosp" revision="e4102999005f8f3c8db1fdacfba80a2c581a72f1" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="vts,pdk"/>
   <project name="kernel/prebuilts/4.19/arm64" remote="aosp" revision="332808127a212d39ef607a3241fe0ff1d48cd795" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="pdk" clone-depth="1"/>
