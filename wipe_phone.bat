@@ -1,6 +1,9 @@
 rem adjust these, they are just examples
-set FASTBOOT_PATH=c:\Users\USERNAME\AppData\Local\Android\Sdk\platform-tools\
-set FIRMWARE_PATH=C:\Users\USERNAME\Downloads\IMG-e-0.18-q-20210827132306-stable-FP3\
+set FASTBOOT_PATH=c:\Users\daniel.sobe\AppData\Local\Android\Sdk\platform-tools\
+set FIRMWARE_PATH=C:\Users\daniel.sobe\Downloads\IMG-e-0.18-q-20210827132306-stable-FP3\
+
+rem to go into bootloader
+rem %FASTBOOT_PATH%adb reboot bootloader
 
 %FASTBOOT_PATH%fastboot -w
 
@@ -18,3 +21,16 @@ set FIRMWARE_PATH=C:\Users\USERNAME\Downloads\IMG-e-0.18-q-20210827132306-stable
 
 rem let's not re-lock the bootloader unless really really necessary
 rem fastboot flashing lock
+
+rem after booting up the modified firmware, override the path for the OTA
+rem updates via ADB to point to the local server
+rem
+rem %FASTBOOT_PATH%adb root (might have to allow in developer settings first)
+rem %FASTBOOT_PATH%adb shell
+rem setprop lineage.updater.uri https://eosupdate.serbski-inkubator.de/api/v1/{device}/{type}/{incr}
+rem
+rem then go to settings and search for updated firmware
+rem
+rem and after updating with the custom firmware, "wipe data" via bootloader
+rem
+
