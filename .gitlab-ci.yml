@@ -17,4 +17,4 @@ trigger-build-r-dev:
 trigger-build-r-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "coral emerald flame FP4 redfin x86"
+    DEVICES: "coral emerald flame FP4 hotdogb instantnoodle instantnoodlep redfin x86"
