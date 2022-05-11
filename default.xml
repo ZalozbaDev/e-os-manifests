@@ -323,7 +323,7 @@
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="fbfb602876b9e5696fdc9e5904b964268bbad75c" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="e" revision="0f573c2be48cb4f09323c555eaa86507bba46fc9" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="369d05f2488fe93f035429093fcd0f112888739e" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="122ebedd22c3818e92b7014f06bf35c6954e957a" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="b16a6c6dd8282b0e265aee8695121d13cad25941"/>
   <project name="e/os/android_system_netd" path="system/netd" remote="e" revision="e9ad7e3004e34e30db7dde4f2428ec92f8a7d740" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="8f2672c5e663d71e2a69d1a72070afac71357907" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="ebb5bd28cbaf8d3ce22848be387505b48d75a5ed" upstream="v1-q" dest-branch="v1-q"/>
