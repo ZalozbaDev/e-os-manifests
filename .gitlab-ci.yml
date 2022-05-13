@@ -18,3 +18,8 @@ trigger-build-r-stable:
   extends: .trigger-build-stable
   variables:
     DEVICES: "emerald FP4 x86"
+
+trigger-build-r-test:
+  extends: .trigger-build-test
+  variables:
+    DEVICES: "x86"
