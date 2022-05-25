@@ -304,7 +304,7 @@
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="312f8b91e7e748ad994dea8bd6b19c9ab7cbd97b" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="8c993988a836c75d0413feb0ef2fa670101f9794" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="4c1106800822098fe6b9e90a2742a18ebb217763" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="2cbaddfae14fd042044c0d7a1c348ef5aa0d103d" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="6a1c4e9305eb993274d3e33163dd84c3ea482268" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="5ded18d120f9c30414b67bbe13bbb1d455d73f65" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="6eeee15ace61235f3532421080317bf65112cfcb" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Etar" path="packages/apps/Calendar" remote="e" revision="b91705d96f8aba2650466542f28df7e8615cf8dc" upstream="v1-q" dest-branch="v1-q"/>
