@@ -17,7 +17,7 @@ trigger-build-r-dev:
 trigger-build-r-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "bramble coral emerald flame FP4 guacamole hotdogb instantnoodle instantnoodlep redfin sunfish X2"
+    DEVICES: "bramble coral emerald flame FP3 FP4 guacamole hotdogb instantnoodle instantnoodlep redfin sunfish X2"
 
 trigger-build-r-test:
   extends: .trigger-build-test
