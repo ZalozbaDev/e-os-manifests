@@ -8,6 +8,11 @@
   
   <default remote="github" revision="refs/heads/lineage-17.1" sync-j="4" sync-c="true"/>
   
+  <project name="LineageOS/android_device_fairphone_FP3" path="device/fairphone/FP3" remote="github" revision="ad88ae1bea1e4be14b994787e4b192274e62e0f4"/>
+  <project name="LineageOS/android_kernel_fairphone_sdm632" path="kernel/fairphone/sdm632" remote="github" revision="8d11a84a567518798769e6804a9e9a83bfdd96fe"/>
+  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="ec09ff2859b4f2b1d5591b2e595d3b586c391f59"/>
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="60417f306f30016adda29f5bf180e73c7584a7a8"/>
+  
   <project name="LineageOS/android_art" path="art" revision="ff92682d8e8f9b46e837d95d91a8b316cb2f1196" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="40e6fdba0b80a99c240603eecfb5b1d7c2ee1ed2" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="pdk"/>
   <project name="LineageOS/android_build_blueprint" path="build/blueprint" revision="f80fffc9164a30b4ab1cc5a672b8c250ff2534ab" upstream="refs/heads/lineage-17.1" dest-branch="refs/heads/lineage-17.1" groups="pdk,tradefed"/>
