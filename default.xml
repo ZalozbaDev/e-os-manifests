@@ -5,9 +5,9 @@
   <remote name="e-priv" fetch="ssh://git@gitlab.e.foundation:2222" revision="refs/heads/v1-r"/>
   <remote name="github" fetch="https://github.com" review="review.lineageos.org"/>
   <remote name="private" fetch="ssh://git@github.com"/>
-  
+
   <default remote="github" revision="refs/heads/lineage-18.1" sync-j="4" sync-c="true"/>
-  
+
   <project name="LineageOS/android" path="android" revision="1dbd7dd15aa64a04879615b45233d44e08d6527f" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1"/>
   <project name="LineageOS/android_art" path="art" revision="7f2b48980eaa3e9ebeb3fe2df55ae4beb96f8248" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="3a003876ad043c5280e0fbb334e8d17c3d941bfc" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk"/>
@@ -349,7 +349,7 @@
   <project name="e/os/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="e" revision="9cf97ee20d5f3cd5d0786edc9042fac89e258ce4" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="120e087be5f30a41bcb6e60e125a2792ce633936" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_platform_testing" path="platform_testing" remote="e" revision="6b4305e4b82eca5d18c13497047ebf488540d0c9" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs,pdk-cw-fs,cts"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="e00ddd47c19caaa83f715891d4a68ae7210ce570" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="a4d7ba59077c6cb288206f161db79ed15ee1f09f" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="5b4962d2e6e65f084a79d614d9141091cb239e91" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="f989385a883a15c577ebff249764acca629d63a2" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="beea82a146d702c9dc5b50cb27ef46efb663f64e" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
@@ -929,6 +929,6 @@
   <project name="toolchain/benchmark" remote="aosp" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46"/>
   <project name="toolchain/pgo-profiles" remote="aosp" revision="df7cd88e8839bdf864700fc7d302b678a604b943" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="pdk"/>
   <project name="tools/platform-compat" remote="aosp" revision="b553fea7dd2aa8dcc26f4d8f91effd86e55dd72e" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="pdk-cw-fs,pdk-fs,pdk"/>
-  
+
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
 </manifest>
