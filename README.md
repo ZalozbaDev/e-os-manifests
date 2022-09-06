@@ -18,3 +18,10 @@
 * "adb sideload" the .zip file
 * Reboot
 
+## Tips & Tricks
+
+### Show customizations for v0.17
+
+git kdiff v0.17.1-q devel_fp3-q
+
+
