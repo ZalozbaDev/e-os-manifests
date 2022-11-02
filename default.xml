@@ -298,7 +298,7 @@
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="main" dest-branch="main"/>
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="bcbaa2a2220456ecf0aeffc9dca2e6d33c60f052" upstream="android12-temp" dest-branch="android12-temp"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="d27ec5275b8a2baaa07773609ad21b8f830f6e3e" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="687ef66ce0b7af9b319b87d2f2f1725111a92479" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="811de36d0d50ede72d6b126ecf44c15f45447790" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="a1b073e9d3a8737b0a62f61c3b77481377fb608d" upstream="main" dest-branch="main"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="7a6a4efd675ab46d6cf06379e0ec3d922b565adf" upstream="master" dest-branch="master"/>
   <project name="kernel/devices/google/bluejay" path="kernel/google/bluejay/private/devices/google/bluejay" remote="aosp" revision="dcf5dfc1536d1aeb4478685c86869b95160fd2b3" upstream="android-gs-bluejay-5.10-android12L-d2" dest-branch="android-gs-bluejay-5.10-android12L-d2"/>
