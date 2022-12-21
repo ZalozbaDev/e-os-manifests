@@ -333,7 +333,7 @@
   <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="05e9e42295f2731de9f3ae1cf3a25e0ded746017" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_packages_apps_Etar" path="packages/apps/Calendar" remote="e" revision="8a26cb118cbea20bb054f7d26af5e9705adc2dd5" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="5ec559371836378a80b41193a97088137ddc5e20" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
-  <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="64e01bf0c64f86d6f60687b23f7cffb665d8df87" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="a4546cbee8d94f4973a2524cf2db68f8b6cc469e" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="ca399627aba8dd02eacf9353acfae541b70edfb5" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="e" revision="4bbf5cb8a035a1a0cc75e74a87b49c0c72cdd66f" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="73d797e46871309af31daf9dfdb8dd78c719c34c" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
