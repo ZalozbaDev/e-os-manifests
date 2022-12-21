@@ -322,7 +322,7 @@
     <linkfile src="tools" dest="build/tools"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="f5e07dbf4caa52c19b02f87b85e99023c1b9566b" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="494dd7f1189884ae06394848d868673a7f1f011d" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="fbce97ce42aec97fc776781988871e2bf9ee79ce" upstream="refs/heads/v1.7-rc-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="e" revision="0378950ba799db1c631b862e40db7f15dc7a430d" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="78786db74d4dbc08d53df6db3278f845f97b49e8" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="6c54e9ed3f70a4de03f9f4f627ed5cc3386b1873" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
