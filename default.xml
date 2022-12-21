@@ -273,7 +273,7 @@
     <linkfile src="tools" dest="build/tools"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="f941bef4320f28924f3fca1ece8066feeaa179b1" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="7157180fc879020e8161bccc15dd7b2ca9daaf64" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="cd2d634624af1a6a237bd64ad1f2b381c6c0a61d" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="7e5642aee5badc8a76f20dd728516c97394a34d2" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="87cdbdca3a80115ee7637c6b0944903d72feabf3" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="3999a6a2b5a18c5feb19a170807f0c83ca5d30db" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
@@ -285,7 +285,7 @@
   <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="c0fc8837a7a8849f76eaf898d8224e4151469471" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="760bc52a995b5b1038b933e3ed0ce304d1aea7e9" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_ImsServiceEntitlement" path="packages/apps/ImsServiceEntitlement" remote="e" revision="39df536749ed1648780419dba20b8045b9a898e5" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="75c144a3fe88f721f2e9d535a7fb809b82802007" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
+  <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="bb4897087c976997ba781ef4a452de4aa4399a8f" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="2b458dbe39dbfc66e10d95962154299b91679f4f" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="c9ebaf747a9c845be3c00d3d674fd24a3241d2b7" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="19df8e2e1bed0fede91ab66965cc09bf3c80b8e2" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
