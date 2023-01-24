@@ -17,7 +17,7 @@ trigger-build-s-dev:
 trigger-build-s-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "FP4"
+    DEVICES: "FP3 FP4"
 
 trigger-build-s-test:
   extends: .trigger-build-test
