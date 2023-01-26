@@ -12,12 +12,12 @@ check-version:
 trigger-build-s-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "a52q a72q akari akatsuki alioth apollon aura aurora axolotl barbet beckham berlin beryllium beyond0lte beyond1lte beyond2lte beyondx blueline bonito bramble cheeseburger chef cheryl coral crosshatch d1 d2s d2x deadpool dipper discovery dre DRG dumpling enchilada evert fajita flame FP3 FP4 gauguin grus gta4xl gta4xlwifi gts4lv gts4lvwifi heart instantnoodle instantnoodlep kane kebab kiev kirin lake lemonade lemonadep lmi mata mermaid miatoll monet nairo nash nio ocean onclite payton pioneer PL2 pro1 pyxis racer redfin river sagit sake sargo sdk_phone_x86 sdk_phone_x86_64 sunfish surya taimen tissot TP1803 troika vayu voyager wade walleye X00TD xmsirius xz2c Z01R z2_plus zippo"
+    DEVICES: "a52q a72q akari akatsuki alioth apollon aura aurora avicii axolotl barbet beckham berlin beryllium beyond0lte beyond1lte beyond2lte beyondx blueline bonito bramble cheeseburger chef cheryl coral crosshatch d1 d2s d2x deadpool dipper discovery dre DRG dumpling enchilada evert fajita flame FP3 FP4 gauguin grus gta4xl gta4xlwifi gts4lv gts4lvwifi heart instantnoodle instantnoodlep kane kebab kiev kirin lake lemonade lemonadep lmi mata mermaid miatoll monet nairo nash nio ocean onclite payton pioneer PL2 pro1 pyxis racer redfin river sagit sake sargo sdk_phone_x86 sdk_phone_x86_64 sunfish surya taimen tissot TP1803 troika vayu voyager wade walleye X00TD xmsirius xz2c Z01R z2_plus zippo"
 
 trigger-build-s-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "FP3 FP4"
+    DEVICES: "avicii FP3 FP4"
 
 trigger-build-s-test:
   extends: .trigger-build-test
