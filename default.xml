@@ -302,7 +302,7 @@
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="3e6f94e0ee170ac1b0e181a3db08b1f66f3d56b1" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="a76596a32dbfda022ef798c89310c8100c489480" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="c7fb016ac3d2fb010a74cf1fa75f7283a9041606" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="a233677ccc8e1d02c5ae40c3cffa8c5eaae4b922" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="3893f8124cfc767b51b04881be0efe36ec018a65" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="7a6a4efd675ab46d6cf06379e0ec3d922b565adf" upstream="master" dest-branch="master"/>
   <project name="kernel/devices/google/bluejay" path="kernel/google/bluejay/private/devices/google/bluejay" remote="aosp" revision="dcf5dfc1536d1aeb4478685c86869b95160fd2b3" upstream="android-gs-bluejay-5.10-android12L-d2" dest-branch="android-gs-bluejay-5.10-android12L-d2"/>
