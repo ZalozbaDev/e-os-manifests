@@ -12,7 +12,7 @@ check-version:
 trigger-build-q-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "2e a3xelte a5xelte a5y17lte a7xelte a7y17lte Amber bardock bardockpro castor castor_windy chiron crownlte d802 d855 davinci FP2 ginkgo griffin GS290 h850 h990 harpia hero2lte herolte hlte I001D I01WD j7elte jactivelte jasmine_sprout jason kiwi klteactivexx kuntao lavender lilac lithium lux m8 m8d marlin merlin oneplus2 oneplus3 osprey RMX1801 s2 s3ve3gds s3ve3gjv s3ve3gxx s5neolte sailfish scorpio shamu star2lte starlte surnia suzuran treble_a64_avN treble_a64_bvN treble_arm64_avN treble_arm64_bvN treble_arm_avN treble_arm_bvN twolip victara wayne whyred one x2 x86 z3c zl1"
+    DEVICES: "2e a3xelte a5xelte a7xelte Amber castor castor_windy crownlte davinci griffin GS290 harpia hero2lte herolte I001D I01WD j7elte kiwi lilac lux m8 m8d merlin oneplus2 osprey RMX1801 s2 s5neolte star2lte starlte surnia treble_a64_avN treble_a64_bvN treble_arm64_avN treble_arm64_bvN treble_arm_avN treble_arm_bvN x86"
 
 trigger-build-q-stable:
   extends: .trigger-build-stable
