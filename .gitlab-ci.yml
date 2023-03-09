@@ -17,7 +17,7 @@ trigger-build-r-dev:
 trigger-build-r-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "avicii bramble dream2lte dreamlte emerald guacamole hotdogb instantnoodle instantnoodlep one sunfish"
+    DEVICES: "bramble dream2lte dreamlte emerald guacamole hotdogb instantnoodle instantnoodlep one sunfish"
 
 trigger-build-r-test:
   extends: .trigger-build-test
