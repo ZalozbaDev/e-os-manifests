@@ -306,7 +306,7 @@
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="main" dest-branch="main"/>
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="7a076462b65e61a7e9aa7c9cb56773ce4586f906" upstream="main" dest-branch="main"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="9f0e75c634dc71fa1d7ff653af3b87055267a54f" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="f0c580bb96c9ed11e589a5203db0d4b0ecb9636b" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="ff3e8019f511a41a961334e629893b7643b8ef5f" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="5d2b981d71461a9874bb87021fb05419b2f7d209" upstream="master" dest-branch="master"/>
   <project name="e/os/picotts" path="external/svox" remote="e" revision="3e6293ea56b958c5537a2dd8318d3732748dea81" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
