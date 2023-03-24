@@ -12,12 +12,12 @@ check-version:
 trigger-build-r-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "a5y17lte a7y17lte addison ahannah albus bardock bardockpro cedric chiron d800 d801 d802 d803 d850 d851 d852 d855 dream2lte dreamlte emerald ether f400 foster foster_tab FP2 ginkgo h830 h850 h910 h918 h990 hannah hlte hltechn hltekor hltetmo jactivelte jasmine_sprout jason jflteatt jfltespr jfltevzw jfltexx jfvelte klte klteactivexx klteaio kltechn kltechnduo klteduos kltedv kltekdi kltekor kuntao lavender lithium ls990 ls997 m20lte marlin montana obiwan one oneplus3 platina porg porg_tab rhannah rs988 s3ve3gds s3ve3gjv s3ve3gxx sailfish scorpio shamu sirius suzuran twolip us996 victara vs985 vs995 wayne whyred X00P X01AD X01BD x2 x86 YTX703F YTX703L z3 z3c zl1"
+    DEVICES: "a5y17lte a7y17lte addison ahannah albus bardock bardockpro cedric chiron d800 d801 d802 d803 d850 d851 d852 d855 dream2lte dreamlte emerald ether f400 foster foster_tab FP2 ginkgo GS290 h830 h850 h910 h918 h990 hannah hlte hltechn hltekor hltetmo jactivelte jasmine_sprout jason jflteatt jfltespr jfltevzw jfltexx jfvelte klte klteactivexx klteaio kltechn kltechnduo klteduos kltedv kltekdi kltekor kuntao lavender lithium ls990 ls997 m20lte marlin montana obiwan one oneplus3 platina porg porg_tab rhannah rs988 s3ve3gds s3ve3gjv s3ve3gxx sailfish scorpio shamu sirius suzuran twolip us996 victara vs985 vs995 wayne whyred X00P X01AD X01BD x2 x86 YTX703F YTX703L z3 z3c zl1"
 
 trigger-build-r-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "bramble dream2lte dreamlte emerald guacamole hotdogb instantnoodle instantnoodlep one sunfish"
+    DEVICES: "bramble dream2lte dreamlte emerald guacamole GS290 hotdogb instantnoodle instantnoodlep one sunfish"
 
 trigger-build-r-test:
   extends: .trigger-build-test
