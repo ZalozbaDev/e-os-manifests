@@ -352,7 +352,7 @@
   <project name="e/os/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="e" revision="543debc5f4c3791692da846ab5cedc32dc060b19" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="3e8717b410c493333ab91921c761fec9d05741c6" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_platform_testing" path="platform_testing" remote="e" revision="6b4305e4b82eca5d18c13497047ebf488540d0c9" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs,pdk-cw-fs,cts"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="b4c0317d948b42f786340e5d4d7ba3784a26aad8" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="c8f43e1cf62bcfa085c97353daad7dd912029404" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="87c42baa303d6b7dfb28c352b08a8fc46939b692" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="659df1530ac03eb269178b0e9ea21052041aca05" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="4eacdf53330111ba90cec561f4f737e8cdbe0c2c" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
