@@ -357,7 +357,7 @@
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="cedeae8b3004827eea068376298e08b47dfbba02" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="87c42baa303d6b7dfb28c352b08a8fc46939b692" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="90cba57a04ff184d141e918c376e9d216e4bbd46" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="75997783ab5d3882eb010940b6fbe15e5bfa5356" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="29b71100ed9a595bd612e2fcaf323419723a5b4d" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="5d2b981d71461a9874bb87021fb05419b2f7d209" upstream="master" dest-branch="master"/>
   <project name="e/os/picotts" path="external/svox" remote="e" revision="3e6293ea56b958c5537a2dd8318d3732748dea81" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="kernel/configs" remote="aosp" revision="e4102999005f8f3c8db1fdacfba80a2c581a72f1" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="vts,pdk"/>
