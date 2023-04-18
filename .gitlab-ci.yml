@@ -3,23 +3,23 @@ include:
     ref: master
     file: '/templates/.gitlab-ci.yml'
 
-update-manifest-s:
+update-manifest-t:
   extends: .update-manifest
 
 check-version:
   extends: .check-version
 
-trigger-build-s-dev:
+trigger-build-t-dev:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "a52q a72q akari akatsuki alioth apollon aura aurora avicii axolotl barbet beckham berlin berlna beryllium beyond0lte beyond1lte beyond2lte beyondx blueline bonito bramble channel cheeseburger chef cheryl coral crosshatch d1 d2s d2x deadpool dipper discovery dre DRG dubai dumpling enchilada equuleus evert fajita flame FP3 FP4 gauguin gemini grus gta4xl gta4xlwifi gts4lv gts4lvwifi guacamole guacamoleb haydn heart hotdog hotdogb instantnoodle instantnoodlep kane kebab kiev kirin lake lemonade lemonadep liber lisa lmi mata mermaid Mi439 Mi8917 Mi8937 miatoll monet nairo nash natrium nio nx563j nx611j ocean onclite payton pdx203 pioneer PL2 polaris pro1 pstar pyxis racer redfin renoir river sagit sake sargo sdk_phone_x86 sdk_phone_x86_64 sunfish surya taimen tissot TP1803 troika ursa vayu voyager wade walleye X00TD xmsirius xz2c Z01R z2_plus zippo"
+    DEVICES: "a52q a72q akari akatsuki aura aurora avicii axolotl barbet bardock bardockpro beckham berlin berlna beryllium bluejay bramble channel cheeseburger cheetah chef cheryl chiron coral crownlte deadpool dipper DRG dubai dumpling enchilada equuleus evert fajita flame FP3 FP4 G grus gtowifi gts4lv gts4lvwifi guacamole guacamoleb h932 heart hotdog hotdogb instantnoodle instantnoodlep joan kane kebab kiev lake lancelot lemonade lemonadep lemonades lmi merlinx Mi439 Mi8917 Mi8937 nairo nio nx563j nx611j ocean oriole panther payton pdx203 pdx206 PL2 polaris pro1 pro1x pyxis racer raven redfin river sagit sdk_phone_x86 sdk_phone_x86_64 star2lte starlte sunfish surya taimen TP1803 troika ursa vela wade walleye X00TD xmsirius xz2c Z01R zippo"
 
-trigger-build-s-stable:
+trigger-build-t-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "avicii FP3 FP4 coral flame redfin"
+    DEVICES: "redfin"
 
-trigger-build-s-test:
+trigger-build-t-test:
   extends: .trigger-build-test
   variables:
-    DEVICES: "sdk_phone_x86"
+    DEVICES: "sdk_phone_x86 sdk_phone_x86_64"
