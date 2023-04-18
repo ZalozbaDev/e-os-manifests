@@ -13,13 +13,16 @@ trigger-build-s-dev:
   extends: .trigger-build-dev
   variables:
     DEVICES: "a52q a72q akari akatsuki alioth apollon aura aurora avicii axolotl barbet beckham berlin berlna beryllium beyond0lte beyond1lte beyond2lte beyondx blueline bonito bramble channel cheeseburger chef cheryl coral crosshatch d1 d2s d2x deadpool dipper discovery dre DRG dubai dumpling enchilada equuleus evert fajita flame FP3 FP4 gauguin gemini grus gta4xl gta4xlwifi gts4lv gts4lvwifi guacamole guacamoleb haydn heart hotdog hotdogb instantnoodle instantnoodlep kane kebab kiev kirin lake lemonade lemonadep liber lisa lmi mata mermaid Mi439 Mi8917 Mi8937 miatoll monet nairo nash natrium nio nx563j nx611j ocean onclite one payton pdx203 pioneer PL2 polaris pro1 pstar pyxis racer redfin renoir river sagit sake sargo sdk_phone_x86 sdk_phone_x86_64 sunfish surya taimen tissot TP1803 troika ursa vayu voyager wade walleye X00TD xmsirius xz2c Z01R z2_plus zippo"
+    BUILD_BRANCH: "v1-s"
 
 trigger-build-s-stable:
   extends: .trigger-build-stable
   variables:
     DEVICES: "avicii FP3 FP4 coral flame one redfin"
+    BUILD_BRANCH: "v1-s"
 
 trigger-build-s-test:
   extends: .trigger-build-test
   variables:
     DEVICES: "sdk_phone_x86"
+    BUILD_BRANCH: "v1-s"
