@@ -333,7 +333,7 @@
   <project name="e/os/android_system_netd" path="system/netd" remote="e" revision="0ad2a223d1800fb673a934b7d8841a5dac2198c9" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="9a15a07c7988095ab0871ef530e39b114339158e" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="9c70f3bf87c3bace398110cc24cd3d9de19a8f4e" upstream="v1-q" dest-branch="v1-q"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="0c6f0d5dcf00a63a8cc78f2210ce6cdc7d3dd12b" upstream="v1-q" dest-branch="v1-q"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="6906183d40eaadf25eefaddd0a610815fef7cdc6" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="5d2b981d71461a9874bb87021fb05419b2f7d209" upstream="master" dest-branch="master"/>
   <project name="e/os/picotts" path="external/svox" remote="e" revision="9c438d86c86caf05751eca42bc17a65d2768915b" upstream="v1-q" dest-branch="v1-q"/>
   <project name="kernel/build" remote="aosp" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r41" dest-branch="refs/tags/android-10.0.0_r41"/>
