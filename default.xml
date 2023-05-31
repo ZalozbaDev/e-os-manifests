@@ -319,7 +319,7 @@
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="556040dbc9645b5cd8a469450bdf7b224ea045f0" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="16b099c6c07a4d881791a4bcf7f303c2bcf6c5f9" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="34492fe6147be1bf112a7e6ea724a2e66bf0d130" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="62aa2c71ae32f0ae1612a60ac0b8948f6038035d" upstream="v1-q" dest-branch="v1-q"/>
+  <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="e17092d773a62409c517ae801de71180f0a54c79" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="e" revision="5c1ace15fb9f53f9c6887027f6f6ed3aa9bf623d" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="e" revision="bf29c6ec28fda23b40ac270a6a9bea426baa3234" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="ac4aa540c2ddc7f837aca80fa49697f6f76e4663" upstream="v1-q" dest-branch="v1-q"/>
