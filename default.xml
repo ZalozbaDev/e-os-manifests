@@ -292,7 +292,7 @@
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="a2325f04bf76c6220a94cc206df4bd165ed7d777" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="a616a3b8b9cc74b4a7e8227bef515fe5daa57257" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="39ae44727498552e935e7fc4563edd2334edea3e" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="0a881aee5e86ddf076cbf83c0e8bf2b87eaac9bc" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
+  <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="5c4c805075ada50acb0b0cf59155dd7eadb050b6" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="e" revision="6b93ce15506b5a19b9a960c72dff8adc3fd3d527" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="2c9cb2e9e901cc8862e31f63d7df25ce5cdb020e" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="e" revision="f9998173c95ebb7f9fcb60c522fe130753d3375b" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-fs"/>
