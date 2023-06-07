@@ -18,7 +18,7 @@ trigger-build-t-dev:
 trigger-build-t-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "redfin"
+    DEVICES: "FP4 redfin"
     BUILD_BRANCH: "v1-t"
 
 trigger-build-t-test:
