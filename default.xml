@@ -180,7 +180,6 @@
   <project name="LineageOS/android_packages_providers_CallLogProvider" path="packages/providers/CallLogProvider" revision="6b1f75f22f42379ae507ca1f958e8c83b5448a36" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk-fs"/>
   <project name="LineageOS/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" revision="41edc60825cbe5f95e1f7d5646481a19b0fafbd9" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" revision="aa6bd80d3030b1a63145a7c3aab5240abb40c708" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="LineageOS/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="1cde084329178bd682b44896adac399ada264fd5" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" revision="185c6291284769c01614b3984cdab2d16488df73" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_packages_providers_WeatherProvider" path="packages/providers/WeatherProvider" revision="cf7c2584c47f18774e87d8b837431832156f652f" upstream="lineage-16.0" dest-branch="lineage-16.0"/>
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="3214ab775779f900942b64e4d4f2f30a4ca61673" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0"/>
@@ -265,7 +264,7 @@
   <project name="device/google/gs-common" remote="aosp" revision="1fdd62e36636d3baaf1a5a4b9c4db786bee362b8" upstream="refs/tags/android-13.0.0_r43" dest-branch="refs/tags/android-13.0.0_r43" groups="device,slider,bluejay,pdk-gs-arm"/>
   <project name="device/google/vrservices" remote="aosp" revision="8aa3796da8e43c1f3b10b0e0bb6bf6a4aedd885f" upstream="refs/tags/android-13.0.0_r43" dest-branch="refs/tags/android-13.0.0_r43" groups="pdk"/>
   <project name="device/sample" remote="aosp" revision="5f5aef3bb2ca4e82efb3a8c5a7f18ac54af356b6" upstream="refs/tags/android-13.0.0_r43" dest-branch="refs/tags/android-13.0.0_r43" groups="pdk"/>
-  <project name="e/os/android" path="android" remote="e" revision="c6f5a04d059cf1a5459ec17ad8e526ca2cbe97d9" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
+  <project name="e/os/android" path="android" remote="e" revision="6400bf43a83dfe6daf5640a0d5742032e483d237" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="46a39b4bdfb727475d5d66d884f9b0d0f816fa0a" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk"/>
   <project name="e/os/android_build" path="build/make" remote="e" revision="922a72790a8b57d0543bd145a260f55d483d522b" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
@@ -300,7 +299,8 @@
   <project name="e/os/android_packages_modules_DnsResolver" path="packages/modules/DnsResolver" remote="e" revision="6446fa92ba346625df931b825c381bc848bd1746" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_modules_Permission" path="packages/modules/Permission" remote="e" revision="8ed2b55aca4fff615e91e8583d37e15a668f0520" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="main" dest-branch="main"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="14855b050e6dab3dd5c885e4f2f328b1842e8eec" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="6b77959a1bc6ad089d43c8b25b75fc4fb798cf46" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="ee115676f09685ec73634dfe91a52a4a314a84d0" upstream="main" dest-branch="main"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="fa261dad0c83503f54c5a216c7346b494fda67ec" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="42aefd574233f1057e3a64660d0d7b32aef06e69" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
