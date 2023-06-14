@@ -302,7 +302,7 @@
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="6b77959a1bc6ad089d43c8b25b75fc4fb798cf46" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="ee115676f09685ec73634dfe91a52a4a314a84d0" upstream="main" dest-branch="main"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="fa261dad0c83503f54c5a216c7346b494fda67ec" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="42aefd574233f1057e3a64660d0d7b32aef06e69" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="54476c369e2663cec7591cc79bd7eeab749dcfe1" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="5d2b981d71461a9874bb87021fb05419b2f7d209" upstream="master" dest-branch="master"/>
   <project name="e/os/picotts" path="external/svox" remote="e" revision="3e6293ea56b958c5537a2dd8318d3732748dea81" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
