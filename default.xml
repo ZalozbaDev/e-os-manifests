@@ -299,7 +299,7 @@
   <project name="e/os/android_packages_modules_DnsResolver" path="packages/modules/DnsResolver" remote="e" revision="6446fa92ba346625df931b825c381bc848bd1746" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_modules_Permission" path="packages/modules/Permission" remote="e" revision="8ed2b55aca4fff615e91e8583d37e15a668f0520" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="main" dest-branch="main"/>
-  <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="6b77959a1bc6ad089d43c8b25b75fc4fb798cf46"/>
+  <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="b14fef08565a9d9d2acf612de725dd85557a41f8" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="ee115676f09685ec73634dfe91a52a4a314a84d0" upstream="main" dest-branch="main"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="fa261dad0c83503f54c5a216c7346b494fda67ec" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="54476c369e2663cec7591cc79bd7eeab749dcfe1" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
