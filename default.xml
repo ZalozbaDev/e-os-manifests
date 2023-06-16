@@ -71,7 +71,7 @@
   <project name="LineageOS/android_hardware_interfaces" path="hardware/interfaces" revision="091da41caf7efd7c27c93f04d3aebb6da05dee40" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
   <project name="LineageOS/android_hardware_libhardware" path="hardware/libhardware" revision="0eb202d7ebd7d2410eb2f62c908c0341964a4829" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="pdk"/>
   <project name="LineageOS/android_hardware_lineage_compat" path="hardware/lineage/compat" revision="e386376f9c3ce006f2c5e4d8f91432624caf238a" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0"/>
-  <project name="LineageOS/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" revision="3d0ba90dd66c2b595e83b819d10863f74cf00abc" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0"/>
+  <project name="LineageOS/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" revision="1bb72b2cb6d11d038b62b4a9301dfca062c64aba" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0"/>
   <project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" revision="3e298771b18d6c0e28350f50c7204c3c036662b8" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0"/>
   <project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" revision="1e641a91465b6a1442e7b09a296f55356405aaba" upstream="refs/heads/lineage-20.0" dest-branch="refs/heads/lineage-20.0" groups="qcom">
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk"/>
