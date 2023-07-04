@@ -24,5 +24,5 @@ trigger-build-r-stable:
 trigger-build-r-test:
   extends: .trigger-build-test
   variables:
-    DEVICES: "x86"
+    DEVICES: "x86 beryllium bramble fajita guacamoleb"
     BUILD_BRANCH: "v1-r"
