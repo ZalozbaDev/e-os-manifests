@@ -25,4 +25,4 @@ trigger-build-q-test:
   extends: .trigger-build-test
   variables:
     DEVICES: "x86"
-    BUILD_BRANCH: "v1-q"
+    BUILD_BRANCH: "v1-q beryllium fajita guacamoleb"
