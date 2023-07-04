@@ -242,7 +242,7 @@
   <project name="LineageOS/charter" path="lineage/charter" revision="4d4be1cd9b96d7161cdc789df3673b47740c48ea" upstream="master" dest-branch="master" groups="infra"/>
   <project name="LineageOS/cm_crowdin" path="lineage/crowdin" revision="92cb72ce8b805e473ebecb8c9033a3018752fcda" upstream="master" dest-branch="master" groups="infra"/>
   <project name="LineageOS/contributors-cloud-generator" path="lineage/contributors-cloud-generator" revision="b4f0e2854ae40961b1028744df3503ac39792cab" upstream="master" dest-branch="master" groups="tools"/>
-  <project name="LineageOS/hudson" path="lineage/hudson" revision="b4e4c3e74b6c7d294d80337d1bcce9718842baff" upstream="master" dest-branch="master" groups="infra"/>
+  <project name="LineageOS/hudson" path="lineage/hudson" revision="54296c21d4296f546577803a1c2d37f97c787f93" upstream="master" dest-branch="master" groups="infra"/>
   <project name="LineageOS/lineage_wiki" path="lineage/wiki" revision="1c1464c869cb8d8061050c815cd2edc643045de5" upstream="master" dest-branch="master" groups="infra"/>
   <project name="LineageOS/mirror" path="lineage/mirror" revision="9d524c5e9c2582b5c7cac2216f36cbaffe0e48f9" upstream="master" dest-branch="master" groups="infra"/>
   <project name="LineageOS/scripts" path="lineage/scripts" revision="467bf438916acd68549683e5fdf529b0b0c9b5f9" upstream="master" dest-branch="master" groups="tools"/>
@@ -270,8 +270,8 @@
   <project name="device/google/vrservices" remote="aosp" revision="8aa3796da8e43c1f3b10b0e0bb6bf6a4aedd885f" upstream="refs/tags/android-13.0.0_r52" dest-branch="refs/tags/android-13.0.0_r52" groups="pdk"/>
   <project name="device/sample" remote="aosp" revision="5f5aef3bb2ca4e82efb3a8c5a7f18ac54af356b6" upstream="refs/tags/android-13.0.0_r52" dest-branch="refs/tags/android-13.0.0_r52" groups="pdk"/>
   <project name="e/os/android" path="android" remote="e" revision="c393c4ce09c2bac7247a645232944ef68dd60121" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
-  <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="dceaf20d5e2ca7b8e04d161b0e17fa76e82a65fd" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk"/>
-  <project name="e/os/android_build" path="build/make" remote="e" revision="b1b3879e133617e67a3f795d535c7b7a6c4f3ca1" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk">
+  <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="cf37f9e404c2dfda8f0bd5309a4521b35659b6f5" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk"/>
+  <project name="e/os/android_build" path="build/make" remote="e" revision="a06ca5a08080f96336366a1f521e2ed8352e0540" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
@@ -279,8 +279,8 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="4035f32b8c5856c0a0550b3081f4392a188b6c48" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="36fcf6888aaf3b010798786fc9dd989ad920e0fb" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="c8bf47d4dbbee44b84bbc7ceb674dea0ba6b8930" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="bc4ca1c799c1c5a05ec173159e7299e79b040402" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="cd0c9e6a404a03e9e007789c63aedca6e0509a32" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="3e5bce6bfe5d3b212791f82bde6d573fdd5faecc" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="61b8ff6bece836f59c521674ec7c32dab96308df" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-fs"/>
@@ -306,8 +306,8 @@
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="cc78c3a197362b267e94fdd765ab50c0f1d63f47" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="main" dest-branch="main"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="f03275a3b9ea9578f910ef1fc5245a8335d95895" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="22bf01d8adde607f6a2e80d283b7c86e67e87291" upstream="main" dest-branch="main"/>
-  <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="9989fd01edbfc2552046bcbbaba829060caa772a" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="888f45438625e718ffde87fc8d44f5c4badf67d1" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="f72f55764b02122751e4a28936ebce06f4a07771" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="35f042690b270c2b9683936feca0407a379873b6" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="5d2b981d71461a9874bb87021fb05419b2f7d209" upstream="master" dest-branch="master"/>
