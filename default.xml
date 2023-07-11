@@ -289,7 +289,7 @@
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="f15b50a6da51fb75de2f642d3f52cbbf47273679" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_frameworks_av" path="frameworks/av" remote="e" revision="9d636dd359d415976fa188227212321f1f540119" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="2bdc34b8549fd0e058c57c7076781f50e7a97436" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="315731b99ddcb948dc222250863783bdcb7364c8" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="854277fefd5e5fcc1b6e1e74c09ef94e5847a4b4" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="e" revision="b6197e8b61498840e35a88bc415f21831d38c5be" upstream="v1-q" dest-branch="v1-q" groups="qcom,qcom_audio,pdk-qcom"/>
   <project name="e/os/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8916/audio" remote="e" revision="d6f71784c63bb29e16c7cadd7d9e2f27faf80793" upstream="lineage-17.1-caf-msm8916" dest-branch="lineage-17.1-caf-msm8916" groups="qcom,qcom_audio,pdk-qcom"/>
@@ -317,7 +317,7 @@
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="d32d6a0010ed4f609f608b818aecb83ebcebafb2" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="e" revision="d1c0e9460b0a4c47ace063509cc7cc4afadb872b" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="992db90b5790910291e29a30e37b28d0067a79eb" upstream="v1-q" dest-branch="v1-q"/>
-  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="c9c838178db423fa37647f3bb60314bdd7691bfd" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="c94b2637e9fa290a9e55956c3a0b44463ba1b7b0" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="34492fe6147be1bf112a7e6ea724a2e66bf0d130" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="040bbc93a9d7f0636cdafa6a53add995a3a1ba2f" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="e" revision="5c1ace15fb9f53f9c6887027f6f6ed3aa9bf623d" upstream="v1-q" dest-branch="v1-q" groups="pdk-fs"/>
@@ -328,7 +328,7 @@
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="ae1c1ab425ef4c753df1ce83a111c5e18ee1534c" upstream="v1-q" dest-branch="v1-q"/>
   <project name="e/os/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="e" revision="409e4f078505f46394ea7144ae83b4e07178f4a9" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="e36d079ad17d7dd313557e313f739de3778daa4e" upstream="v1-q" dest-branch="v1-q" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="b21c7ce524abbbd2d14dea3b4dfa55ebcbe8fa35" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="a1f16fb778e7ffc9113360c002fc271b30672b41" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="19600fe5ec9d7f99ae3e13606565fb14b1cfc49e" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_system_netd" path="system/netd" remote="e" revision="0ad2a223d1800fb673a934b7d8841a5dac2198c9" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
   <project name="e/os/android_system_sepolicy" path="system/sepolicy" remote="e" revision="9a15a07c7988095ab0871ef530e39b114339158e" upstream="v1-q" dest-branch="v1-q" groups="pdk"/>
