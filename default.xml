@@ -326,7 +326,7 @@
     <linkfile src="tools" dest="build/tools"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="f5e07dbf4caa52c19b02f87b85e99023c1b9566b" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="d576309993ddc3379649121eafa8a5099f1d4783" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="808e9cb24724ac2b2f279cc6629288094fcf937f" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="e" revision="badb43d00f1833d7c3d34da301e028a1fb8cdd30" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="0198da8ee9ca37eda372f3c793fe5a13a93d221c" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="b8595591461b1bca24f6b66b9007b1104f6b7a5e" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
@@ -341,7 +341,7 @@
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="0cb38f4ec7659d91c087fd0289a8cac5b84ba25e" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="e" revision="73fd39835314f7e8c03f51a7e2769b4ecda4d3a2" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="a3d69f41cb2337fddfe4e4f11ae4ec2501b13af6" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
-  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="a4e004cc7c9cfda0a0db8262d2aeebb043bbef94" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="ff30fb4d8e61cb7fe21e71e326b7f999a0866df5" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="735c7b9c9f0aa81b15f1ad0663001acb2f3570f4" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="169bf741731a139bbd5679a47e9e231340596ff9" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="e" revision="bfac8bccc746f1c038b9f4583c86f33a664e2956" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs"/>
@@ -355,7 +355,7 @@
   <project name="e/os/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="e" revision="219ab8d2e6a2dafe4fc09c10356309780f2ba435" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="796a02990c94921795282558074d259d77abc6aa" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_platform_testing" path="platform_testing" remote="e" revision="6b4305e4b82eca5d18c13497047ebf488540d0c9" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk-fs,pdk-cw-fs,cts"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="b21c7ce524abbbd2d14dea3b4dfa55ebcbe8fa35" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="a1f16fb778e7ffc9113360c002fc271b30672b41" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="87c42baa303d6b7dfb28c352b08a8fc46939b692" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r" groups="pdk"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="1adccfd15dc40555a3cf5daafb22209f3504902c" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="8d752467b4de1749617c4e7a6c4d1e775cc85da6" upstream="refs/heads/v1-r" dest-branch="refs/heads/v1-r"/>
