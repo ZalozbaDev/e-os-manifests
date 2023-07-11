@@ -272,7 +272,7 @@
   <project name="device/google/cuttlefish_prebuilts" remote="aosp" revision="164fa98acbf949eb4c87c75bd87665d86372d495" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="device,pdk" clone-depth="1"/>
   <project name="device/google/vrservices" remote="aosp" revision="67138ba6299bbfa77a93a03e6d2ae37b8c96526e" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="device/sample" remote="aosp" revision="f408a1b4662ba1dda78f2843584cc3b18196cef8" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
-  <project name="e/os/android" path="android" remote="e" revision="0444215563124d4becc59798610e020fadf27c23" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
+  <project name="e/os/android" path="android" remote="e" revision="44e6a6807f1538d19b692e1845a5465282c03d1c" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="559f6d93c0d88db1627325a7b1c88f53085e0c32" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk"/>
   <project name="e/os/android_build" path="build/make" remote="e" revision="23c74e79c02bcf06b1ee0124f854c84141e1c5e5" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile"/>
@@ -298,7 +298,7 @@
   <project name="e/os/android_packages_apps_ImsServiceEntitlement" path="packages/apps/ImsServiceEntitlement" remote="e" revision="39df536749ed1648780419dba20b8045b9a898e5" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="00e0c06a3dfdfcf397252251d1071c2a38e963cc" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="23974b29e3dabc3a83438ffde41872004cbc4b2a" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
-  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="20f8c72ff688d6f4ca0962c0717df68f10b76479" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="ce51849a054487e10083bb7200d7a99210b2c1db" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="19df8e2e1bed0fede91ab66965cc09bf3c80b8e2" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="8cfa46eab0beb9bf347c00627ee067b8d6ad468c" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="e" revision="a2548c1433cdc50b23544b3107fbed1ec505913b" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
@@ -310,7 +310,7 @@
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="157f62a38f1c62655cbec2169571ed33c3c6d046" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="main" dest-branch="main"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="2fd664b93af36b3030630240d60c2a11de397bcf" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="b21c7ce524abbbd2d14dea3b4dfa55ebcbe8fa35" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="a1f16fb778e7ffc9113360c002fc271b30672b41" upstream="main" dest-branch="main"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="8fc9f5945bddab0ae192fdd18a5f10631094826e" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="be70a36ce2f0e6771f084ab0299b78fed95d6f9d" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
