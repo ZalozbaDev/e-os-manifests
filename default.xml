@@ -307,7 +307,7 @@
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="023d6ad37c5fcebed0db8ffe6e0b022fffda6769" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="da38a7ad00a18fb9b04b5b8df56ab46ad5936b1c" upstream="main" dest-branch="main"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="d41671028bd37497ef897b61b891089a5efffe2c" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="94380fb67f26023ed7c6d509ef0bf7da31142e6b" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="35f02152c8d72c1aa36f53d57d55cd6a1c63a062" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="5d2b981d71461a9874bb87021fb05419b2f7d209" upstream="master" dest-branch="master"/>
   <project name="e/os/picotts" path="external/svox" remote="e" revision="3e6293ea56b958c5537a2dd8318d3732748dea81" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
