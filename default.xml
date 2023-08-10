@@ -287,7 +287,7 @@
     <linkfile src="tools" dest="build/tools"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="056bc184358008674ee24f52fdcd97135c89e255" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="5f006d5240e5f00fd869b7ee71aa03e6b13ace27" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="fb91763425697ea42c84cefe64ec83e9d7cc4f65" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_libs_net" path="frameworks/libs/net" remote="e" revision="ad392062b0ec4420a9022b0b19b0adfd113a589c" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="9a4f02ab5b78b6c068bd2874fde25253fd5734fb" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="bbe1f8b2f420e8e700b795ebd0c584cbddb91c77" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
@@ -302,11 +302,11 @@
   <project name="e/os/android_packages_apps_ImsServiceEntitlement" path="packages/apps/ImsServiceEntitlement" remote="e" revision="39df536749ed1648780419dba20b8045b9a898e5" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="a240952c017fde7b588627c5d828158e10bce01c" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="a21056ea734150084b868c0c5c1c60737b14534a" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
-  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="c32223238bd2b73a70204ca63bde95697d848692" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="0e93725b0d0b07f454fce474c0ea54b721030d3d" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="19df8e2e1bed0fede91ab66965cc09bf3c80b8e2" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="69e197b5611004578d2a9de7e98f36e1fd0bc3bd" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="e" revision="2ca3fdebbe90f0557c66dba2e6cab4507b203f06" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
-  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="ca26e05a0cc9e89ad8a7411deab4bd9ebdd6fc5d" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
+  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="f6011499c2e502926e6b583bd4790bd17dda6058" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="e" revision="7cb990a0d43c7b2ae95b5c07c9f7a0b46489c166" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="60be8bb0feb06f6f9c0acff64b41cbec090e2eb2" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="e" revision="e9a192ba625a14325dff9ca280f527114049389d" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
@@ -315,8 +315,8 @@
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="157f62a38f1c62655cbec2169571ed33c3c6d046" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="main" dest-branch="main"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="3ae83aeef709fbcae37b9df35159cc503ed3eb11" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="da38a7ad00a18fb9b04b5b8df56ab46ad5936b1c" upstream="main" dest-branch="main"/>
-  <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="c6adeab21fc5f31063432b8de20fb9bbc9ecbe28" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="0558aa408f64fa22cf66f140230d495684c0b2e8" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="1f586f03ed06e5fd327095fe2db2525b6849c69f" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="2e7417609b03a5c7b300aa8042d205042a2b6ba5" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="5d2b981d71461a9874bb87021fb05419b2f7d209" upstream="master" dest-branch="master"/>
