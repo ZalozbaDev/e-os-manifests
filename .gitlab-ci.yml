@@ -15,6 +15,12 @@ trigger-build-t-dev:
     DEVICES: "a52q a72q akari akatsuki aura aurora avicii axolotl barbet bardock bardockpro beckham berlin berlna beryllium bluejay bramble channel cheeseburger cheetah chef cheryl chiron coral crownlte deadpool dipper DRG dubai dumpling enchilada equuleus evert fajita flame FP3 FP4 FP5 G grus gtowifi gts4lv gts4lvwifi guacamole guacamoleb h932 heart hotdog hotdogb instantnoodle instantnoodlep joan kane kebab kiev lake lancelot lemonade lemonadep lemonades lmi merlinx Mi439 Mi8917 Mi8937 nairo nio nx563j nx611j ocean oriole panther payton pdx203 pdx206 PL2 polaris pro1 pro1x pyxis racer raven redfin river sagit sdk_phone_x86 sdk_phone_x86_64 star2lte starlte sunfish surya taimen TP1803 troika two ursa vela wade walleye X00TD xmsirius xz2c Z01R zippo"
     BUILD_BRANCH: "v1-t"
 
+trigger-build-t-partner:
+  extends: .trigger-build-partner
+  variables:
+    DEVICES: "FP3 FP4 FP5"
+    BUILD_BRANCH: "v1-t"
+
 trigger-build-t-stable:
   extends: .trigger-build-stable
   variables:
