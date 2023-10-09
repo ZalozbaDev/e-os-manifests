@@ -299,7 +299,7 @@
   <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="da585fbb4cbad36ccfb8385f8feece2db826bc6f" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="217f784793a375e0f02c5e32279ca2890fad6e6a" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="e" revision="7ab1482c537b6154ae8d32174a70ae710ef7e36e" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
-  <project name="e/os/android_packages_apps_Etar" path="packages/apps/Etar" remote="e" revision="d6bf6fe9d3603574670b3dca3fb14b4040097596" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
+  <project name="e/os/android_packages_apps_Etar" path="packages/apps/Etar" remote="e" revision="95b666eb4faa78878e8475b7ea175b140fd92e1e" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="d7dc4f65732398b69da86d520b8bb48fb305379d" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="e" revision="3274661dd89ef996d59df74f43f04fcaaf4c979d" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_ImsServiceEntitlement" path="packages/apps/ImsServiceEntitlement" remote="e" revision="39df536749ed1648780419dba20b8045b9a898e5" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
