@@ -18,13 +18,13 @@ trigger-build-t-dev:
 trigger-build-t-partner:
   extends: .trigger-build-partner
   variables:
-    DEVICES: "FP3 FP4 FP5"
+    DEVICES: "FP5"
     BUILD_BRANCH: "v1-t"
 
 trigger-build-t-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "FP4 FP5 redfin two"
+    DEVICES: "FP5 redfin two"
     BUILD_BRANCH: "v1-t"
 
 trigger-build-t-test:
