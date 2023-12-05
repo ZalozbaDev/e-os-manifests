@@ -298,7 +298,7 @@
   <project name="e/os/android_frameworks_libs_net" path="frameworks/libs/net" remote="e" revision="ad392062b0ec4420a9022b0b19b0adfd113a589c" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="3fb2a02acc5089ff8aded60c900da07d80b3865f" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="16c520d882fa2a9cd6e7996798e8975bcd1f6e5b" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s"/>
-  <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="1f13a033a48664fdb67f574ea27f7f35649c3e98" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="3b596d8f81951e9fb3a59c4805553e12df778a64" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="d6eac3434604af45200e69e336e6c56072e1b70f" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="eae0e12403f4e961d52d92ae860585b93c1727b5" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="d2c8a5ab256db19f6d52a992a940505e6325d1c8" upstream="refs/heads/v1-s" dest-branch="refs/heads/v1-s" groups="pdk-cw-fs,pdk-fs"/>
