@@ -328,7 +328,7 @@
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="09b6365d5ac30675fcd54fa455b590ddd7e156ab" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1d8ea799ff7752303575e18f0d176e54265d9d83" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="e" revision="76fd0c78950482a61105f26e3e40f19b69b47539" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
-  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="56d074bf7691fc32f72e056dc816f8d834b309d0" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
+  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="0591a7733176a481e980e2f3931c81008dcd1cce" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="e" revision="d26af326fdc49ff85ffeb187a76a6c7d6abc6a3e" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-fs"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="cd16e1d795a8b79253fbc72539e640d173191377" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-fs"/>
   <project name="e/os/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="e" revision="82376367476594bd4ca22e16fca80dda750dad74" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
@@ -339,7 +339,7 @@
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="cea77935c33dcc38366f517f0e96a034d6b1ff3a" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="ba572d953262c0b152745810be22ad845b6c99b6" upstream="main" dest-branch="main"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="b73c672f46ad3568ba281128467dc3aa10dc1e5d" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="14533a1c1b7db6eb23fb6e15bedea77deeb19142" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="8b162fea69c904f78adc4fd99eb246f016d19bec" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="c00637ac4a71eef8f8c40a28dc997e676aaa6a45" upstream="master" dest-branch="master"/>
   <project name="e/os/picotts" path="external/svox" remote="e" revision="3e6293ea56b958c5537a2dd8318d3732748dea81" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
