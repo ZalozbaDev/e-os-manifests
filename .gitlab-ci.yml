@@ -24,7 +24,7 @@ trigger-build-t-partner:
 trigger-build-t-stable:
   extends: .trigger-build-stable
   variables:
-    DEVICES: "FP4 FP5 redfin two"
+    DEVICES: "FP3 FP4 FP5 redfin two"
     BUILD_BRANCH: "v1-t"
 
 trigger-build-t-test:
