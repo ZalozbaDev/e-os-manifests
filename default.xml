@@ -337,9 +337,9 @@
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="d5136713c1debdbd929d60721fd293c7ae06a9e2" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="main" dest-branch="main"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="cea77935c33dcc38366f517f0e96a034d6b1ff3a" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="9c355fc9d4cbd4f047dee0a6cf3e6deedac2fe4c" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="e2107a0109860e423dad83d310ad87e5e84089f6" upstream="main" dest-branch="main"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="136fd26ebb27e53f59edb5e138e03b91697dd9db" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="17ab4a2f1bd65b12cd6b94f1206f14f94d2b8833" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="bd6ccf9804d2cc0528fbfaf6d845c51e99a19bd3" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="c00637ac4a71eef8f8c40a28dc997e676aaa6a45" upstream="master" dest-branch="master"/>
   <project name="e/os/picotts" path="external/svox" remote="e" revision="3e6293ea56b958c5537a2dd8318d3732748dea81" upstream="refs/heads/v1-t" dest-branch="refs/heads/v1-t"/>
