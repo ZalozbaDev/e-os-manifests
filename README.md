@@ -28,5 +28,19 @@ git kdiff v0.17.1-q devel_fp3-q
 
 git kdiff v1.3.1-devel-q v1.3.1-q
 
+### Branch not supported
+
+Check the repos 
+
+origin	git@github.com:ZalozbaDev/e-os-docker-lineage-cicd (fetch)
+origin	git@github.com:ZalozbaDev/e-os-docker-lineage-cicd (push)
+upstream	https://gitlab.e.foundation/e/os/docker-lineage-cicd (fetch)
+upstream	https://gitlab.e.foundation/e/os/docker-lineage-cicd (push)
+
+file 
+
+build-community.sh
+
+it has a regex for branch names, if your custom branch is not matching, it won't be built :-(
 
 
