@@ -17,7 +17,7 @@ docker image tag registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:comm
 
 
 docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
--e "BRANCH_NAME=v1.17-devel-q" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
+-e "BRANCH_NAME=v1.17-q-devel" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
 -e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
 zalozbadev/e-os-docker-lineage-cicd:v1_17
 
