@@ -24,4 +24,9 @@
 
 git kdiff v0.17.1-q devel_fp3-q
 
+### Show customizations for v1.3-q
+
+git kdiff v1.3.1-devel-q v1.3.1-q
+
+
 
