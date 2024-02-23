@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# if clean WA is requested
+rm -rf /srv/e/src /srv/e/zips /srv/e/logs /srv/e/ccache
+
 mkdir -p /srv/e/src /srv/e/zips /srv/e/logs /srv/e/ccache
 
 # original
@@ -11,17 +14,27 @@ docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/
 -e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
 docker-lineage-cicd-custom:latest
 
+# original v1.17
+docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
+-e "BRANCH_NAME=v1.17-q" -e "DEVICE_LIST=FP3" -e "REPO=https://gitlab.e.foundation/e/os/releases.git"  \
+zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
+
+
+
 # customized (v1.17)
 docker pull registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:community
 docker image tag registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:community zalozbadev/e-os-docker-lineage-cicd:v1_17 
 
+docker pull registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:1538-create-tags-community
+docker image tag registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:1538-create-tags-community zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
+
 
 docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
--e "BRANCH_NAME=v1.17-q-devel" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
+-e "BRANCH_NAME=v1.17-q-devel-q" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
 -e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
-zalozbadev/e-os-docker-lineage-cicd:v1_17
+zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
 
 # to run interactively w/o starting a build, add this:
-docker run -it --entrypoint /bin/bash zalozbadev/e-os-docker-lineage-cicd:v1_17
+docker run -it --entrypoint /bin/bash zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
 
 
