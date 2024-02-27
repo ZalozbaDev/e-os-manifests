@@ -71,6 +71,29 @@ source build/envsetup.sh
 brunch FP3
 
 
+####################################
+
+# customized (v1.19-s)
+
+docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
+-e "BRANCH_NAME=v1.19-s-devel-s" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
+-e "INCLUDE_PROPRIETARY=true" \
+-e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
+zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
+
+# wait for failure, then start a build manually
+
+docker run -it --entrypoint /bin/bash -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
+-e "BRANCH_NAME=v1.19-s-devel-s" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
+-e "INCLUDE_PROPRIETARY=true" \
+-e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
+zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
+
+cd /srv/src/S/
+source build/envsetup.sh 
+brunch FP3
+
+
 
 #################################
 
