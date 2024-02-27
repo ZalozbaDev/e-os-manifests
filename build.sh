@@ -22,7 +22,7 @@ zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
 
 ####################################
 
-# customized (v1.17)
+# customized (v1.17-q)
 docker pull registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:community
 docker image tag registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:community zalozbadev/e-os-docker-lineage-cicd:v1_17 
 
@@ -47,6 +47,29 @@ zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
 cd /srv/src/Q/
 source build/envsetup.sh 
 brunch FP3
+
+####################################
+
+# customized (v1.18-r)
+
+docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
+-e "BRANCH_NAME=v1.18-r-devel-r" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
+-e "INCLUDE_PROPRIETARY=true" \
+-e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
+zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
+
+# wait for failure, then start a build manually
+
+docker run -it --entrypoint /bin/bash -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
+-e "BRANCH_NAME=v1.18-r-devel-r" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
+-e "INCLUDE_PROPRIETARY=true" \
+-e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
+zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
+
+cd /srv/src/R/
+source build/envsetup.sh 
+brunch FP3
+
 
 
 #################################
