@@ -20,6 +20,7 @@ docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/
 zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
 
 
+####################################
 
 # customized (v1.17)
 docker pull registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:community
@@ -34,6 +35,21 @@ docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/
 -e "INCLUDE_PROPRIETARY=true" \
 -e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
 zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
+
+# wait for failure, then start a build manually
+
+docker run -it --entrypoint /bin/bash -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
+-e "BRANCH_NAME=v1.17-q-devel-q" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
+-e "INCLUDE_PROPRIETARY=true" \
+-e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
+zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
+
+cd /srv/src/Q/
+source build/envsetup.sh 
+brunch FP3
+
+
+#################################
 
 # to run interactively w/o starting a build, add this:
 docker run -it --entrypoint /bin/bash zalozbadev/e-os-docker-lineage-cicd:v1_17_1538
