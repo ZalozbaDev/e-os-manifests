@@ -93,6 +93,33 @@ cd /srv/src/S/
 source build/envsetup.sh 
 brunch FP3
 
+####################################
+
+# customized (v1.20-t)
+
+build docker image from repo: git@github.com:ZalozbaDev/e-os-docker-lineage-cicd branch master_v20 tag v1_20_T
+
+docker image tag docker-lineage-cicd-custom:latest zalozbadev/e-os-docker-lineage-cicd:v1_20_1538
+
+
+docker run -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
+-e "BRANCH_NAME=v1.20-t-devel-t" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
+-e "INCLUDE_PROPRIETARY=true" \
+-e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
+zalozbadev/e-os-docker-lineage-cicd:v1_20_1538
+
+# wait for failure, then start a build manually
+
+docker run -it --entrypoint /bin/bash -v "/srv/e/src:/srv/src" -v "/srv/e/zips:/srv/zips" -v "/srv/e/logs:/srv/logs" -v "/srv/e/ccache:/srv/ccache" \
+-e "BRANCH_NAME=v1.20-t-devel-t" -e "DEVICE_LIST=FP3" -e "REPO=https://github.com/ZalozbaDev/e-os-manifests.git"  \
+-e "INCLUDE_PROPRIETARY=true" \
+-e "OTA_URL=https://eosupdate.serbski-inkubator.de/api" \
+zalozbadev/e-os-docker-lineage-cicd:v1_20_1538
+
+cd /srv/src/T/
+source build/envsetup.sh 
+brunch FP3
+
 
 
 #################################
